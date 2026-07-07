@@ -1,0 +1,14 @@
+## Interface: 30300
+## Version: 1.0.0
+## Title: |cfff58cbaKader|r's |cffffff33Raid Utilities|r
+## Notes: A collection of useful raid modules.
+## Author: Kader B
+## SavedVariables: KRUDB
+## LoadOnDemand: 0
+## DefaultState: enabled
+## X-Date: 2022-02-20 @ 06:35 PM |cff808080UTC|r
+
+Embeds.xml
+Locales.xml
+Core.lua
+Modules.xml
