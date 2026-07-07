@@ -1,0 +1,12 @@
+{
+  "project": {
+    "name": "WoW WotLK Community",
+    "version": "1.0.0",
+    "wowVersion": "3.3.5a",
+    "client": "Warmane",
+    "lastUpdated": "2026-07-07"
+  },
+  "addons": [],
+  "weakauras": [],
+  "profiles": []
+}
