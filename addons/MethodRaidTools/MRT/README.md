@@ -1,4 +1,4 @@
-# Deadly Boss Mods (DBM)
+# Method Raid Tools (MRT)
 
 > Addon oficial verificado por **Wowtiktok WotLK Community**.
 >
@@ -13,16 +13,16 @@
 | Categoría | Raid |
 | Clasificación | Requerido |
 | Prioridad de instalación | ⭐⭐⭐⭐⭐ |
-| Contenido incluido | 35 módulos oficiales |
+| Contenido incluido | 3 carpetas y archivos principales del addon |
 | Última revisión | 2026-07-08 |
 
 ---
 
 ## 🎯 ¿Por qué lo recomendamos?
 
-Deadly Boss Mods (DBM) es el addon de referencia para bandas PvE en Wrath of the Lich King.
+Method Raid Tools (MRT) es uno de los addons más completos para la gestión de bandas en Wrath of the Lich King.
 
-Proporciona avisos visuales, temporizadores y alertas sonoras que ayudan a reaccionar correctamente a las mecánicas de cada encuentro, reduciendo errores y mejorando la coordinación de toda la banda.
+Proporciona herramientas para el control de la raid, comprobaciones de preparación, asignación de marcas, seguimiento de interrupciones, registro de encuentros, control del botín y otras utilidades orientadas a mejorar la organización y coordinación del grupo.
 
 En **Wowtiktok WotLK Community** se considera un addon **requerido para participar en las raids oficiales**.
 
@@ -34,65 +34,57 @@ Todos los jugadores que participen en contenido PvE organizado.
 
 Especialmente:
 
+- Raid Leaders
+- Oficiales
 - Tanques
 - Sanadores
 - DPS
-- Raid Leaders
 
 ---
 
 ## ⚔️ ¿Cuándo resulta especialmente útil?
 
-Durante cualquier encuentro donde sea necesario reaccionar rápidamente a las mecánicas del jefe, cambios de fase, objetivos prioritarios o habilidades que requieran movimiento y coordinación.
+Durante cualquier banda organizada donde sea necesario coordinar al grupo, comprobar la preparación de los jugadores, gestionar marcas, registrar información del encuentro o facilitar tareas del Raid Leader.
 
 ---
 
 ## 📂 Contenido incluido
 
-Este paquete instala los siguientes módulos oficiales:
+### Carpetas
 
-- DBM-API
-- DBM-Archaeology
-- DBM-Azeroth
-- DBM-BaradinHold
-- DBM-BWL
-- DBM-Coliseum
-- DBM-Core
-- DBM-DefaultSkin
-- DBM-EyeOfEternity
-- DBM-GUI
-- DBM-Icecrown
-- DBM-MC
-- DBM-Naxx
-- DBM-Onyxia
-- DBM-Outlands
-- DBM-Party-BC
-- DBM-Party-Cataclysm
-- DBM-Party-WotLK
-- DBM-PvP
-- DBM-Raids-Cataclysm
-- DBM-Serpentshrine
-- DBM-SpellTimers
-- DBM-StatusBarTimers
-- DBM-Sunwell
-- DBM-Test
-- DBM-TheEye
-- DBM-ThroneFourWinds
-- DBM-Ulduar
-- DBM-VoA
-- DBM-WorldBosses
-- DBM-WorldEvents
-- DBM-ZG
-- DBM-Zones-Cataclysm
-- DBM-ZulAman
-- DBM-VPYike
+- libs
+- localization
+- media
+
+### Archivos principales
+
+- MRT.toc
+- core.lua
+- Options.lua
+- RaidCheck.lua
+- RaidAttendance.lua
+- BossWatcher.lua
+- Encounter.lua
+- LootHistory.lua
+- LootLink.lua
+- RaidGroups.lua
+- Marks.lua
+- MarksBar.lua
+- Interrupts.lua
+- InviteTool.lua
+- WAcheck.lua
+- Timers.lua
+- Reminder.lua
+
+> El paquete incluye además otros archivos internos necesarios para el correcto funcionamiento del addon.
 
 ---
 
 ## 📦 Instalación
 
 1. Cierra World of Warcraft.
-2. Si ya tienes una versión anterior de DBM instalada, elimina completamente todas sus carpetas de:
+
+2. Si ya tienes una versión anterior de Method Raid Tools instalada, elimina completamente su carpeta de:
 
 ```text
 World of Warcraft/
@@ -100,7 +92,7 @@ World of Warcraft/
     └── AddOns/
 ```
 
-3. Copia todas las carpetas incluidas en este directorio dentro de:
+3. Copia la carpeta **MRT** dentro de:
 
 ```text
 World of Warcraft/
@@ -118,11 +110,9 @@ World of Warcraft/
 
 ## 💡 Recomendación del equipo
 
-Para obtener la mejor experiencia durante las bandas PvE, recomendamos utilizar **DBM** junto con **GTFO**.
+Method Raid Tools complementa perfectamente addons como **Deadly Boss Mods (DBM)** y **GTFO**.
 
-Mientras DBM avisa de las mecánicas del encuentro mediante temporizadores y alertas, GTFO alerta inmediatamente cuando el jugador permanece sobre zonas peligrosas del suelo.
-
-La combinación de ambos addons reduce significativamente los errores durante los combates.
+Mientras DBM y GTFO ayudan durante los encuentros, MRT proporciona herramientas de organización, gestión y control que facilitan enormemente el trabajo del Raid Leader y mejoran la coordinación de toda la banda.
 
 ---
 
@@ -130,15 +120,15 @@ La combinación de ambos addons reduce significativamente los errores durante lo
 
 ### Autor
 
-Barsoom, Bunny67, Zidras y colaboradores.
+Mizus Raid Tools Team y colaboradores.
 
 ### Versión verificada
 
-10.1.13_alpha
+*(Completar con la versión distribuida por el proyecto.)*
 
 ### Repositorio oficial
 
-https://github.com/Zidras/DBM-Warmane
+*(Completar con el repositorio o página oficial utilizada para verificar el addon.)*
 
 ---
 

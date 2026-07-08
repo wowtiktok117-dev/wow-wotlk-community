@@ -1,38 +1,82 @@
-# PROJECT
+# PROJECT - Wowtiktok WotLK Community
 
-## Objetivo
+Documento maestro del proyecto.
 
-Este repositorio tiene como objetivo centralizar todos los recursos oficiales utilizados por la comunidad para **World of Warcraft Wrath of the Lich King 3.3.5a (Warmane)**, orientado exclusivamente a **PvE**.
-
-El proyecto proporciona una colección organizada y mantenible de addons, perfiles, WeakAuras, parches visuales, macros, guías y herramientas oficiales de la comunidad, facilitando tanto la instalación como el mantenimiento y el desarrollo futuro.
+Define la arquitectura, las normas y la filosofía de **Wowtiktok WotLK Community**.
 
 ---
 
-# Principios del proyecto
+# 1. Objetivos del proyecto
 
-- Cada carpeta debe tener una única responsabilidad.
-- Cada documento debe tener una única responsabilidad.
+## Objetivo principal
+
+Desarrollar y mantener un ecosistema de recursos para **World of Warcraft: Wrath of the Lich King 3.3.5a (Warmane)**, orientado exclusivamente al contenido **PvE**.
+
+## Objetivos específicos
+
+- Centralizar recursos verificados.
+- Facilitar la instalación y el mantenimiento.
+- Compartir conocimiento con la comunidad.
+- Mantener una arquitectura clara y escalable.
+- Preparar el proyecto para futuras herramientas.
+
+---
+
+# 2. Filosofía del proyecto
+
+**Wowtiktok WotLK Community** es una comunidad dedicada a ayudar a jugadores nuevos y experimentados a mejorar su rendimiento en **World of Warcraft: Wrath of the Lich King 3.3.5a (Warmane)**.
+
+El repositorio de GitHub, el servidor de Discord y las futuras herramientas forman parte del mismo ecosistema.
+
+## Principios
+
+| Principio | Descripción |
+|-----------|-------------|
+| Calidad | Priorizar recursos útiles y verificados. |
+| Simplicidad | Mantener una estructura clara y fácil de usar. |
+| Escalabilidad | Preparar el proyecto para crecer sin reorganizarlo. |
+| Mantenibilidad | Facilitar las actualizaciones futuras. |
+| Transparencia | Respetar y citar las fuentes originales cuando corresponda. |
+
+---
+
+# 3. Arquitectura del proyecto
+
+- Cada carpeta tiene una única responsabilidad.
+- Cada documento tiene una única responsabilidad.
 - Los addons originales nunca se modifican.
-- Las configuraciones personalizadas siempre se almacenan fuera de los addons originales.
-- La organización del repositorio debe priorizar la simplicidad, la mantenibilidad y la escalabilidad.
-- Todas las decisiones deben facilitar el desarrollo del futuro launcher.
-- Se evitará crear documentación, carpetas o archivos innecesarios.
+- Los perfiles y las WeakAuras se distribuyen por separado.
+- Toda la arquitectura deberá ser compatible con futuras herramientas del proyecto.
 
 ---
 
-# Arquitectura del proyecto
+# 4. Jerarquía documental
 
-```
-wow-wotlk-community/
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| `README.md` | Presentación del proyecto. |
+| `PROJECT.md` | Arquitectura, normas y filosofía. |
+| `ROADMAP.md` | Planificación y seguimiento. |
+| `CHANGELOG.md` | Historial oficial de versiones. |
+| `CONTRIBUTING.md` | Normas para colaboradores. |
+| `manifest.json` | Fuente oficial de datos del proyecto. |
+| `addons/README.md` | Organización de la colección de addons. |
+| `addons/*/README.md` | Documentación de cada addon. |
 
+**Regla principal**
+
+> La información nunca deberá duplicarse entre documentos.
+
+---
+
+# 5. Estructura del repositorio
+
+```text
 addons/
-client-patches/
-weakauras/
 profiles/
-macros/
+weakauras/
 guides/
-docs/
-launcher/
+client-patches/
 
 README.md
 PROJECT.md
@@ -40,133 +84,80 @@ ROADMAP.md
 CHANGELOG.md
 CONTRIBUTING.md
 manifest.json
-VERSION
-LICENSE
 ```
 
-Cada carpeta y cada documento tienen una única responsabilidad y no deben utilizarse para almacenar información ajena a su finalidad.
+---
+
+# 6. Normas generales
+
+- Compatibilidad exclusiva con **Warmane WotLK 3.3.5a**.
+- Contenido orientado exclusivamente al **PvE**.
+- No modificar addons originales.
+- Todo recurso deberá estar verificado.
+- Todo recurso deberá indicar las versiones con las que ha sido verificado.
+- No duplicar información.
+- Mantener una estructura simple y escalable.
 
 ---
 
-# Arquitectura documental
+# 7. Flujo de trabajo
 
-| Documento | Responsabilidad |
-|-----------|-----------------|
-| README.md | Presentación general del repositorio. |
-| PROJECT.md | Arquitectura, normas y decisiones permanentes del proyecto. |
-| ROADMAP.md | Estado del proyecto, planificación y seguimiento del desarrollo. |
-| CHANGELOG.md | Historial de cambios entre versiones. |
-| CONTRIBUTING.md | Normas para colaborar en el proyecto. |
-| manifest.json | Fuente oficial de información para herramientas y launcher. |
+- Trabajar sobre un único objetivo.
+- Esperar aprobación antes de continuar.
+- Entregar siempre la versión definitiva tras la aprobación final.
+- Agrupar subtareas antes de actualizar el `ROADMAP.md`.
+- Actualizar la documentación antes del `git commit` y `git push`.
 
 ---
 
-# Organización del contenido
+# 8. Estándares de documentación
 
-## addons/
+Toda la documentación deberá cumplir los siguientes principios:
 
-Contiene todos los addons oficiales del proyecto.
+- Máximo valor por línea.
+- Una idea por sección.
+- Lenguaje claro y consistente.
+- Sin información redundante.
+- Uso de plantillas siempre que sea posible.
 
-Cada addon dispone de su propia carpeta y de su correspondiente documentación.
-
-Los addons originales nunca se modifican.
-
----
-
-## client-patches/
-
-Contiene modificaciones del cliente que no son addons.
-
-Ejemplos:
-
-- Archivos MPQ.
-- Mejoras visuales.
-- Modelos.
-- Texturas.
-- Sonidos.
-
-Nunca se mezclarán con addons.
+Las guías deberán incluir un apartado **Fuentes verificadas**.
 
 ---
 
-## weakauras/
+# 9. Convenciones técnicas
 
-Contiene todas las WeakAuras oficiales del proyecto.
-
-Las WeakAuras permanecen completamente separadas de los addons y su organización dependerá de su finalidad.
-
----
-
-## profiles/
-
-Contiene todos los perfiles oficiales de configuración.
-
-Los perfiles nunca se almacenan dentro de las carpetas de los addons correspondientes.
+- Inglés para nombres de carpetas y archivos.
+- Español para toda la documentación.
+- `client-patches` será el nombre oficial de la carpeta.
+- En la documentación se utilizará el término **Parches visuales** cuando corresponda.
+- `manifest.json` será la fuente oficial para futuras herramientas.
 
 ---
 
-## macros/
+# 10. Integraciones futuras
 
-Contiene las macros oficiales utilizadas por la comunidad.
+El proyecto podrá incorporar nuevas herramientas, como:
 
----
-
-## guides/
-
-Contiene las guías oficiales del proyecto.
-
----
-
-## docs/
-
-Contiene documentación técnica complementaria cuando sea necesaria.
+- Launcher.
+- API.
+- Automatizaciones.
+- Scripts.
+- Nuevos servicios para la comunidad.
 
 ---
 
-## launcher/
+# 11. Registro de decisiones de arquitectura
 
-Reservado para el desarrollo del launcher oficial del proyecto.
-
----
-
-# Clasificación de addons
-
-Los addons oficiales podrán clasificarse como:
-
-- Obligatorios
-- Recomendados
-
-Los addons que no formen parte de la colección oficial no se incluirán en este repositorio.
+Este apartado recogerá únicamente las decisiones que modifiquen la arquitectura del proyecto.
 
 ---
 
-# Sistema de versiones
+# Principio de calidad
 
-El repositorio utiliza un sistema de versionado propio.
-
-La versión del repositorio es independiente de la versión individual de cada addon.
+> **La documentación debe ser tan breve como sea posible, pero tan completa como sea necesario.**
 
 ---
 
-# manifest.json
+# Regla de oro
 
-`manifest.json` constituye la fuente oficial de información del proyecto.
-
-Cualquier herramienta desarrollada para este repositorio deberá utilizar este archivo como origen de los datos.
-
-El launcher dependerá exclusivamente de `manifest.json` y nunca analizará directamente la estructura física del repositorio.
-
----
-
-# Filosofía del proyecto
-
-Las prioridades del proyecto son:
-
-1. Simplicidad.
-2. Organización.
-3. Facilidad de instalación.
-4. Mantenibilidad.
-5. Escalabilidad.
-6. Automatización.
-
-Toda modificación deberá mantener la coherencia de la arquitectura y facilitar la evolución futura del proyecto.
+> **Documentar lo necesario. Explicar lo importante. Eliminar lo innecesario.**

@@ -1,4 +1,4 @@
-# Deadly Boss Mods (DBM)
+# GTFO
 
 > Addon oficial verificado por **Wowtiktok WotLK Community**.
 >
@@ -13,16 +13,16 @@
 | Categoría | Raid |
 | Clasificación | Requerido |
 | Prioridad de instalación | ⭐⭐⭐⭐⭐ |
-| Contenido incluido | 35 módulos oficiales |
+| Contenido incluido | 2 carpetas y 13 archivos |
 | Última revisión | 2026-07-08 |
 
 ---
 
 ## 🎯 ¿Por qué lo recomendamos?
 
-Deadly Boss Mods (DBM) es el addon de referencia para bandas PvE en Wrath of the Lich King.
+GTFO es un addon diseñado para alertar inmediatamente al jugador cuando permanece sobre zonas peligrosas o recibe daño evitable durante un encuentro.
 
-Proporciona avisos visuales, temporizadores y alertas sonoras que ayudan a reaccionar correctamente a las mecánicas de cada encuentro, reduciendo errores y mejorando la coordinación de toda la banda.
+Su objetivo es complementar los avisos de addons como DBM mediante alertas sonoras claras e inmediatas, ayudando a reaccionar con mayor rapidez y reduciendo errores durante las bandas.
 
 En **Wowtiktok WotLK Community** se considera un addon **requerido para participar en las raids oficiales**.
 
@@ -43,56 +43,42 @@ Especialmente:
 
 ## ⚔️ ¿Cuándo resulta especialmente útil?
 
-Durante cualquier encuentro donde sea necesario reaccionar rápidamente a las mecánicas del jefe, cambios de fase, objetivos prioritarios o habilidades que requieran movimiento y coordinación.
+Durante cualquier encuentro en el que permanecer sobre zonas peligrosas, efectos de área o mecánicas evitables pueda provocar daño innecesario o comprometer el progreso de la banda.
 
 ---
 
 ## 📂 Contenido incluido
 
-Este paquete instala los siguientes módulos oficiales:
+### Carpetas
 
-- DBM-API
-- DBM-Archaeology
-- DBM-Azeroth
-- DBM-BaradinHold
-- DBM-BWL
-- DBM-Coliseum
-- DBM-Core
-- DBM-DefaultSkin
-- DBM-EyeOfEternity
-- DBM-GUI
-- DBM-Icecrown
-- DBM-MC
-- DBM-Naxx
-- DBM-Onyxia
-- DBM-Outlands
-- DBM-Party-BC
-- DBM-Party-Cataclysm
-- DBM-Party-WotLK
-- DBM-PvP
-- DBM-Raids-Cataclysm
-- DBM-Serpentshrine
-- DBM-SpellTimers
-- DBM-StatusBarTimers
-- DBM-Sunwell
-- DBM-Test
-- DBM-TheEye
-- DBM-ThroneFourWinds
-- DBM-Ulduar
-- DBM-VoA
-- DBM-WorldBosses
-- DBM-WorldEvents
-- DBM-ZG
-- DBM-Zones-Cataclysm
-- DBM-ZulAman
-- DBM-VPYike
+- Localization
+- Sounds
+
+### Archivos principales
+
+- GTFO.lua
+- GTFO.toc
+- GTFO.xml
+- GTFO_Fail_CAT.lua
+- GTFO_Fail_Generic.lua
+- GTFO_Fail_LK.lua
+- GTFO_Mobs.lua
+- GTFO_PowerAuras.lua
+- GTFO_Spells_BC.lua
+- GTFO_Spells_CAT.lua
+- GTFO_Spells_Classic.lua
+- GTFO_Spells_Generic.lua
+- GTFO_Spells_LK.lua
+
+> El paquete incluye además los archivos internos necesarios para el correcto funcionamiento del addon.
 
 ---
 
 ## 📦 Instalación
 
 1. Cierra World of Warcraft.
-2. Si ya tienes una versión anterior de DBM instalada, elimina completamente todas sus carpetas de:
+
+2. Si ya tienes una versión anterior de GTFO instalada, elimina completamente su carpeta de:
 
 ```text
 World of Warcraft/
@@ -100,7 +86,7 @@ World of Warcraft/
     └── AddOns/
 ```
 
-3. Copia todas las carpetas incluidas en este directorio dentro de:
+3. Copia la carpeta **GTFO** dentro de:
 
 ```text
 World of Warcraft/
@@ -118,7 +104,7 @@ World of Warcraft/
 
 ## 💡 Recomendación del equipo
 
-Para obtener la mejor experiencia durante las bandas PvE, recomendamos utilizar **DBM** junto con **GTFO**.
+Para obtener la mejor experiencia durante las bandas PvE, recomendamos utilizar **GTFO** junto con **Deadly Boss Mods (DBM)**.
 
 Mientras DBM avisa de las mecánicas del encuentro mediante temporizadores y alertas, GTFO alerta inmediatamente cuando el jugador permanece sobre zonas peligrosas del suelo.
 
@@ -130,15 +116,15 @@ La combinación de ambos addons reduce significativamente los errores durante lo
 
 ### Autor
 
-Barsoom, Bunny67, Zidras y colaboradores.
+Zensunim y colaboradores.
 
 ### Versión verificada
 
-10.1.13_alpha
+*(Completar con la versión distribuida por el proyecto.)*
 
 ### Repositorio oficial
 
-https://github.com/Zidras/DBM-Warmane
+*(Completar con el repositorio o página oficial utilizada para verificar el addon.)*
 
 ---
 
