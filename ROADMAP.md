@@ -26,12 +26,18 @@ Plan de desarrollo de **Wowtiktok WotLK Community**.
 
 ---
 
-## En progreso
+## Próxima prioridad
 
-- [ ] Crear los perfiles oficiales restantes.
-  - [ ] Method Raid Tools
-  - [ ] WeakAuras
-  - [ ] Otros perfiles compatibles
+### Perfiles oficiales
+
+- [ ] Crear el perfil oficial de Method Raid Tools.
+- [ ] Crear el perfil oficial de WeakAuras.
+- [ ] Crear otros perfiles compatibles.
+
+### Guías
+
+- [ ] Definir la estructura oficial de las guías.
+- [ ] Publicar las primeras guías verificadas.
 
 ---
 
@@ -42,11 +48,6 @@ Plan de desarrollo de **Wowtiktok WotLK Community**.
 - [ ] Diseñar la arquitectura.
 - [ ] Crear la documentación.
 - [ ] Publicar las primeras colecciones oficiales.
-
-### Guías
-
-- [ ] Definir la estructura.
-- [ ] Publicar las primeras guías verificadas.
 
 ### Client Patches
 
@@ -60,3 +61,14 @@ Plan de desarrollo de **Wowtiktok WotLK Community**.
 ### API
 
 - [ ] Diseñar la arquitectura.
+
+---
+
+## Backlog
+
+Ideas aprobadas para el proyecto que todavía no forman parte del desarrollo activo.
+
+- [ ] Automatizar la actualización de addons.
+- [ ] Crear un instalador oficial.
+- [ ] Sistema de sincronización de perfiles.
+- [ ] Herramientas de validación de addons.
