@@ -1,92 +1,60 @@
 # WoW WotLK Community
 
-Repositorio oficial de la comunidad para World of Warcraft Wrath of the Lich King 3.3.5a.
+Repositorio oficial de la comunidad para **World of Warcraft Wrath of the Lich King 3.3.5a (Warmane)**, orientado exclusivamente a **PvE**.
 
-Este proyecto centraliza todos los recursos necesarios para participar en las raids de la comunidad, proporcionando un punto único de distribución para addons, WeakAuras, perfiles, macros y documentación.
-
----
-
-# Objetivos
-
-- Mantener una colección estable de addons compatibles con WoW 3.3.5a.
-- Facilitar la instalación de nuevos jugadores.
-- Centralizar perfiles y configuraciones.
-- Reducir errores provocados por versiones diferentes de los addons.
-- Preparar el proyecto para futuras actualizaciones automáticas mediante un Launcher.
+Centraliza los recursos oficiales de la comunidad en un único lugar, incluyendo addons, WeakAuras, perfiles, macros, guías y documentación, con una arquitectura preparada para un futuro launcher.
 
 ---
 
-# Contenido
+# ¿Para quién es este proyecto?
 
-Actualmente el repositorio incluye:
-
-- Addons
-- WeakAuras
-- Perfiles
-- Macros
-- Guías
-- Documentación
+Este repositorio está dirigido a jugadores de **Warmane WotLK 3.3.5a** que desean utilizar la configuración oficial de la comunidad para PvE.
 
 ---
 
-# Requisitos
+# Características
 
-- World of Warcraft Wrath of the Lich King 3.3.5a
-- Cliente HD compatible
-- Carpeta Interface/AddOns
+- Addons originales sin modificar.
+- Compatibilidad con Warmane WotLK 3.3.5a.
+- Perfiles y WeakAuras organizados de forma independiente.
+- Arquitectura preparada para un launcher propio.
+- Documentación unificada y mantenible.
+
+---
+
+# Acceso rápido
+
+- 📦 **Addons** → `addons/`
+- ⚡ **WeakAuras** → `weakauras/`
+- 👤 **Profiles** → `profiles/`
+- ⌨️ **Macros** → `macros/`
+- 📖 **Guías** → `guides/`
 
 ---
 
 # Instalación
 
-1. Descargar el repositorio.
-2. Copiar los addons necesarios dentro de:
+Los addons oficiales deben copiarse en:
 
-```
+```text
 World of Warcraft/
 └── Interface/
     └── AddOns/
 ```
 
-3. Iniciar el juego.
+> En futuras versiones el proyecto dispondrá de un launcher para automatizar este proceso.
 
 ---
 
-# Estructura del proyecto
+# Más información
 
-```
-addons/
-weakauras/
-profiles/
-macros/
-guides/
-docs/
-launcher/
-```
-
----
-
-# Estado del proyecto
-
-Versión actual:
-
-**1.0.0**
-
-Actualmente el proyecto se encuentra en fase inicial de desarrollo.
-
----
-
-# Roadmap
-
-- Estructura base
-- Repositorio de addons
-- WeakAuras oficiales
-- Perfiles oficiales
-- Launcher
-- Actualizador automático
+- **PROJECT.md** → Arquitectura y normas del proyecto.
+- **ROADMAP.md** → Estado del proyecto y planificación.
+- **CHANGELOG.md** → Historial de cambios.
+- **CONTRIBUTING.md** → Guía para colaboradores.
 
 ---
 
 # Licencia
 
-MIT License
+MIT License.

@@ -1,18 +1,26 @@
-# PROJECT.md
-
-# WoW WotLK Community - Project Guidelines
+# PROJECT
 
 ## Objetivo
 
-Este repositorio tiene como objetivo centralizar todos los recursos oficiales utilizados por la comunidad para World of Warcraft Wrath of the Lich King (3.3.5a).
+Este repositorio tiene como objetivo centralizar todos los recursos oficiales utilizados por la comunidad para **World of Warcraft Wrath of the Lich King 3.3.5a (Warmane)**, orientado exclusivamente a **PvE**.
 
-El proyecto pretende proporcionar una instalación sencilla, organizada y mantenible para cualquier jugador.
-
-El repositorio no almacena únicamente addons, sino todo el ecosistema necesario para jugar con la configuración oficial de la comunidad.
+El proyecto proporciona una colección organizada y mantenible de addons, perfiles, WeakAuras, parches visuales, macros, guías y herramientas oficiales de la comunidad, facilitando tanto la instalación como el mantenimiento y el desarrollo futuro.
 
 ---
 
-# Estructura del proyecto
+# Principios del proyecto
+
+- Cada carpeta debe tener una única responsabilidad.
+- Cada documento debe tener una única responsabilidad.
+- Los addons originales nunca se modifican.
+- Las configuraciones personalizadas siempre se almacenan fuera de los addons originales.
+- La organización del repositorio debe priorizar la simplicidad, la mantenibilidad y la escalabilidad.
+- Todas las decisiones deben facilitar el desarrollo del futuro launcher.
+- Se evitará crear documentación, carpetas o archivos innecesarios.
+
+---
+
+# Arquitectura del proyecto
 
 ```
 wow-wotlk-community/
@@ -27,190 +35,138 @@ docs/
 launcher/
 
 README.md
+PROJECT.md
+ROADMAP.md
 CHANGELOG.md
 CONTRIBUTING.md
-PROJECT.md
 manifest.json
 VERSION
 LICENSE
 ```
 
-Cada carpeta tiene una finalidad específica y no debe utilizarse para almacenar contenido diferente.
+Cada carpeta y cada documento tienen una única responsabilidad y no deben utilizarse para almacenar información ajena a su finalidad.
 
 ---
 
-# Organización de addons
+# Arquitectura documental
 
-Cada addon principal tendrá su propia carpeta.
-
-Ejemplo:
-
-```
-addons/
-
-DBM/
-GTFO/
-WeakAuras/
-MRT/
-Grid2/
-```
-
-Dentro de cada carpeta se almacenarán exactamente los archivos y carpetas que deben copiarse dentro de:
-
-```
-World of Warcraft/
-Interface/
-AddOns/
-```
-
-No se modificarán los nombres originales de los addons.
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| README.md | Presentación general del repositorio. |
+| PROJECT.md | Arquitectura, normas y decisiones permanentes del proyecto. |
+| ROADMAP.md | Estado del proyecto, planificación y seguimiento del desarrollo. |
+| CHANGELOG.md | Historial de cambios entre versiones. |
+| CONTRIBUTING.md | Normas para colaborar en el proyecto. |
+| manifest.json | Fuente oficial de información para herramientas y launcher. |
 
 ---
 
-# Clasificación de addons
+# Organización del contenido
 
-Los addons pueden pertenecer a tres categorías.
+## addons/
 
-## Obligatorios
+Contiene todos los addons oficiales del proyecto.
 
-Necesarios para participar en las raids oficiales de la comunidad.
+Cada addon dispone de su propia carpeta y de su correspondiente documentación.
 
-Ejemplos:
-
-- DBM
-- GTFO
-- MRT
-- WeakAuras
-
-## Recomendados
-
-Mejoran la experiencia del jugador pero no son obligatorios.
-
-Ejemplos:
-
-- ElvUI
-- Grid2
-- HealBot
-- Skada
-- xCT+
-
-## No incluidos
-
-No forman parte del repositorio oficial.
-
-Ejemplos:
-
-- Questie
-- Auctionator
-- Carbonite
-- GatherMate
-- TomTom
+Los addons originales nunca se modifican.
 
 ---
 
-# Client Patches
+## client-patches/
 
-La carpeta client-patches contiene modificaciones del cliente que no son addons.
+Contiene modificaciones del cliente que no son addons.
 
 Ejemplos:
 
-- Mejoras visuales
-- Rango de bosses
-- Modelos
-- Texturas
-- Sonidos
-- Archivos MPQ
+- Archivos MPQ.
+- Mejoras visuales.
+- Modelos.
+- Texturas.
+- Sonidos.
 
 Nunca se mezclarán con addons.
 
 ---
 
-# WeakAuras
+## weakauras/
 
-Las WeakAuras se almacenarán separadas de los addons.
+Contiene todas las WeakAuras oficiales del proyecto.
 
-Su organización dependerá del contenido.
-
-Ejemplo:
-
-```
-weakauras/
-
-ICC/
-RS/
-Classes/
-Utilities/
-```
+Las WeakAuras permanecen completamente separadas de los addons y su organización dependerá de su finalidad.
 
 ---
 
-# Profiles
+## profiles/
 
-Los perfiles de addons nunca se almacenarán dentro del addon correspondiente.
+Contiene todos los perfiles oficiales de configuración.
 
-Todos los perfiles estarán centralizados.
-
-Ejemplo:
-
-```
-profiles/
-
-ElvUI/
-Grid2/
-Skada/
-Details/
-```
+Los perfiles nunca se almacenan dentro de las carpetas de los addons correspondientes.
 
 ---
 
-# Versionado
+## macros/
 
-El repositorio utiliza su propio sistema de versiones.
+Contiene las macros oficiales utilizadas por la comunidad.
 
-Ejemplo:
+---
 
-v1.0.0
+## guides/
 
-La versión del repositorio es independiente de la versión de cada addon.
+Contiene las guías oficiales del proyecto.
+
+---
+
+## docs/
+
+Contiene documentación técnica complementaria cuando sea necesaria.
+
+---
+
+## launcher/
+
+Reservado para el desarrollo del launcher oficial del proyecto.
+
+---
+
+# Clasificación de addons
+
+Los addons oficiales podrán clasificarse como:
+
+- Obligatorios
+- Recomendados
+
+Los addons que no formen parte de la colección oficial no se incluirán en este repositorio.
+
+---
+
+# Sistema de versiones
+
+El repositorio utiliza un sistema de versionado propio.
+
+La versión del repositorio es independiente de la versión individual de cada addon.
 
 ---
 
 # manifest.json
 
-manifest.json será el archivo maestro del proyecto.
+`manifest.json` constituye la fuente oficial de información del proyecto.
 
-Toda herramienta desarrollada para este repositorio deberá utilizar manifest.json como fuente oficial de información.
+Cualquier herramienta desarrollada para este repositorio deberá utilizar este archivo como origen de los datos.
 
-El launcher nunca analizará las carpetas directamente.
-
-Siempre leerá manifest.json.
-
----
-
-# Flujo de trabajo
-
-Cada modificación seguirá el mismo proceso.
-
-1. Añadir contenido.
-2. Revisar cambios.
-3. Actualizar README si es necesario.
-4. Actualizar CHANGELOG.
-5. Actualizar manifest.json.
-6. Commit.
-7. Push.
+El launcher dependerá exclusivamente de `manifest.json` y nunca analizará directamente la estructura física del repositorio.
 
 ---
 
 # Filosofía del proyecto
 
-La prioridad del proyecto es:
+Las prioridades del proyecto son:
 
-1. Simplicidad
-2. Organización
-3. Facilidad de instalación
-4. Mantenimiento
-5. Automatización futura
+1. Simplicidad.
+2. Organización.
+3. Facilidad de instalación.
+4. Mantenibilidad.
+5. Escalabilidad.
+6. Automatización.
 
-Nunca se añadirán carpetas o archivos que no tengan una finalidad clara.
-
-Toda modificación deberá mantener la coherencia del proyecto.
+Toda modificación deberá mantener la coherencia de la arquitectura y facilitar la evolución futura del proyecto.
