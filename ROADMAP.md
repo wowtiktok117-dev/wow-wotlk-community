@@ -71,6 +71,11 @@ Plan de desarrollo de **Wowtiktok WotLK Community**.
 
 - [ ] Diseñar la arquitectura.
 
+### Internacionalización
+
+- [ ] Traducir la documentación oficial al inglés.
+- [ ] Mantener versiones sincronizadas en español e inglés.
+
 ---
 
 ## Backlog
