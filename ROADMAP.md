@@ -8,7 +8,6 @@ Plan de desarrollo de **Wowtiktok WotLK Community**.
 
 - [x] Definir la arquitectura del proyecto.
 - [x] Crear la estructura principal del repositorio.
-- [x] Documentar los addons oficiales.
 - [x] Definir la jerarquía documental.
 - [x] Crear `PROJECT.md`.
 - [x] Crear `ROADMAP.md`.
@@ -20,8 +19,21 @@ Plan de desarrollo de **Wowtiktok WotLK Community**.
   - [x] `profiles/WTF/`
   - [x] `profiles/ElvUI/`
   - [x] `profiles/Skada/`
+  - [x] `profiles/DBM/`
+  - [x] `profiles/Grid2/`
 - [x] Estandarizar la documentación de perfiles.
 - [x] Definir la nomenclatura oficial de perfiles.
+- [x] Documentar los addons oficiales.
+- [x] Estandarizar la documentación de addons.
+- [x] Crear `Official Addon List`.
+- [x] Crear `addon-sources.md`.
+- [x] Definir la arquitectura de `client-patches`.
+- [x] Crear `INSTALL.md`.
+- [x] Documentar los Client Patches oficiales:
+  - [x] ICC Mechanics Visual Patch
+  - [x] ICC Boss Range Visual Patch
+  - [x] Halion Attack Range Visual Patch
+  - [x] Air Totem Range Visual Patch
 - [x] Definir el flujo de trabajo y cierre de sesión.
 
 ---
@@ -34,6 +46,12 @@ Plan de desarrollo de **Wowtiktok WotLK Community**.
 - [ ] Crear el perfil oficial de WeakAuras.
 - [ ] Crear otros perfiles compatibles.
 
+### WeakAuras
+
+- [ ] Diseñar la arquitectura de la carpeta `weakauras`.
+- [ ] Crear la documentación.
+- [ ] Publicar las primeras colecciones oficiales.
+
 ### Guías
 
 - [ ] Definir la estructura oficial de las guías.
@@ -43,20 +61,11 @@ Plan de desarrollo de **Wowtiktok WotLK Community**.
 
 ## Pendiente
 
-### WeakAuras
-
-- [ ] Diseñar la arquitectura.
-- [ ] Crear la documentación.
-- [ ] Publicar las primeras colecciones oficiales.
-
-### Client Patches
-
-- [ ] Definir la estructura.
-- [ ] Publicar los primeros parches visuales.
-
 ### Launcher
 
 - [ ] Diseñar la arquitectura.
+- [ ] Definir el sistema de actualización de addons.
+- [ ] Definir el sistema de sincronización de perfiles.
 
 ### API
 
@@ -70,5 +79,4 @@ Ideas aprobadas para el proyecto que todavía no forman parte del desarrollo act
 
 - [ ] Automatizar la actualización de addons.
 - [ ] Crear un instalador oficial.
-- [ ] Sistema de sincronización de perfiles.
 - [ ] Herramientas de validación de addons.
