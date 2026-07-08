@@ -13,7 +13,7 @@
 | Categoría | Raid |
 | Clasificación | Requerido |
 | Prioridad de instalación | ⭐⭐⭐⭐⭐ |
-| Contenido incluido | 3 carpetas y archivos principales del addon |
+| Contenido incluido | Archivos originales del addon |
 | Última revisión | 2026-07-08 |
 
 ---
@@ -50,41 +50,17 @@ Durante cualquier banda organizada donde sea necesario coordinar al grupo, compr
 
 ## 📂 Contenido incluido
 
-### Carpetas
+Esta carpeta contiene los archivos originales del addon **Method Raid Tools (MRT)** sin modificaciones.
 
-- libs
-- localization
-- media
-
-### Archivos principales
-
-- MRT.toc
-- core.lua
-- Options.lua
-- RaidCheck.lua
-- RaidAttendance.lua
-- BossWatcher.lua
-- Encounter.lua
-- LootHistory.lua
-- LootLink.lua
-- RaidGroups.lua
-- Marks.lua
-- MarksBar.lua
-- Interrupts.lua
-- InviteTool.lua
-- WAcheck.lua
-- Timers.lua
-- Reminder.lua
-
-> El paquete incluye además otros archivos internos necesarios para el correcto funcionamiento del addon.
+> Se respeta la estructura y el contenido originales distribuidos por el autor.
 
 ---
 
 ## 📦 Instalación
 
-1. Cierra World of Warcraft.
+1. Cierra **World of Warcraft**.
 
-2. Si ya tienes una versión anterior de Method Raid Tools instalada, elimina completamente su carpeta de:
+2. Si ya tienes una versión anterior de **Method Raid Tools** instalada, elimina completamente su carpeta de:
 
 ```text
 World of Warcraft/
@@ -120,15 +96,15 @@ Mientras DBM y GTFO ayudan durante los encuentros, MRT proporciona herramientas 
 
 ### Autor
 
-Mizus Raid Tools Team y colaboradores.
+ExoJdi
 
 ### Versión verificada
 
-*(Completar con la versión distribuida por el proyecto.)*
+v5.0.7
 
 ### Repositorio oficial
 
-*(Completar con el repositorio o página oficial utilizada para verificar el addon.)*
+https://github.com/ExoJdi/Method-Raid-Tools-3.3.5a/
 
 ---
 

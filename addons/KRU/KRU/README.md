@@ -1,4 +1,4 @@
-# KRU
+# Kader's Raid Utilities (KRU)
 
 > Addon oficial verificado por **Wowtiktok WotLK Community**.
 >
@@ -13,14 +13,14 @@
 | Categoría | Raid |
 | Clasificación | Recomendado |
 | Prioridad de instalación | ⭐⭐⭐⭐☆ |
-| Contenido incluido | 3 carpetas y 5 archivos principales |
+| Contenido incluido | Archivos originales del addon |
 | Última revisión | 2026-07-08 |
 
 ---
 
 ## 🎯 ¿Por qué lo recomendamos?
 
-KRU permite visualizar y realizar un seguimiento de los tiempos de reutilización (cooldowns) de la banda durante los encuentros PvE.
+Kader's Raid Utilities (KRU) permite visualizar y realizar un seguimiento de los tiempos de reutilización (*cooldowns*) de la banda durante los encuentros PvE.
 
 Facilita la coordinación del grupo mostrando de forma clara cuándo estarán disponibles habilidades importantes, ayudando a planificar mejor cada combate.
 
@@ -44,29 +44,17 @@ Durante encuentros donde la coordinación de habilidades defensivas, ofensivas o
 
 ## 📂 Contenido incluido
 
-### Carpetas
+Esta carpeta contiene los archivos originales del addon **Kader's Raid Utilities (KRU)** sin modificaciones.
 
-- Libs
-- Locales
-- Modules
-
-### Archivos principales
-
-- KRU.toc
-- Core.lua
-- Embeds.xml
-- Locales.xml
-- Modules.xml
-
-> El paquete incluye además los archivos internos necesarios para el correcto funcionamiento del addon.
+> Se respeta la estructura y el contenido originales distribuidos por el autor.
 
 ---
 
 ## 📦 Instalación
 
-1. Cierra World of Warcraft.
+1. Cierra **World of Warcraft**.
 
-2. Si ya tienes una versión anterior de KRU instalada, elimina completamente su carpeta de:
+2. Si ya tienes una versión anterior de **KRU** instalada, elimina completamente su carpeta de:
 
 ```text
 World of Warcraft/
@@ -92,7 +80,7 @@ World of Warcraft/
 
 ## 💡 Recomendación del equipo
 
-KRU complementa muy bien addons como **Method Raid Tools (MRT)**, proporcionando una visualización clara de los tiempos de reutilización de la banda y facilitando la coordinación durante los encuentros PvE.
+**Kader's Raid Utilities (KRU)** complementa muy bien addons como **Method Raid Tools (MRT)**, proporcionando una visualización clara de los tiempos de reutilización de la banda y facilitando la coordinación durante los encuentros PvE.
 
 ---
 
@@ -100,15 +88,15 @@ KRU complementa muy bien addons como **Method Raid Tools (MRT)**, proporcionando
 
 ### Autor
 
-*(Completar con el autor del addon.)*
+Kader B
 
 ### Versión verificada
 
-*(Completar con la versión distribuida por el proyecto.)*
+1.0.0
 
 ### Repositorio oficial
 
-*(Completar con el repositorio o página oficial utilizada para verificar el addon.)*
+*(Pendiente de verificar.)*
 
 ---
 

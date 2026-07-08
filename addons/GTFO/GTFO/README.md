@@ -11,9 +11,9 @@
 | Estado | ✅ Mantenido |
 | Compatibilidad | Warmane WotLK 3.3.5a |
 | Categoría | Raid |
-| Clasificación | Requerido |
+| Clasificación | Esencial |
 | Prioridad de instalación | ⭐⭐⭐⭐⭐ |
-| Contenido incluido | 2 carpetas y 13 archivos |
+| Contenido incluido | Archivos originales del addon |
 | Última revisión | 2026-07-08 |
 
 ---
@@ -24,7 +24,7 @@ GTFO es un addon diseñado para alertar inmediatamente al jugador cuando permane
 
 Su objetivo es complementar los avisos de addons como DBM mediante alertas sonoras claras e inmediatas, ayudando a reaccionar con mayor rapidez y reduciendo errores durante las bandas.
 
-En **Wowtiktok WotLK Community** se considera un addon **requerido para participar en las raids oficiales**.
+En **Wowtiktok WotLK Community** se considera un addon **esencial para participar en las raids oficiales**.
 
 ---
 
@@ -49,36 +49,17 @@ Durante cualquier encuentro en el que permanecer sobre zonas peligrosas, efectos
 
 ## 📂 Contenido incluido
 
-### Carpetas
+Esta carpeta contiene los archivos originales del addon **GTFO** sin modificaciones.
 
-- Localization
-- Sounds
-
-### Archivos principales
-
-- GTFO.lua
-- GTFO.toc
-- GTFO.xml
-- GTFO_Fail_CAT.lua
-- GTFO_Fail_Generic.lua
-- GTFO_Fail_LK.lua
-- GTFO_Mobs.lua
-- GTFO_PowerAuras.lua
-- GTFO_Spells_BC.lua
-- GTFO_Spells_CAT.lua
-- GTFO_Spells_Classic.lua
-- GTFO_Spells_Generic.lua
-- GTFO_Spells_LK.lua
-
-> El paquete incluye además los archivos internos necesarios para el correcto funcionamiento del addon.
+> Se respeta la estructura y el contenido originales distribuidos por el autor.
 
 ---
 
 ## 📦 Instalación
 
-1. Cierra World of Warcraft.
+1. Cierra **World of Warcraft**.
 
-2. Si ya tienes una versión anterior de GTFO instalada, elimina completamente su carpeta de:
+2. Si ya tienes una versión anterior de **GTFO** instalada, elimina completamente su carpeta de:
 
 ```text
 World of Warcraft/
@@ -106,9 +87,9 @@ World of Warcraft/
 
 Para obtener la mejor experiencia durante las bandas PvE, recomendamos utilizar **GTFO** junto con **Deadly Boss Mods (DBM)**.
 
-Mientras DBM avisa de las mecánicas del encuentro mediante temporizadores y alertas, GTFO alerta inmediatamente cuando el jugador permanece sobre zonas peligrosas del suelo.
+Mientras **DBM** avisa de las mecánicas del encuentro mediante temporizadores y alertas, **GTFO** alerta inmediatamente cuando el jugador permanece sobre zonas peligrosas del suelo.
 
-La combinación de ambos addons reduce significativamente los errores durante los combates.
+La combinación de ambos addons ayuda a reducir los errores durante los combates.
 
 ---
 
@@ -116,15 +97,15 @@ La combinación de ambos addons reduce significativamente los errores durante lo
 
 ### Autor
 
-Zensunim y colaboradores.
+Zensunim of Malygos
 
 ### Versión verificada
 
-*(Completar con la versión distribuida por el proyecto.)*
+2.5.3
 
 ### Repositorio oficial
 
-*(Completar con el repositorio o página oficial utilizada para verificar el addon.)*
+*(Pendiente de verificar.)*
 
 ---
 

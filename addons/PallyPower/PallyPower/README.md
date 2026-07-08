@@ -13,7 +13,7 @@
 | Categoría | Raid |
 | Clasificación | Requerido |
 | Prioridad de instalación | ⭐⭐⭐⭐⭐ |
-| Contenido incluido | 4 carpetas y 6 archivos principales |
+| Contenido incluido | Archivos originales del addon |
 | Última revisión | 2026-07-08 |
 
 ---
@@ -48,30 +48,17 @@ Durante cualquier banda donde participe uno o varios paladines, facilitando la a
 
 ## 📂 Contenido incluido
 
-### Carpetas
+Esta carpeta contiene los archivos originales del addon **PallyPower** sin modificaciones.
 
-- Icons
-- libs
-- locale
-- Skins
-
-### Archivos principales
-
-- PallyPower.lua
-- PallyPower.toc
-- PallyPower.xml
-- PallyPowerOptions.lua
-- PallyPowerValues.lua
-
-> El paquete incluye además archivos de registro de cambios (*Changelog*) y otros archivos internos necesarios para el correcto funcionamiento del addon.
+> Se respeta la estructura y el contenido originales distribuidos por el autor.
 
 ---
 
 ## 📦 Instalación
 
-1. Cierra World of Warcraft.
+1. Cierra **World of Warcraft**.
 
-2. Si ya tienes una versión anterior de PallyPower instalada, elimina completamente su carpeta de:
+2. Si ya tienes una versión anterior de **PallyPower** instalada, elimina completamente su carpeta de:
 
 ```text
 World of Warcraft/
@@ -107,15 +94,15 @@ Combinado con **Method Raid Tools (MRT)** facilita el trabajo del Raid Leader y 
 
 ### Autor
 
-Shefki y colaboradores.
+Aznamir
 
 ### Versión verificada
 
-*(Completar con la versión distribuida por el proyecto.)*
+v3.2.20
 
 ### Repositorio oficial
 
-*(Completar con el repositorio o página oficial utilizada para verificar el addon.)*
+*(Pendiente de verificar.)*
 
 ---
 
