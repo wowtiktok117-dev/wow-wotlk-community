@@ -16,7 +16,7 @@ v0.1.0
 
 ## Tarea actual
 
-- [ ] Revisar y actualizar el Backlog del proyecto.
+- [ ] Documentar GTFO.
 
 ---
 
@@ -24,8 +24,6 @@ v0.1.0
 
 ## 🔴 Prioridad alta
 
-- [ ] Crear la plantilla oficial para los README de los addons.
-- [ ] Documentar DBM.
 - [ ] Documentar GTFO.
 - [ ] Documentar Method Raid Tools.
 - [ ] Documentar PallyPower.
@@ -39,6 +37,7 @@ v0.1.0
 - [ ] Organizar la biblioteca oficial de WeakAuras.
 - [ ] Añadir los primeros Client Patches.
 - [ ] Crear las primeras guías PvE.
+- [ ] Definir la jerarquía documental oficial.
 
 ## 🟢 Prioridad baja
 
@@ -65,6 +64,10 @@ v0.1.0
 - [x] Crear la documentación base del proyecto.
 - [x] Crear la guía de comandos Git para el proyecto.
 - [x] Establecer el flujo de trabajo de Git.
+- [x] Revisar y optimizar el README principal del repositorio.
+- [x] Revisar y optimizar el README general de addons.
+- [x] Crear la plantilla oficial para los README de los addons.
+- [x] Documentar DBM.
 
 ---
 
@@ -95,7 +98,11 @@ v0.1.0
 - Definición de la arquitectura documental.
 - Estandarización de la documentación.
 - Definición del flujo de trabajo con Git.
+- Revisión y optimización del README principal del repositorio.
+- Revisión y optimización del README general de addons.
+- Creación de la plantilla oficial para los README de los addons.
+- Documentación oficial de DBM.
 
 ### Próximo objetivo
 
-- Completar la documentación de la colección inicial de addons.
+- Documentar GTFO.

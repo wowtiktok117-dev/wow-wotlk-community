@@ -2,10 +2,12 @@
 
 Esta carpeta contiene los addons oficiales distribuidos por el proyecto.
 
-## Reglas
+Los addons se almacenan siempre en su versión original y sin modificaciones. Las configuraciones personales se almacenan en `profiles/` y las WeakAuras en `weakauras/`.
 
-- Cada addon dispone de una carpeta propia.
-- Los addons se almacenan sin modificaciones respecto a la versión original.
-- Las configuraciones personales no se incluyen aquí.
-- Los perfiles se almacenan en `/profiles`.
-- Las WeakAuras se almacenan en `/weakauras`.
+Cada carpeta de addon debe copiarse directamente dentro de:
+
+```text
+World of Warcraft/
+└── Interface/
+    └── AddOns/
+```
