@@ -1,6 +1,6 @@
 # Parche de Mecánicas All in One
 
-**Versión:** 3.03
+**Versión:** 3.0.3
 **Última actualización:** 24 de mayo de 2026
 
 ## Descripción
