@@ -1,5 +1,8 @@
 # Parche de Mecánicas All in One
 
+**Versión:** 3.03
+**Última actualización:** 24 de mayo de 2026
+
 ## Descripción
 
 El **Parche de Mecánicas All in One** reúne en un único paquete una gran variedad de mejoras visuales para **World of Warcraft: Wrath of the Lich King 3.3.5a**.
