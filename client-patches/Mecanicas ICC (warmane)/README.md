@@ -4,6 +4,20 @@
 >
 > Compatible con **World of Warcraft: Wrath of the Lich King 3.3.5a (Warmane)**.
 
+## 📥 Descargas
+
+### 🟢 Cliente estándar / HD sin modelos HD ni Nuevos hechizos
+
+**➡️ [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/client-patches/Mecanicas%20ICC%20(warmane)/patch-y-Normal.zip)**
+
+### 🔵 Cliente HD (Modelos HD activados)
+
+**➡️ [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/client-patches/Mecanicas%20ICC%20(warmane)/patch-y-HD.zip)**
+
+### 🟣 Cliente HD + Nuevos hechizos
+
+**➡️ [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/client-patches/Mecanicas%20ICC%20(warmane)/patch-y-HD%2B.zip)**
+
 ---
 
 | Campo | Valor |
