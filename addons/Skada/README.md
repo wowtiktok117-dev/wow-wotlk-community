@@ -1,4 +1,4 @@
-# Skada
+# Skada | 📥 [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/addons/Skada/Skada.zip)
 
 > Addon oficial verificado por **Wowtiktok WotLK Community**.
 >
@@ -20,11 +20,11 @@
 
 ## 🎯 ¿Por qué lo recomendamos?
 
-Skada es un addon modular de análisis de combate que permite registrar y visualizar estadísticas detalladas sobre daño, sanación, absorciones, interrupciones, amenazas y otros datos relevantes durante los encuentros PvE.
+Skada es un addon modular de análisis de combate que permite registrar y visualizar estadísticas detalladas sobre daño, sanación, absorciones, interrupciones, amenaza y otros datos relevantes durante los encuentros PvE.
 
 Su diseño ligero y altamente configurable lo convierte en una herramienta esencial para analizar el rendimiento individual y de la banda, facilitando la mejora continua de los jugadores.
 
-En **Wowtiktok WotLK Community** se considera un addon **requerido para participar en las raids oficiales**.
+En **Wowtiktok WotLK Community**, **Skada es un requisito para participar en las raids oficiales**.
 
 ---
 
@@ -80,6 +80,8 @@ World of Warcraft/
 > **Recomendación de Wowtiktok WotLK Community**
 >
 > Para evitar errores, conflictos entre versiones o archivos obsoletos, recomendamos **no sobrescribir una instalación anterior**. Elimina primero la versión antigua e instala siempre el addon desde cero.
+>
+> La configuración predeterminada de Skada es suficiente para comenzar a utilizarlo y puede personalizarse posteriormente desde el propio juego.
 
 ---
 

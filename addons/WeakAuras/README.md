@@ -1,4 +1,4 @@
-# WeakAuras
+# WeakAuras2 | 📥 [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/addons/WeakAuras2/WeakAuras2.zip)
 
 > Addon oficial verificado por **Wowtiktok WotLK Community**.
 >
@@ -20,11 +20,11 @@
 
 ## 🎯 ¿Por qué lo recomendamos?
 
-WeakAuras es uno de los addons más potentes y versátiles para **World of Warcraft: Wrath of the Lich King**, permitiendo mostrar información visual y sonora basada en beneficios, perjuicios, tiempos de reutilización, recursos, mecánicas de encuentros y cualquier otro evento del juego.
+WeakAuras2 es uno de los addons más potentes y versátiles para **World of Warcraft: Wrath of the Lich King**, permitiendo mostrar información visual y sonora basada en beneficios, perjuicios, tiempos de reutilización, recursos, mecánicas de encuentros y cualquier otro evento del juego.
 
-Gracias a su enorme capacidad de personalización, permite adaptar la interfaz a las necesidades de cada jugador y mejorar significativamente el seguimiento de mecánicas durante el contenido PvE.
+Gracias a su enorme capacidad de personalización, permite adaptar la interfaz a las necesidades de cada jugador y mejorar significativamente el seguimiento de las mecánicas durante el contenido PvE.
 
-En **Wowtiktok WotLK Community** se considera un addon **requerido para participar en las raids oficiales**.
+En **Wowtiktok WotLK Community**, **WeakAuras2 es un requisito para participar en las raids oficiales**.
 
 ---
 
@@ -49,7 +49,7 @@ Durante cualquier encuentro PvE donde sea importante visualizar información cr�
 
 ## 📂 Contenido incluido
 
-Esta carpeta contiene los archivos originales del addon **WeakAuras** sin modificaciones.
+Esta carpeta contiene los archivos originales del addon **WeakAuras2** sin modificaciones.
 
 > Se respeta la estructura y el contenido originales distribuidos por el autor.
 
@@ -59,7 +59,7 @@ Esta carpeta contiene los archivos originales del addon **WeakAuras** sin modifi
 
 1. Cierra **World of Warcraft**.
 
-2. Si ya tienes una versión anterior de **WeakAuras** instalada, elimina completamente su carpeta de:
+2. Si ya tienes una versión anterior de **WeakAuras2** instalada, elimina completamente su carpeta de:
 
 ```text
 World of Warcraft/
@@ -67,7 +67,7 @@ World of Warcraft/
     └── AddOns/
 ```
 
-3. Copia la carpeta **WeakAuras** dentro de:
+3. Copia la carpeta **WeakAuras2** dentro de:
 
 ```text
 World of Warcraft/
@@ -80,14 +80,16 @@ World of Warcraft/
 > **Recomendación de Wowtiktok WotLK Community**
 >
 > Para evitar errores, conflictos entre versiones o archivos obsoletos, recomendamos **no sobrescribir una instalación anterior**. Elimina primero la versión antigua e instala siempre el addon desde cero.
+>
+> La configuración predeterminada de WeakAuras2 es suficiente para comenzar a utilizarlo y puede personalizarse posteriormente desde el propio juego.
 
 ---
 
 ## 💡 Recomendación del equipo
 
-Para aprovechar todo el potencial de **WeakAuras**, recomendamos utilizar junto a este addon las WeakAuras oficiales distribuidas por **Wowtiktok WotLK Community**, disponibles en la carpeta `weakauras/`.
+Para aprovechar todo el potencial de **WeakAuras2**, recomendamos utilizar junto a este addon las WeakAuras oficiales distribuidas por **Wowtiktok WotLK Community**, disponibles en la carpeta `weakauras/`.
 
-De esta forma obtendrás las mismas ayudas visuales utilizadas por la comunidad, organizadas y verificadas para el contenido PvE.
+De esta forma obtendrás las mismas ayudas visuales utilizadas por la comunidad, listas para importar, organizadas y verificadas para el contenido PvE.
 
 ---
 
@@ -99,11 +101,11 @@ The WeakAuras Team
 
 ### Versión verificada
 
-5.21.2
+5.21.9
 
 ### Repositorio oficial
 
-https://www.github.com/NoM0Re/WeakAuras-WotLK
+https://github.com/NoM0Re/WeakAuras-WotLK
 
 ---
 
