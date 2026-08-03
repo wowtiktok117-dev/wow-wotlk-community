@@ -4,6 +4,16 @@
 >
 > Compatible con **World of Warcraft: Wrath of the Lich King 3.3.5a (Warmane)**.
 
+## 📥 Descargas
+
+### 🟢 Cliente estándar / HD sin Nuevos hechizos
+
+**➡️ [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/client-patches/ICC%20Boss%20Range/patch-t-Normal.zip)**
+
+### 🔵 Cliente HD + Nuevos hechizos
+
+**➡️ [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/client-patches/ICC%20Boss%20Range/patch-t-HD.zip)**
+
 ---
 
 | Campo | Valor |
