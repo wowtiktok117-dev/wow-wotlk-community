@@ -1,4 +1,4 @@
-# Halion Attack Range Visual Patch <img src="https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/client-patches/Patch%20Halion%20Rango%20ataque/IMG_5454.png" alt="Halion Attack Range" width="64" align="right">
+# Halion Attack Range Visual Patch
 
 > Parche visual oficial verificado por **Wowtiktok WotLK Community**.
 >
