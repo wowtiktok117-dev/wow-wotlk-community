@@ -1,8 +1,18 @@
-# Air Totem Range Visual Patch
+# Totem Range Visual Patch
 
 > Parche visual oficial verificado por **Wowtiktok WotLK Community**.
 >
 > Compatible con **World of Warcraft: Wrath of the Lich King 3.3.5a (Warmane)**.
+
+## 📥 Descargas
+
+### 🟤 Tótem de Tierra
+
+**➡️ [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/client-patches/Rango%20Totems/patch-t.zip)**
+
+### 🔵 Tótem de Aire
+
+**➡️ [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/client-patches/Rango%20Totems/patch-u.zip)**
 
 ---
 
@@ -19,9 +29,9 @@
 
 # 🎯 ¿Por qué lo recomendamos?
 
-Este parche visual muestra de forma más clara el alcance del **Tótem de Aire**, permitiendo identificar fácilmente qué jugadores se encuentran dentro de su radio de efecto.
+Este parche visual muestra de forma más clara el alcance de los **Tótems de Tierra y Aire**, permitiendo identificar fácilmente qué jugadores se encuentran dentro de su radio de efecto.
 
-Su objetivo es facilitar el posicionamiento de la banda para aprovechar correctamente los beneficios del tótem durante los encuentros PvE, sin modificar la jugabilidad ni el funcionamiento del cliente.
+Su objetivo es facilitar el posicionamiento de la banda para aprovechar correctamente los beneficios de ambos tótems durante los encuentros PvE, sin modificar la jugabilidad ni el funcionamiento del cliente.
 
 En **Wowtiktok WotLK Community** se considera un parche **recomendado** para cualquier banda organizada.
 
@@ -43,7 +53,10 @@ Especialmente:
 
 # ⚔️ ¿Qué modifica?
 
-Este parche modifica únicamente la representación visual del alcance del **Tótem de Aire**.
+Este parche modifica únicamente la representación visual del alcance de los siguientes tótems:
+
+- **Tótem de Tierra**
+- **Tótem de Aire**
 
 No modifica:
 
@@ -58,6 +71,13 @@ No modifica:
 # 📂 Contenido incluido
 
 Esta carpeta contiene los archivos originales del parche visual sin modificaciones.
+
+Se incluyen dos versiones independientes:
+
+- **Patch-T** → Alcance del **Tótem de Tierra**.
+- **Patch-U** → Alcance del **Tótem de Aire**.
+
+Puedes instalar una o ambas según tus preferencias.
 
 ---
 
