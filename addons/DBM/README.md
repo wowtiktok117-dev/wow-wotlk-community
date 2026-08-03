@@ -1,4 +1,4 @@
-# Deadly Boss Mods (DBM)
+# Deadly Boss Mods (DBM) | 📥 [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/addons/DBM/DBM.zip)
 
 > Addon oficial verificado por **Wowtiktok WotLK Community**.
 >
@@ -13,7 +13,7 @@
 | Categoría | Raid |
 | Clasificación | Requerido |
 | Prioridad de instalación | ⭐⭐⭐⭐⭐ |
-| Contenido incluido | 35 módulos oficiales |
+| Contenido incluido | Módulos oficiales |
 | Última revisión | 2026-07-08 |
 
 ---
@@ -24,7 +24,7 @@ Deadly Boss Mods (DBM) es el addon de referencia para bandas PvE en Wrath of the
 
 Proporciona avisos visuales, temporizadores y alertas sonoras que ayudan a reaccionar correctamente a las mecánicas de cada encuentro, reduciendo errores y mejorando la coordinación de toda la banda.
 
-En **Wowtiktok WotLK Community** se considera un addon **requerido para participar en las raids oficiales**.
+En **Wowtiktok WotLK Community**, **DBM es un requisito para participar en las raids oficiales**.
 
 ---
 
@@ -113,6 +113,8 @@ World of Warcraft/
 > **Recomendación de Wowtiktok WotLK Community**
 >
 > Para evitar errores, conflictos entre versiones o archivos obsoletos, recomendamos **no sobrescribir una instalación anterior**. Elimina primero la versión antigua e instala siempre el addon desde cero.
+>
+> La configuración predeterminada de DBM es suficiente para comenzar a jugar y puede personalizarse posteriormente desde el propio juego.
 
 ---
 
