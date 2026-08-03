@@ -1,31 +1,27 @@
 
 ElvDB = {
 	["profileKeys"] = {
-		["Karlahunt - Icecrown"] = "WoWTiktok",
-		["Karlarog - Icecrown"] = "WoWTiktok",
-		["Karlashami - Icecrown"] = "WoWTiktok",
+		["Karlawar - Icecrown"] = "0_Wowtiktok_Profile",
 	},
 	["gold"] = {
 		[""] = {
-			["Macalo"] = 57105378,
 			["Vergasaurio"] = 156853418,
+			["Macalo"] = 57105378,
 		},
 		["Icecrown"] = {
 			["Titopollo"] = 4928100,
 			["Karlawarr"] = 4754698,
-			["Kadk"] = 9711680,
 			["Karlaren"] = 4374214,
-			["Karlahunt"] = 13005031,
-			["Karlarog"] = 1733,
-			["Karlashadow"] = 39098430,
-			["Karwar"] = 2865,
-			["Karlapal"] = 15168085,
-			["Karlawar"] = 14905244,
-			["Sarumanh"] = 6417645,
-			["Karladk"] = 15372995,
-			["Nievi"] = 24991199,
+			["Kadk"] = 9711680,
 			["Menoscero"] = 6593054,
-			["Karlashami"] = 0,
+			["Karwar"] = 2865,
+			["Karladk"] = 15372995,
+			["Karlawar"] = 23011115,
+			["Sarumanh"] = 6417645,
+			["Nievi"] = 24991199,
+			["Karlapal"] = 15168085,
+			["Karlashadow"] = 23995736,
+			["Karlahunt"] = 12484978,
 		},
 		["Thalassa"] = {
 			["Whitestone"] = 17675979,
@@ -36,11 +32,11 @@ ElvDB = {
 			["Blackghost"] = 6119645,
 			["Trolla"] = 2212657,
 			["Pollopalbuff"] = 10498794,
-			["Magocore"] = 110189849,
+			["Piingasaurio"] = 7422755,
 			["Papasaurio"] = 10166639,
 			["Warlockstone"] = 6488643,
 			["Ormitorrinco"] = 5114100,
-			["Piingasaurio"] = 7422755,
+			["Magocore"] = 110189849,
 		},
 		["WOTLK_SERVER"] = {
 			["Karlawar"] = 2000636672,
@@ -51,38 +47,36 @@ ElvDB = {
 			["char"] = {
 				["Papasaurio - Thalassa"] = {
 					["profile"] = "ELVUI MaCaLo Heal",
-					["specGroup"] = 1,
 					["enabled"] = true,
+					["specGroup"] = 1,
 				},
 				["Macalo - Thalassa"] = {
 					["profile"] = "ELVUI MaCaLo Tank/Dps",
-					["specGroup"] = 1,
 					["enabled"] = true,
+					["specGroup"] = 1,
 				},
 			},
 		},
 	},
 	["class"] = {
 		[""] = {
-			["Macalo"] = "PALADIN",
 			["Vergasaurio"] = "ROGUE",
+			["Macalo"] = "PALADIN",
 		},
 		["Icecrown"] = {
 			["Titopollo"] = "DRUID",
 			["Karlawarr"] = "WARRIOR",
-			["Kadk"] = "DEATHKNIGHT",
 			["Karlaren"] = "PALADIN",
-			["Karlahunt"] = "HUNTER",
-			["Karlarog"] = "ROGUE",
-			["Karlashadow"] = "PRIEST",
+			["Kadk"] = "DEATHKNIGHT",
+			["Menoscero"] = "ROGUE",
 			["Karwar"] = "WARRIOR",
-			["Karlapal"] = "PALADIN",
+			["Karladk"] = "DEATHKNIGHT",
 			["Karlawar"] = "WARRIOR",
 			["Sarumanh"] = "MAGE",
-			["Karladk"] = "DEATHKNIGHT",
 			["Nievi"] = "HUNTER",
-			["Menoscero"] = "ROGUE",
-			["Karlashami"] = "SHAMAN",
+			["Karlapal"] = "PALADIN",
+			["Karlashadow"] = "PRIEST",
+			["Karlahunt"] = "HUNTER",
 		},
 		["Thalassa"] = {
 			["Whitestone"] = "DEATHKNIGHT",
@@ -93,11 +87,11 @@ ElvDB = {
 			["Blackghost"] = "PRIEST",
 			["Trolla"] = "MAGE",
 			["Pollopalbuff"] = "DRUID",
-			["Magocore"] = "MAGE",
+			["Piingasaurio"] = "ROGUE",
 			["Papasaurio"] = "PRIEST",
 			["Warlockstone"] = "WARLOCK",
 			["Ormitorrinco"] = "SHAMAN",
-			["Piingasaurio"] = "ROGUE",
+			["Magocore"] = "MAGE",
 		},
 		["WOTLK_SERVER"] = {
 			["Karlawar"] = "WARRIOR",
@@ -106,8 +100,8 @@ ElvDB = {
 	["global"] = {
 		["general"] = {
 			["AceGUI"] = {
-				["height"] = 547.86,
-				["width"] = 800,
+				["height"] = 500,
+				["width"] = 630,
 			},
 			["mapAlphaWhenMoving"] = 0.8,
 			["WorldMapCoordinates"] = {
@@ -120,31 +114,6 @@ ElvDB = {
 		},
 		["unitframe"] = {
 			["aurafilters"] = {
-				["AoE Class"] = {
-					["spells"] = {
-						[55360] = {
-							["enable"] = true,
-							["priority"] = 0,
-							["stackThreshold"] = 0,
-						},
-						[49001] = {
-							["enable"] = true,
-							["priority"] = 0,
-							["stackThreshold"] = 0,
-						},
-						[47813] = {
-							["enable"] = true,
-							["priority"] = 0,
-							["stackThreshold"] = 0,
-						},
-						[48160] = {
-							["enable"] = true,
-							["priority"] = 0,
-							["stackThreshold"] = 0,
-						},
-					},
-					["type"] = "Whitelist",
-				},
 				["CCDebuffs"] = {
 					["spells"] = {
 						["Asustar bestia"] = {
@@ -165,13 +134,13 @@ ElvDB = {
 						["Aturdimiento con Garra de piedra"] = {
 							["enable"] = false,
 						},
-						["Escudo de vengador"] = {
+						["Desterrar"] = {
 							["enable"] = false,
 						},
 						["Ceguera"] = {
 							["enable"] = false,
 						},
-						["Arrepentimiento"] = {
+						["Torrente Arcano"] = {
 							["enable"] = false,
 						},
 						["Aliento de dragón"] = {
@@ -203,7 +172,7 @@ ElvDB = {
 							["priority"] = 1,
 							["stackThreshold"] = 2,
 						},
-						["Agarrar"] = {
+						["Efecto de Carga feral"] = {
 							["enable"] = false,
 						},
 						["Chincheta"] = {
@@ -227,7 +196,7 @@ ElvDB = {
 						["Control mental"] = {
 							["enable"] = false,
 						},
-						["Efecto de Carga feral"] = {
+						["Amputar"] = {
 							["enable"] = false,
 						},
 						["Efecto de Flecha congelante"] = {
@@ -245,14 +214,39 @@ ElvDB = {
 						["Desguarnecer"] = {
 							["enable"] = false,
 						},
-						["Torrente Arcano"] = {
+						["Arrepentimiento"] = {
 							["enable"] = false,
 						},
-						["Amputar"] = {
+						["Agarrar"] = {
 							["enable"] = false,
 						},
-						["Desterrar"] = {
+						["Escudo de vengador"] = {
 							["enable"] = false,
+						},
+					},
+				},
+				["AoE Class"] = {
+					["type"] = "Whitelist",
+					["spells"] = {
+						[55360] = {
+							["enable"] = true,
+							["priority"] = 0,
+							["stackThreshold"] = 0,
+						},
+						[48160] = {
+							["enable"] = true,
+							["priority"] = 0,
+							["stackThreshold"] = 0,
+						},
+						[47813] = {
+							["enable"] = true,
+							["priority"] = 0,
+							["stackThreshold"] = 0,
+						},
+						[49001] = {
+							["enable"] = true,
+							["priority"] = 0,
+							["stackThreshold"] = 0,
 						},
 					},
 				},
@@ -263,9 +257,9 @@ ElvDB = {
 					["style"] = "GLOW",
 					["color"] = {
 						["a"] = 0.85,
-						["r"] = 0.8,
-						["g"] = 0,
 						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0.8,
 					},
 				},
 			},
@@ -284,9 +278,9 @@ ElvDB = {
 						["color"] = {
 							["health"] = true,
 							["healthColor"] = {
-								["r"] = 0.28627450980392,
-								["g"] = 0.32941176470588,
 								["b"] = 0.90980392156863,
+								["g"] = 0.32941176470588,
+								["r"] = 0.28627450980392,
 							},
 						},
 					},
@@ -318,9 +312,9 @@ ElvDB = {
 						["color"] = {
 							["health"] = true,
 							["healthColor"] = {
-								["r"] = 0.41176470588235,
-								["g"] = 0.8,
 								["b"] = 0.9411764705882401,
+								["g"] = 0.8,
+								["r"] = 0.41176470588235,
 							},
 						},
 					},
@@ -337,9 +331,9 @@ ElvDB = {
 						["color"] = {
 							["health"] = true,
 							["healthColor"] = {
-								["r"] = 0.6156862745098,
-								["g"] = 0.6156862745098,
 								["b"] = 0.6156862745098,
+								["g"] = 0.6156862745098,
+								["r"] = 0.6156862745098,
 							},
 						},
 					},
@@ -386,8 +380,8 @@ ElvDB = {
 						["color"] = {
 							["health"] = true,
 							["healthColor"] = {
-								["r"] = 0,
 								["b"] = 0,
+								["r"] = 0,
 							},
 						},
 					},
@@ -402,9 +396,9 @@ ElvDB = {
 						["color"] = {
 							["health"] = true,
 							["healthColor"] = {
-								["r"] = 0.28627450980392,
-								["g"] = 0.32941176470588,
 								["b"] = 0.90980392156863,
+								["g"] = 0.32941176470588,
+								["r"] = 0.28627450980392,
 							},
 						},
 					},
@@ -419,7 +413,7 @@ ElvDB = {
 		},
 	},
 	["profiles"] = {
-		["WoWTiktok"] = {
+		["0_Wowtiktok_Profile"] = {
 			["databars"] = {
 				["petExperience"] = {
 					["textFormat"] = "REM",
@@ -456,9 +450,9 @@ ElvDB = {
 					["textFormat"] = "REM",
 					["width"] = 418,
 					["font"] = "AvantGarde LT Bold",
-					["orientation"] = "HORIZONTAL",
-					["textSize"] = 10,
 					["height"] = 10,
+					["textSize"] = 10,
+					["orientation"] = "HORIZONTAL",
 				},
 			},
 			["currentTutorial"] = 3,
@@ -473,10 +467,10 @@ ElvDB = {
 				["fontStyle"] = "NONE",
 				["autoRepair"] = "PLAYER",
 				["minimap"] = {
+					["locationFontSize"] = 15,
 					["resetZoom"] = {
 						["time"] = 10,
 					},
-					["locationFontSize"] = 15,
 					["icons"] = {
 						["lfgEye"] = {
 							["position"] = "BOTTOMLEFT",
@@ -498,6 +492,7 @@ ElvDB = {
 					["font"] = "PT Sans Narrow",
 					["fontOutline"] = "NONE",
 				},
+				["enhancedPvpMessages"] = false,
 				["loginmessage"] = false,
 				["threat"] = {
 					["enable"] = false,
@@ -523,11 +518,9 @@ ElvDB = {
 					["altBuyMaxStack"] = false,
 					["alreadyKnown"] = true,
 				},
-				["loseControl"] = {
-					["Root"] = true,
-					["Snare"] = true,
-					["compactMode"] = true,
-					["iconSize"] = 70,
+				["watchframe"] = {
+					["party"] = "NONE",
+					["city"] = "NONE",
 				},
 				["blizzard"] = {
 					["errorFrame"] = {
@@ -546,37 +539,6 @@ ElvDB = {
 							["RS"] = true,
 						},
 						["checkPlayer"] = true,
-					},
-				},
-				["character"] = {
-					["animations"] = true,
-					["companionBackground"] = true,
-					["inspectBackground"] = true,
-					["characterBackground"] = true,
-					["petBackground"] = true,
-				},
-				["minimap"] = {
-					["location"] = true,
-					["buttonGrabber"] = {
-						["insideMinimap"] = {
-							["position"] = "RIGHT",
-						},
-						["buttonSize"] = 21,
-						["mouseover"] = true,
-					},
-				},
-				["equipment"] = {
-					["durability"] = {
-						["enable"] = true,
-					},
-					["font"] = "Naowh",
-					["fontOutline"] = "OUTLINE",
-					["enable"] = true,
-					["fontSize"] = 14,
-					["itemlevel"] = {
-						["position"] = "BOTTOM",
-						["xOffset"] = 0,
-						["yOffset"] = 2,
 					},
 				},
 				["unitframe"] = {
@@ -602,9 +564,42 @@ ElvDB = {
 						},
 					},
 				},
-				["watchframe"] = {
-					["party"] = "NONE",
-					["city"] = "NONE",
+				["minimap"] = {
+					["location"] = true,
+					["buttonGrabber"] = {
+						["insideMinimap"] = {
+							["position"] = "RIGHT",
+						},
+						["buttonSize"] = 21,
+						["mouseover"] = true,
+					},
+				},
+				["equipment"] = {
+					["durability"] = {
+						["enable"] = true,
+					},
+					["font"] = "Naowh",
+					["fontOutline"] = "OUTLINE",
+					["enable"] = true,
+					["fontSize"] = 14,
+					["itemlevel"] = {
+						["position"] = "BOTTOM",
+						["xOffset"] = 0,
+						["yOffset"] = 2,
+					},
+				},
+				["character"] = {
+					["animations"] = true,
+					["petBackground"] = true,
+					["inspectBackground"] = true,
+					["characterBackground"] = true,
+					["companionBackground"] = true,
+				},
+				["loseControl"] = {
+					["iconSize"] = 70,
+					["Snare"] = true,
+					["compactMode"] = true,
+					["Root"] = true,
 				},
 				["interruptTracker"] = {
 					["text"] = {
@@ -614,8 +609,8 @@ ElvDB = {
 				},
 				["nameplates"] = {
 					["guild"] = {
-						["fontSize"] = 12,
 						["font"] = "Expressway",
+						["fontSize"] = 12,
 					},
 					["chatBubbles"] = true,
 					["classCache"] = true,
@@ -644,8 +639,17 @@ ElvDB = {
 					},
 				},
 			},
-			["BagControl"] = {
-				["Enabled"] = true,
+			["MUI"] = {
+				["general"] = {
+					["profileSettings"] = {
+						["actionbars"] = {
+							["showMouseover"] = false,
+						},
+						["media"] = {
+							["texture"] = "Blizzard",
+						},
+					},
+				},
 			},
 			["visualProcs"] = {
 				["overlay"] = {
@@ -655,11 +659,9 @@ ElvDB = {
 			["locplus"] = {
 				["dig"] = false,
 				["hidecoords"] = true,
-				["combat"] = true,
 				["ht"] = true,
-				["customColor"] = 2,
 				["shadow"] = true,
-				["ttcombathide"] = false,
+				["customColor"] = 2,
 				["customCoordsColor"] = 1,
 			},
 			["Extras"] = {
@@ -675,6 +677,9 @@ ElvDB = {
 									["selectedSection"] = 1,
 									["sections"] = {
 										{
+											["ignoreList"] = {
+											},
+											["collectionMethod"] = "",
 											["title"] = {
 												["enabled"] = false,
 												["relativeTo"] = "TOPLEFT",
@@ -691,10 +696,18 @@ ElvDB = {
 												["xOffset"] = 0,
 												["size"] = 13,
 											},
-											["collectionMethod"] = "",
-											["ignoreList"] = {
-											},
 											["sortMethod"] = "",
+											["icon"] = {
+												["enabled"] = false,
+												["relativeTo"] = "BOTTOMLEFT",
+												["point"] = "BOTTOMRIGHT",
+												["texture"] = "Interface\\Icons\\INV_Potion_93",
+												["xOffset"] = 0,
+												["yOffset"] = 0,
+												["toText"] = true,
+												["size"] = 16,
+											},
+											["length"] = 999,
 											["minimize"] = {
 												["enabled"] = false,
 												["lineColor"] = {
@@ -703,17 +716,6 @@ ElvDB = {
 													1, -- [3]
 													0.5, -- [4]
 												},
-											},
-											["length"] = 999,
-											["icon"] = {
-												["enabled"] = false,
-												["relativeTo"] = "BOTTOMLEFT",
-												["point"] = "BOTTOMRIGHT",
-												["size"] = 16,
-												["xOffset"] = 0,
-												["toText"] = true,
-												["yOffset"] = 0,
-												["texture"] = "Interface\\Icons\\INV_Potion_93",
 											},
 											["yOffset"] = 0,
 										}, -- [1]
@@ -729,63 +731,63 @@ ElvDB = {
 							["target"] = {
 								["enabled"] = false,
 								["spellnamePoint"] = "LEFT",
-								["barWidth"] = 0,
-								["iconXoffset"] = 8,
+								["spelltimePoint"] = "RIGHT",
+								["spellnameXOffset"] = 0,
 								["spelltimeYOffset"] = 0,
 								["spellnameRelativeTo"] = "LEFT",
 								["bounce"] = true,
 								["spelltimeHide"] = false,
 								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
+								["spellnameYOffset"] = 0,
 								["spellnameHide"] = false,
 								["bounceFlipStartPos"] = false,
 								["spelltimeRelativeTo"] = "RIGHT",
 								["iconSize"] = 24,
-								["spellnameYOffset"] = 0,
-								["spelltimePoint"] = "RIGHT",
+								["iconXoffset"] = 8,
+								["barWidth"] = 0,
 							},
 							["pet"] = {
 								["enabled"] = false,
 								["spellnamePoint"] = "LEFT",
-								["barWidth"] = 0,
-								["iconXoffset"] = 8,
+								["spelltimePoint"] = "RIGHT",
+								["spellnameXOffset"] = 0,
 								["spelltimeYOffset"] = 0,
 								["spellnameRelativeTo"] = "LEFT",
 								["bounce"] = true,
 								["spelltimeHide"] = false,
 								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
+								["spellnameYOffset"] = 0,
 								["spellnameHide"] = false,
 								["bounceFlipStartPos"] = false,
 								["spelltimeRelativeTo"] = "RIGHT",
 								["iconSize"] = 24,
-								["spellnameYOffset"] = 0,
-								["spelltimePoint"] = "RIGHT",
+								["iconXoffset"] = 8,
+								["barWidth"] = 0,
 							},
 							["focus"] = {
 								["enabled"] = false,
 								["spellnamePoint"] = "LEFT",
-								["barWidth"] = 0,
-								["iconXoffset"] = 8,
+								["spelltimePoint"] = "RIGHT",
+								["spellnameXOffset"] = 0,
 								["spelltimeYOffset"] = 0,
 								["spellnameRelativeTo"] = "LEFT",
 								["bounce"] = true,
 								["spelltimeHide"] = false,
 								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
+								["spellnameYOffset"] = 0,
 								["spellnameHide"] = false,
 								["bounceFlipStartPos"] = false,
 								["spelltimeRelativeTo"] = "RIGHT",
 								["iconSize"] = 24,
-								["spellnameYOffset"] = 0,
-								["spelltimePoint"] = "RIGHT",
+								["iconXoffset"] = 8,
+								["barWidth"] = 0,
 							},
 						},
 					},
 					["FCF"] = {
 						["units"] = {
 							["party"] = {
-								["textY"] = 24,
+								["fontSize"] = 18,
 								["textPoint"] = "BOTTOM",
 								["textStrata"] = "LOW",
 								["scrollTime"] = 1.2,
@@ -799,38 +801,38 @@ ElvDB = {
 								["flags"] = {
 									["BLOCK"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 0.75,
 										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 									["ABSORB"] = {
 										["customAnimation"] = "",
+										["animationsByFlag"] = false,
 										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
 										["animation"] = "fountain",
 									},
 									["CRITICAL"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 1.25,
 										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["RESIST"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
+										["animation"] = "fountain",
+									},
+									["CRUSHING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["GLANCING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 								},
@@ -858,7 +860,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["INTERRUPT"] = {
+									["BUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -902,18 +904,18 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["BUFF"] = {
+									["HEAL"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
+											26, -- [1]
+											204, -- [2]
+											26, -- [3]
 										},
 									},
-									["DEBUFF"] = {
+									["RESIST"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -935,15 +937,15 @@ ElvDB = {
 											26, -- [3]
 										},
 									},
-									["HEAL"] = {
+									["PARRY"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
+											255, -- [1]
+											255, -- [2]
+											255, -- [3]
 										},
 									},
 									["BLOCK"] = {
@@ -979,7 +981,7 @@ ElvDB = {
 											240, -- [3]
 										},
 									},
-									["RESIST"] = {
+									["DEBUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1001,7 +1003,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["PARRY"] = {
+									["INTERRUPT"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1013,8 +1015,7 @@ ElvDB = {
 										},
 									},
 								},
-								["blacklist"] = {
-								},
+								["textY"] = 24,
 								["school"] = {
 									{
 										179, -- [1]
@@ -1102,10 +1103,11 @@ ElvDB = {
 								},
 								["iconPosition"] = "before",
 								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
+								["blacklist"] = {
+								},
 							},
 							["raid40"] = {
-								["textY"] = 24,
+								["fontSize"] = 18,
 								["textPoint"] = "BOTTOM",
 								["textStrata"] = "LOW",
 								["scrollTime"] = 1.2,
@@ -1119,38 +1121,38 @@ ElvDB = {
 								["flags"] = {
 									["BLOCK"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 0.75,
 										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 									["ABSORB"] = {
 										["customAnimation"] = "",
+										["animationsByFlag"] = false,
 										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
 										["animation"] = "fountain",
 									},
 									["CRITICAL"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 1.25,
 										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["RESIST"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
+										["animation"] = "fountain",
+									},
+									["CRUSHING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["GLANCING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 								},
@@ -1178,7 +1180,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["INTERRUPT"] = {
+									["BUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1222,18 +1224,18 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["BUFF"] = {
+									["HEAL"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
+											26, -- [1]
+											204, -- [2]
+											26, -- [3]
 										},
 									},
-									["DEBUFF"] = {
+									["RESIST"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1255,15 +1257,15 @@ ElvDB = {
 											26, -- [3]
 										},
 									},
-									["HEAL"] = {
+									["PARRY"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
+											255, -- [1]
+											255, -- [2]
+											255, -- [3]
 										},
 									},
 									["BLOCK"] = {
@@ -1299,7 +1301,7 @@ ElvDB = {
 											240, -- [3]
 										},
 									},
-									["RESIST"] = {
+									["DEBUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1321,7 +1323,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["PARRY"] = {
+									["INTERRUPT"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1333,8 +1335,7 @@ ElvDB = {
 										},
 									},
 								},
-								["blacklist"] = {
-								},
+								["textY"] = 24,
 								["school"] = {
 									{
 										179, -- [1]
@@ -1422,10 +1423,11 @@ ElvDB = {
 								},
 								["iconPosition"] = "before",
 								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
+								["blacklist"] = {
+								},
 							},
 							["focus"] = {
-								["textY"] = 24,
+								["fontSize"] = 18,
 								["textPoint"] = "BOTTOM",
 								["textStrata"] = "LOW",
 								["scrollTime"] = 1.2,
@@ -1439,38 +1441,38 @@ ElvDB = {
 								["flags"] = {
 									["BLOCK"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 0.75,
 										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 									["ABSORB"] = {
 										["customAnimation"] = "",
+										["animationsByFlag"] = false,
 										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
 										["animation"] = "fountain",
 									},
 									["CRITICAL"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 1.25,
 										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["RESIST"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
+										["animation"] = "fountain",
+									},
+									["CRUSHING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["GLANCING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 								},
@@ -1498,7 +1500,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["INTERRUPT"] = {
+									["BUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1542,18 +1544,18 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["BUFF"] = {
+									["HEAL"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
+											26, -- [1]
+											204, -- [2]
+											26, -- [3]
 										},
 									},
-									["DEBUFF"] = {
+									["RESIST"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1575,15 +1577,15 @@ ElvDB = {
 											26, -- [3]
 										},
 									},
-									["HEAL"] = {
+									["PARRY"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
+											255, -- [1]
+											255, -- [2]
+											255, -- [3]
 										},
 									},
 									["BLOCK"] = {
@@ -1619,7 +1621,7 @@ ElvDB = {
 											240, -- [3]
 										},
 									},
-									["RESIST"] = {
+									["DEBUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1641,7 +1643,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["PARRY"] = {
+									["INTERRUPT"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1653,8 +1655,7 @@ ElvDB = {
 										},
 									},
 								},
-								["blacklist"] = {
-								},
+								["textY"] = 24,
 								["school"] = {
 									{
 										179, -- [1]
@@ -1742,10 +1743,11 @@ ElvDB = {
 								},
 								["iconPosition"] = "before",
 								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
+								["blacklist"] = {
+								},
 							},
 							["target"] = {
-								["textY"] = 24,
+								["fontSize"] = 18,
 								["textPoint"] = "BOTTOM",
 								["textStrata"] = "LOW",
 								["scrollTime"] = 1.2,
@@ -1759,38 +1761,38 @@ ElvDB = {
 								["flags"] = {
 									["BLOCK"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 0.75,
 										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 									["ABSORB"] = {
 										["customAnimation"] = "",
+										["animationsByFlag"] = false,
 										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
 										["animation"] = "fountain",
 									},
 									["CRITICAL"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 1.25,
 										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["RESIST"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
+										["animation"] = "fountain",
+									},
+									["CRUSHING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["GLANCING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 								},
@@ -1818,7 +1820,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["INTERRUPT"] = {
+									["BUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1862,18 +1864,18 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["BUFF"] = {
+									["HEAL"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
+											26, -- [1]
+											204, -- [2]
+											26, -- [3]
 										},
 									},
-									["DEBUFF"] = {
+									["RESIST"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1895,15 +1897,15 @@ ElvDB = {
 											26, -- [3]
 										},
 									},
-									["HEAL"] = {
+									["PARRY"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
+											255, -- [1]
+											255, -- [2]
+											255, -- [3]
 										},
 									},
 									["BLOCK"] = {
@@ -1939,7 +1941,7 @@ ElvDB = {
 											240, -- [3]
 										},
 									},
-									["RESIST"] = {
+									["DEBUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1961,7 +1963,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["PARRY"] = {
+									["INTERRUPT"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -1973,8 +1975,7 @@ ElvDB = {
 										},
 									},
 								},
-								["blacklist"] = {
-								},
+								["textY"] = 24,
 								["school"] = {
 									{
 										179, -- [1]
@@ -2062,10 +2063,11 @@ ElvDB = {
 								},
 								["iconPosition"] = "before",
 								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
+								["blacklist"] = {
+								},
 							},
 							["raid"] = {
-								["textY"] = 24,
+								["fontSize"] = 18,
 								["textPoint"] = "BOTTOM",
 								["textStrata"] = "LOW",
 								["scrollTime"] = 1.2,
@@ -2079,38 +2081,38 @@ ElvDB = {
 								["flags"] = {
 									["BLOCK"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 0.75,
 										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 									["ABSORB"] = {
 										["customAnimation"] = "",
+										["animationsByFlag"] = false,
 										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
 										["animation"] = "fountain",
 									},
 									["CRITICAL"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 1.25,
 										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["RESIST"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
+										["animation"] = "fountain",
+									},
+									["CRUSHING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["GLANCING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 								},
@@ -2138,7 +2140,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["INTERRUPT"] = {
+									["BUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -2182,18 +2184,18 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["BUFF"] = {
+									["HEAL"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
+											26, -- [1]
+											204, -- [2]
+											26, -- [3]
 										},
 									},
-									["DEBUFF"] = {
+									["RESIST"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -2215,15 +2217,15 @@ ElvDB = {
 											26, -- [3]
 										},
 									},
-									["HEAL"] = {
+									["PARRY"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
+											255, -- [1]
+											255, -- [2]
+											255, -- [3]
 										},
 									},
 									["BLOCK"] = {
@@ -2259,7 +2261,7 @@ ElvDB = {
 											240, -- [3]
 										},
 									},
-									["RESIST"] = {
+									["DEBUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -2281,7 +2283,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["PARRY"] = {
+									["INTERRUPT"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -2293,8 +2295,7 @@ ElvDB = {
 										},
 									},
 								},
-								["blacklist"] = {
-								},
+								["textY"] = 24,
 								["school"] = {
 									{
 										179, -- [1]
@@ -2382,10 +2383,11 @@ ElvDB = {
 								},
 								["iconPosition"] = "before",
 								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
+								["blacklist"] = {
+								},
 							},
 							["arena"] = {
-								["textY"] = 24,
+								["fontSize"] = 18,
 								["textPoint"] = "BOTTOM",
 								["textStrata"] = "LOW",
 								["scrollTime"] = 1.2,
@@ -2399,38 +2401,38 @@ ElvDB = {
 								["flags"] = {
 									["BLOCK"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 0.75,
 										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 									["ABSORB"] = {
 										["customAnimation"] = "",
+										["animationsByFlag"] = false,
 										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
 										["animation"] = "fountain",
 									},
 									["CRITICAL"] = {
 										["customAnimation"] = "",
-										["fontMult"] = 1.25,
 										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["RESIST"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
+										["animation"] = "fountain",
+									},
+									["CRUSHING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 1.25,
+										["animation"] = "fountain",
+									},
+									["GLANCING"] = {
+										["customAnimation"] = "",
+										["animationsByFlag"] = false,
+										["fontMult"] = 0.75,
 										["animation"] = "fountain",
 									},
 								},
@@ -2458,7 +2460,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["INTERRUPT"] = {
+									["BUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -2502,18 +2504,18 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["BUFF"] = {
+									["HEAL"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
+											26, -- [1]
+											204, -- [2]
+											26, -- [3]
 										},
 									},
-									["DEBUFF"] = {
+									["RESIST"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -2535,15 +2537,15 @@ ElvDB = {
 											26, -- [3]
 										},
 									},
-									["HEAL"] = {
+									["PARRY"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
 										["customAnimation"] = "",
 										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
+											255, -- [1]
+											255, -- [2]
+											255, -- [3]
 										},
 									},
 									["BLOCK"] = {
@@ -2579,7 +2581,7 @@ ElvDB = {
 											240, -- [3]
 										},
 									},
-									["RESIST"] = {
+									["DEBUFF"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -2601,7 +2603,7 @@ ElvDB = {
 											255, -- [3]
 										},
 									},
-									["PARRY"] = {
+									["INTERRUPT"] = {
 										["tryToColorBySchool"] = false,
 										["disabled"] = false,
 										["animation"] = "fountain",
@@ -2613,8 +2615,7 @@ ElvDB = {
 										},
 									},
 								},
-								["blacklist"] = {
-								},
+								["textY"] = 24,
 								["school"] = {
 									{
 										179, -- [1]
@@ -2702,7 +2703,8 @@ ElvDB = {
 								},
 								["iconPosition"] = "before",
 								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
+								["blacklist"] = {
+								},
 							},
 						},
 					},
@@ -2749,7 +2751,7 @@ ElvDB = {
 									["toHealth"] = false,
 									["xOffset"] = 0,
 								},
-								["pet"] = {
+								["targettarget"] = {
 									["toHealth"] = false,
 									["xOffset"] = 0,
 								},
@@ -2757,11 +2759,11 @@ ElvDB = {
 									["toHealth"] = false,
 									["xOffset"] = 0,
 								},
-								["targettarget"] = {
+								["assisttarget"] = {
 									["toHealth"] = false,
 									["xOffset"] = 0,
 								},
-								["pettarget"] = {
+								["assist"] = {
 									["toHealth"] = false,
 									["xOffset"] = 0,
 								},
@@ -2777,11 +2779,11 @@ ElvDB = {
 									["toHealth"] = false,
 									["xOffset"] = 0,
 								},
-								["assist"] = {
+								["pettarget"] = {
 									["toHealth"] = false,
 									["xOffset"] = 0,
 								},
-								["assisttarget"] = {
+								["pet"] = {
 									["toHealth"] = false,
 									["xOffset"] = 0,
 								},
@@ -2794,32 +2796,32 @@ ElvDB = {
 									["relativeTo"] = "BOTTOM",
 									["point"] = "TOP",
 									["xOffset"] = 0,
-									["width"] = 0,
 									["yOffset"] = -4,
+									["width"] = 0,
 								},
 								["raid40"] = {
 									["enabled"] = true,
 									["relativeTo"] = "BOTTOM",
 									["point"] = "TOP",
 									["xOffset"] = 0,
-									["width"] = 0,
 									["yOffset"] = -4,
-								},
-								["arena"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
 									["width"] = 0,
-									["yOffset"] = -4,
 								},
 								["raid"] = {
 									["enabled"] = true,
 									["relativeTo"] = "BOTTOM",
 									["point"] = "TOP",
 									["xOffset"] = 0,
-									["width"] = 0,
 									["yOffset"] = -4,
+									["width"] = 0,
+								},
+								["arena"] = {
+									["enabled"] = true,
+									["relativeTo"] = "BOTTOM",
+									["point"] = "TOP",
+									["xOffset"] = 0,
+									["yOffset"] = -4,
+									["width"] = 0,
 								},
 							},
 						},
@@ -2847,15 +2849,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
 										["size"] = 12,
+										["xOffset"] = 0,
+										["yOffset"] = 0,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 										["maxRows"] = 2,
 										["borderColor"] = false,
 										["borderCustomColor"] = {
@@ -2863,10 +2865,10 @@ ElvDB = {
 											0, -- [2]
 											0, -- [3]
 										},
-										["animateFadeOut"] = false,
 										["throttle"] = 0.05,
+										["direction"] = "TOP",
 										["spacing"] = 4,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 									},
 								},
 								["raid40"] = {
@@ -2889,15 +2891,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
 										["size"] = 12,
+										["xOffset"] = 0,
+										["yOffset"] = 0,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 										["maxRows"] = 2,
 										["borderColor"] = false,
 										["borderCustomColor"] = {
@@ -2905,10 +2907,10 @@ ElvDB = {
 											0, -- [2]
 											0, -- [3]
 										},
-										["animateFadeOut"] = false,
 										["throttle"] = 0.05,
+										["direction"] = "TOP",
 										["spacing"] = 4,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 									},
 								},
 								["focus"] = {
@@ -2931,15 +2933,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
 										["size"] = 12,
+										["xOffset"] = 0,
+										["yOffset"] = 0,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 										["maxRows"] = 2,
 										["borderColor"] = false,
 										["borderCustomColor"] = {
@@ -2947,10 +2949,10 @@ ElvDB = {
 											0, -- [2]
 											0, -- [3]
 										},
-										["animateFadeOut"] = false,
 										["throttle"] = 0.05,
+										["direction"] = "TOP",
 										["spacing"] = 4,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 									},
 								},
 								["raid"] = {
@@ -2973,15 +2975,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
 										["size"] = 12,
+										["xOffset"] = 0,
+										["yOffset"] = 0,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 										["maxRows"] = 2,
 										["borderColor"] = false,
 										["borderCustomColor"] = {
@@ -2989,52 +2991,10 @@ ElvDB = {
 											0, -- [2]
 											0, -- [3]
 										},
-										["animateFadeOut"] = false,
 										["throttle"] = 0.05,
-										["spacing"] = 4,
-										["size"] = 26,
-									},
-								},
-								["arena"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
 										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["borderColor"] = false,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["animateFadeOut"] = false,
-										["throttle"] = 0.05,
 										["spacing"] = 4,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 									},
 								},
 								["party"] = {
@@ -3057,15 +3017,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
 										["size"] = 12,
+										["xOffset"] = 0,
+										["yOffset"] = 0,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 										["maxRows"] = 2,
 										["borderColor"] = false,
 										["borderCustomColor"] = {
@@ -3073,10 +3033,52 @@ ElvDB = {
 											0, -- [2]
 											0, -- [3]
 										},
-										["animateFadeOut"] = false,
 										["throttle"] = 0.05,
+										["direction"] = "TOP",
 										["spacing"] = 4,
+										["sorting"] = "durationAsc",
+									},
+								},
+								["arena"] = {
+									["enabled"] = false,
+									["header"] = {
+										["relativeTo"] = "LEFT",
+										["point"] = "RIGHT",
+										["xOffset"] = -4,
+										["level"] = 35,
+										["strata"] = "LOW",
+										["yOffset"] = 0,
+									},
+									["cooldownFill"] = {
+										["enabled"] = false,
+										["direction"] = "LEFT",
+										["classic"] = false,
+										["reversed"] = false,
+									},
+									["text"] = {
+										["enabled"] = false,
+										["font"] = "Expressway",
+										["flag"] = "OUTLINE",
+										["size"] = 12,
+										["xOffset"] = 0,
+										["yOffset"] = 0,
+									},
+									["icons"] = {
+										["perRow"] = 3,
+										["animateFadeOut"] = false,
+										["trinketOnTop"] = false,
 										["size"] = 26,
+										["maxRows"] = 2,
+										["borderColor"] = false,
+										["borderCustomColor"] = {
+											0, -- [1]
+											0, -- [2]
+											0, -- [3]
+										},
+										["throttle"] = 0.05,
+										["direction"] = "TOP",
+										["spacing"] = 4,
+										["sorting"] = "durationAsc",
 									},
 								},
 							},
@@ -3084,132 +3086,132 @@ ElvDB = {
 						["ENEMY_PLAYER"] = {
 							["spellList"] = {
 								[6789] = 120,
-								[7744] = 120,
+								[50519] = 60,
 								[54706] = 40,
 								[49376] = 28,
 								[1856] = 120,
-								[50285] = 40,
+								[64382] = 90,
 								[11113] = 15,
 								[16190] = 180,
-								[64382] = 90,
-								[51722] = 60,
+								[50285] = 40,
+								[53480] = 60,
 								[42292] = 120,
 								[11876] = 120,
 								[53476] = 30,
-								[53480] = 60,
+								[7812] = 60,
 								[49039] = 120,
-								[53517] = 180,
-								[14185] = 300,
+								[30823] = 60,
+								[50516] = 17,
 								[20589] = 90,
 								[5211] = 50,
 								[50274] = 12,
 								[33395] = 25,
-								[50433] = 10,
+								[47528] = 10,
 								[33831] = 180,
 								[5277] = 180,
 								[49206] = 180,
 								[46924] = 75,
 								[11129] = 120,
-								[54785] = 45,
+								[16979] = 14,
 								[49222] = 60,
 								[19647] = 24,
-								[5484] = 32,
-								[64044] = 90,
-								[17877] = 15,
+								[49203] = 60,
+								[19386] = 54,
+								[51533] = 120,
 								[6552] = 10,
-								[50516] = 17,
+								[14185] = 300,
 								[32182] = 300,
-								[46968] = 17,
+								[47476] = 60,
 								[26090] = 30,
 								[30283] = 20,
 								[20252] = 20,
 								[5730] = 20,
 								[51052] = 120,
 								[3045] = 180,
-								[42950] = 20,
+								[48792] = 180,
 								[60970] = 30,
 								[48020] = 26,
 								[1766] = 10,
 								[6940] = 96,
 								[50318] = 60,
-								[47528] = 10,
+								[22812] = 60,
 								[12042] = 106,
 								[29166] = 180,
 								[871] = 120,
 								[49576] = 25,
-								[30823] = 60,
+								[53517] = 180,
 								[12809] = 30,
-								[53271] = 35,
+								[5484] = 32,
 								[59752] = 120,
 								[48707] = 45,
-								[31224] = 70,
-								[50541] = 60,
+								[61685] = 25,
+								[61336] = 180,
 								[23989] = 180,
 								[57994] = 5,
 								[53426] = 180,
-								[61685] = 25,
+								[31224] = 70,
+								[50541] = 60,
+								[15487] = 45,
 								[44572] = 30,
-								[51533] = 120,
-								[2825] = 300,
 								[50271] = 10,
 								[2094] = 120,
 								[32379] = 10,
 								[48505] = 60,
-								[61336] = 180,
+								[2825] = 300,
 								[20066] = 60,
 								[12043] = 90,
-								[2983] = 60,
 								[53478] = 360,
+								[53351] = 10,
 								[26297] = 180,
 								[72] = 12,
-								[10890] = 23,
-								[31935] = 15,
+								[34490] = 20,
+								[53201] = 60,
 								[19574] = 90,
-								[31821] = 120,
+								[66] = 132,
 								[20594] = 120,
 								[10278] = 180,
-								[12975] = 180,
-								[51514] = 35,
+								[11958] = 384,
+								[10308] = 40,
 								[51490] = 35,
 								[33206] = 180,
 								[4167] = 40,
 								[50613] = 120,
-								[23920] = 9,
+								[12975] = 180,
 								[31661] = 17,
-								[11958] = 384,
-								[10308] = 40,
+								[51514] = 35,
+								[55709] = 480,
 								[47585] = 75,
 								[642] = 300,
-								[55709] = 480,
+								[23920] = 9,
 								[45438] = 300,
 								[12472] = 144,
 								[10060] = 120,
-								[66] = 132,
-								[53201] = 60,
-								[34490] = 20,
-								[53351] = 10,
+								[31821] = 120,
+								[31935] = 15,
+								[10890] = 23,
+								[2983] = 60,
 								[2484] = 15,
 								[100] = 15,
 								[676] = 60,
 								[8177] = 14,
 								[19503] = 30,
 								[16166] = 180,
-								[48792] = 180,
+								[42950] = 20,
 								[1044] = 25,
-								[15487] = 45,
-								[19386] = 54,
-								[49203] = 60,
+								[17877] = 15,
+								[64044] = 90,
+								[53271] = 35,
 								[19263] = 120,
-								[16979] = 14,
-								[22812] = 60,
+								[54785] = 45,
+								[50433] = 10,
 								[58984] = 120,
-								[36554] = 24,
+								[46968] = 17,
 								[11732] = 120,
 								[2139] = 24,
-								[47476] = 60,
-								[7812] = 60,
+								[36554] = 24,
+								[51722] = 60,
 								[50245] = 40,
-								[50519] = 60,
+								[7744] = 120,
 							},
 							["selectedSpell"] = "",
 							["highlightedSpells"] = {
@@ -3235,15 +3237,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
 										["yOffset"] = 0,
+										["xOffset"] = 0,
+										["size"] = 12,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 										["maxRows"] = 2,
 										["borderCustomColor"] = {
 											0, -- [1]
@@ -3251,10 +3253,10 @@ ElvDB = {
 											0, -- [3]
 										},
 										["borderColor"] = false,
+										["direction"] = "TOP",
 										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
 										["spacing"] = 4,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 									},
 								},
 								["raid40"] = {
@@ -3277,15 +3279,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
 										["yOffset"] = 0,
+										["xOffset"] = 0,
+										["size"] = 12,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 										["maxRows"] = 2,
 										["borderCustomColor"] = {
 											0, -- [1]
@@ -3293,10 +3295,10 @@ ElvDB = {
 											0, -- [3]
 										},
 										["borderColor"] = false,
+										["direction"] = "TOP",
 										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
 										["spacing"] = 4,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 									},
 								},
 								["focus"] = {
@@ -3319,15 +3321,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
 										["yOffset"] = 0,
+										["xOffset"] = 0,
+										["size"] = 12,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 										["maxRows"] = 2,
 										["borderCustomColor"] = {
 											0, -- [1]
@@ -3335,10 +3337,10 @@ ElvDB = {
 											0, -- [3]
 										},
 										["borderColor"] = false,
+										["direction"] = "TOP",
 										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
 										["spacing"] = 4,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 									},
 								},
 								["target"] = {
@@ -3361,15 +3363,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
 										["size"] = 12,
+										["xOffset"] = 0,
+										["yOffset"] = 0,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 										["maxRows"] = 2,
 										["borderColor"] = false,
 										["borderCustomColor"] = {
@@ -3377,10 +3379,10 @@ ElvDB = {
 											0, -- [2]
 											0, -- [3]
 										},
-										["animateFadeOut"] = false,
 										["throttle"] = 0.05,
+										["direction"] = "TOP",
 										["spacing"] = 4,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 									},
 								},
 								["raid"] = {
@@ -3403,15 +3405,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
 										["yOffset"] = 0,
+										["xOffset"] = 0,
+										["size"] = 12,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 										["maxRows"] = 2,
 										["borderCustomColor"] = {
 											0, -- [1]
@@ -3419,52 +3421,10 @@ ElvDB = {
 											0, -- [3]
 										},
 										["borderColor"] = false,
-										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
-										["spacing"] = 4,
-										["sorting"] = "durationAsc",
-									},
-								},
-								["party"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
 										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["borderColor"] = false,
 										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
 										["spacing"] = 4,
-										["sorting"] = "durationAsc",
+										["size"] = 26,
 									},
 								},
 								["arena"] = {
@@ -3487,15 +3447,15 @@ ElvDB = {
 										["enabled"] = false,
 										["font"] = "Expressway",
 										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
 										["yOffset"] = 0,
+										["xOffset"] = 0,
+										["size"] = 12,
 									},
 									["icons"] = {
 										["perRow"] = 3,
-										["direction"] = "TOP",
+										["animateFadeOut"] = false,
 										["trinketOnTop"] = false,
-										["size"] = 26,
+										["sorting"] = "durationAsc",
 										["maxRows"] = 2,
 										["borderCustomColor"] = {
 											0, -- [1]
@@ -3503,10 +3463,52 @@ ElvDB = {
 											0, -- [3]
 										},
 										["borderColor"] = false,
+										["direction"] = "TOP",
 										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
 										["spacing"] = 4,
+										["size"] = 26,
+									},
+								},
+								["party"] = {
+									["enabled"] = false,
+									["header"] = {
+										["relativeTo"] = "LEFT",
+										["point"] = "RIGHT",
+										["xOffset"] = -4,
+										["level"] = 35,
+										["strata"] = "LOW",
+										["yOffset"] = 0,
+									},
+									["cooldownFill"] = {
+										["enabled"] = false,
+										["direction"] = "LEFT",
+										["classic"] = false,
+										["reversed"] = false,
+									},
+									["text"] = {
+										["enabled"] = false,
+										["font"] = "Expressway",
+										["flag"] = "OUTLINE",
+										["yOffset"] = 0,
+										["xOffset"] = 0,
+										["size"] = 12,
+									},
+									["icons"] = {
+										["perRow"] = 3,
+										["animateFadeOut"] = false,
+										["trinketOnTop"] = false,
 										["sorting"] = "durationAsc",
+										["maxRows"] = 2,
+										["borderCustomColor"] = {
+											0, -- [1]
+											0, -- [2]
+											0, -- [3]
+										},
+										["borderColor"] = false,
+										["direction"] = "TOP",
+										["throttle"] = 0.05,
+										["spacing"] = 4,
+										["size"] = 26,
 									},
 								},
 							},
@@ -3516,7 +3518,7 @@ ElvDB = {
 						["units"] = {
 							["tank"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3524,10 +3526,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3535,10 +3537,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3546,10 +3548,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3557,51 +3559,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -3609,11 +3581,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3621,60 +3633,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3682,13 +3684,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["targettargettarget"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3696,10 +3698,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3707,10 +3709,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3718,10 +3720,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3729,51 +3731,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -3781,11 +3753,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3793,60 +3805,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3854,13 +3856,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["partytarget"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3868,10 +3870,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3879,10 +3881,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3890,10 +3892,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3901,51 +3903,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -3953,11 +3925,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -3965,60 +3977,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4026,13 +4028,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["party"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4040,10 +4042,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4051,10 +4053,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4062,10 +4064,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4073,51 +4075,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -4125,11 +4097,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4137,60 +4149,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4198,13 +4200,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["raid40"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4212,10 +4214,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4223,10 +4225,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4234,10 +4236,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4245,51 +4247,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -4297,11 +4269,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4309,60 +4321,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4370,13 +4372,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["focus"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4384,10 +4386,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4395,10 +4397,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4406,10 +4408,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4417,51 +4419,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -4469,11 +4441,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4481,60 +4493,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4542,13 +4544,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["assisttarget"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4556,10 +4558,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4567,10 +4569,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4578,10 +4580,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4589,51 +4591,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -4641,11 +4613,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4653,60 +4665,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4714,13 +4716,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["raid"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4728,10 +4730,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4739,10 +4741,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4750,10 +4752,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4761,51 +4763,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -4813,11 +4785,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4825,60 +4837,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4886,13 +4888,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["tanktarget"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4900,10 +4902,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4911,10 +4913,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4922,10 +4924,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4933,51 +4935,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -4985,11 +4957,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -4997,60 +5009,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5058,13 +5060,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["focustarget"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5072,10 +5074,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5083,10 +5085,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5094,10 +5096,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5105,51 +5107,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -5157,11 +5129,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5169,60 +5181,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5230,13 +5232,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
-							["pettarget"] = {
+							["targettarget"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5244,10 +5246,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5255,10 +5257,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5266,10 +5268,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5277,51 +5279,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -5329,11 +5301,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5341,60 +5353,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5402,13 +5404,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["player"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5416,10 +5418,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5427,10 +5429,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5438,10 +5440,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5449,51 +5451,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -5501,11 +5473,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5513,60 +5525,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5574,12 +5576,163 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["target"] = {
 								["HUNTER"] = {
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["WARRIOR"] = {
+									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["SHAMAN"] = {
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["MAGE"] = {
+									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["rare"] = {
+									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["elite"] = {
+									["texCoords"] = {
+										["top"] = 0.5,
+										["right"] = 0.5,
+									},
+								},
+								["DRUID"] = {
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["worldboss"] = {
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["DEATHKNIGHT"] = {
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["PRIEST"] = {
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["WARLOCK"] = {
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["ROGUE"] = {
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["PALADIN"] = {
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+								["rareelite"] = {
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["flipIndicator"] = false,
+								},
+							},
+							["assist"] = {
+								["HUNTER"] = {
 									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
@@ -5601,7 +5754,7 @@ ElvDB = {
 									},
 									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
-								["PALADIN"] = {
+								["ROGUE"] = {
 									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
@@ -5610,7 +5763,7 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
 									["flipIndicator"] = false,
@@ -5635,10 +5788,15 @@ ElvDB = {
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
 								},
 								["elite"] = {
+									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
 										["right"] = 0.5,
+										["left"] = 0,
+										["bottom"] = 1,
 									},
+									["flipIndicator"] = false,
 								},
 								["DRUID"] = {
 									["flipIndicator"] = false,
@@ -5650,152 +5808,6 @@ ElvDB = {
 										["bottom"] = 1,
 									},
 									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-							},
-							["targettarget"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["points"] = {
 									["xOffset"] = -12,
@@ -5803,9 +5815,8 @@ ElvDB = {
 									["point"] = "LEFT",
 									["yOffset"] = 0,
 								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
+								["PALADIN"] = {
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5813,22 +5824,23 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
 								},
-								["elite"] = {
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
 									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
+										["top"] = 0,
+										["right"] = 1,
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5836,60 +5848,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5897,13 +5899,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["arena"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5911,10 +5913,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5922,10 +5924,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5933,10 +5935,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -5944,51 +5946,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -5996,11 +5968,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6008,60 +6020,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6069,13 +6071,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
 							["boss"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6083,10 +6085,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6094,10 +6096,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6105,10 +6107,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6116,51 +6118,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -6168,11 +6140,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6180,60 +6192,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6241,13 +6243,13 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
-							["assist"] = {
+							["pettarget"] = {
 								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6255,10 +6257,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 								},
 								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6266,10 +6268,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_sword_27",
 								},
 								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6277,10 +6279,10 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 								},
 								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6288,51 +6290,21 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\Icons\\inv_staff_13",
 								},
 								["rare"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
 									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableClasses"] = false,
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["enabled"] = false,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
 								},
 								["elite"] = {
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64",
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0.5,
@@ -6340,11 +6312,51 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
+									["flipIndicator"] = false,
+								},
+								["DRUID"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
+								},
+								["points"] = {
+									["xOffset"] = -12,
+									["relativeTo"] = "RIGHT",
+									["point"] = "LEFT",
+									["yOffset"] = 0,
+								},
+								["PALADIN"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_hammer_01",
+								},
+								["enabled"] = false,
+								["DEATHKNIGHT"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 								},
 								["frameLevel"] = 65,
 								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6352,60 +6364,50 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
+									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
+								},
+								["width"] = 24,
+								["WARLOCK"] = {
 									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 								},
 								["backdrop"] = false,
+								["PRIEST"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\Icons\\inv_staff_30",
+								},
+								["worldboss"] = {
+									["flipIndicator"] = false,
+									["colorByType"] = false,
+									["texCoords"] = {
+										["top"] = 0,
+										["right"] = 1,
+										["left"] = 0,
+										["bottom"] = 1,
+									},
+									["texture"] = "Interface\\WorldMap\\Skull_64Red",
+								},
+								["frameStrata"] = "LOW",
 								["selectedEnemyType"] = "elite",
 								["frameRotation"] = 0,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
 								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
+								["enableClasses"] = false,
 								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
+									["flipIndicator"] = false,
 									["colorByType"] = false,
 									["texCoords"] = {
 										["top"] = 0,
@@ -6413,7 +6415,7 @@ ElvDB = {
 										["left"] = 0,
 										["bottom"] = 1,
 									},
-									["flipIndicator"] = false,
+									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
 								},
 								["enableNPCs"] = false,
 							},
@@ -6444,8 +6446,6 @@ ElvDB = {
 									["spellList"] = {
 									},
 									["selected"] = "GLOBAL",
-									["filterList"] = {
-									},
 									["special"] = {
 										["shadow"] = false,
 										["shadowColor"] = {
@@ -6463,31 +6463,22 @@ ElvDB = {
 										["border"] = false,
 										["size"] = 3,
 									},
+									["filterList"] = {
+									},
 								},
 							},
 						},
 					},
 					["DRTracker"] = {
 						["units"] = {
-							["target"] = {
-								["strengthIndicator"] = {
-									["colors"] = {
-										["neutral"] = {
-											0.85, -- [1]
-											0.77, -- [2]
-											0.36, -- [3]
-										},
-									},
-								},
-							},
 							["player"] = {
 								["enabled"] = false,
 								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
+								["typeBorders"] = false,
 								["growthDir"] = "RIGHT",
-								["iconsLimit"] = 3,
-								["yOffset"] = -36,
 								["xOffset"] = -4,
+								["yOffset"] = -36,
+								["point"] = "TOPLEFT",
 								["spacing"] = 4,
 								["iconSize"] = 24,
 								["noCdNumbers"] = false,
@@ -6498,8 +6489,8 @@ ElvDB = {
 										["point"] = "TOP",
 										["enabled"] = false,
 										["flag"] = "OUTLINE",
-										["x"] = 0,
 										["relativeTo"] = "BOTTOM",
+										["x"] = 0,
 										["size"] = 12,
 									},
 									["colors"] = {
@@ -6525,16 +6516,16 @@ ElvDB = {
 										["size"] = 12,
 									},
 								},
-								["typeBorders"] = false,
+								["iconsLimit"] = 3,
 							},
 							["arena"] = {
 								["enabled"] = false,
 								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
+								["typeBorders"] = false,
 								["growthDir"] = "RIGHT",
-								["iconsLimit"] = 3,
-								["yOffset"] = -36,
 								["xOffset"] = -4,
+								["yOffset"] = -36,
+								["point"] = "TOPLEFT",
 								["spacing"] = 4,
 								["iconSize"] = 24,
 								["noCdNumbers"] = false,
@@ -6545,8 +6536,8 @@ ElvDB = {
 										["point"] = "TOP",
 										["enabled"] = false,
 										["flag"] = "OUTLINE",
-										["x"] = 0,
 										["relativeTo"] = "BOTTOM",
+										["x"] = 0,
 										["size"] = 12,
 									},
 									["colors"] = {
@@ -6572,16 +6563,16 @@ ElvDB = {
 										["size"] = 12,
 									},
 								},
-								["typeBorders"] = false,
+								["iconsLimit"] = 3,
 							},
 							["focus"] = {
 								["enabled"] = false,
 								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
+								["typeBorders"] = false,
 								["growthDir"] = "RIGHT",
-								["iconsLimit"] = 3,
-								["yOffset"] = -36,
 								["xOffset"] = -4,
+								["yOffset"] = -36,
+								["point"] = "TOPLEFT",
 								["spacing"] = 4,
 								["iconSize"] = 24,
 								["noCdNumbers"] = false,
@@ -6592,8 +6583,8 @@ ElvDB = {
 										["point"] = "TOP",
 										["enabled"] = false,
 										["flag"] = "OUTLINE",
-										["x"] = 0,
 										["relativeTo"] = "BOTTOM",
+										["x"] = 0,
 										["size"] = 12,
 									},
 									["colors"] = {
@@ -6619,16 +6610,13 @@ ElvDB = {
 										["size"] = 12,
 									},
 								},
-								["typeBorders"] = false,
+								["iconsLimit"] = 3,
 							},
 						},
 					},
 					["ColorFilter"] = {
 						["units"] = {
 							["tank"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
 									["Health"] = {
 										["enabled"] = false,
@@ -6636,33 +6624,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -6681,15 +6642,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -6708,16 +6696,16 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["targettargettarget"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
-									["Power"] = {
+									["Castbar"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -6725,6 +6713,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -6743,41 +6758,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -6800,33 +6788,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -6845,15 +6806,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -6871,7 +6859,7 @@ ElvDB = {
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
-									["Castbar"] = {
+									["Power"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -6879,6 +6867,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -6897,41 +6912,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -6949,14 +6937,14 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["partytarget"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
 									["Health"] = {
 										["enabled"] = false,
@@ -6964,33 +6952,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7009,15 +6970,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7036,16 +7024,16 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["party"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
-									["Power"] = {
+									["Castbar"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -7053,6 +7041,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7071,41 +7086,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7128,33 +7116,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7173,15 +7134,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7199,7 +7187,7 @@ ElvDB = {
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
-									["Castbar"] = {
+									["Power"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -7207,6 +7195,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7225,41 +7240,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7277,16 +7265,16 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["raid40"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
-									["Power"] = {
+									["Castbar"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -7294,6 +7282,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7312,41 +7327,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7369,33 +7357,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7414,15 +7375,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7440,7 +7428,7 @@ ElvDB = {
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
-									["Castbar"] = {
+									["Power"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -7448,6 +7436,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7466,41 +7481,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7518,16 +7506,16 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["focus"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
-									["Power"] = {
+									["Castbar"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -7535,6 +7523,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7553,41 +7568,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7610,33 +7598,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7655,15 +7616,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7681,7 +7669,7 @@ ElvDB = {
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
-									["Castbar"] = {
+									["Power"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -7689,6 +7677,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7707,41 +7722,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7759,16 +7747,16 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["target"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
-									["Power"] = {
+									["Castbar"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -7776,6 +7764,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7794,41 +7809,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7851,33 +7839,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7896,15 +7857,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -7922,7 +7910,7 @@ ElvDB = {
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
-									["Castbar"] = {
+									["Power"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -7930,6 +7918,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -7948,41 +7963,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -8000,16 +7988,16 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["raid"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
-									["Power"] = {
+									["Castbar"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -8017,6 +8005,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -8035,41 +8050,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -8092,33 +8080,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -8137,15 +8098,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -8163,7 +8151,7 @@ ElvDB = {
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
-									["Castbar"] = {
+									["Power"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -8171,6 +8159,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -8189,41 +8204,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -8241,14 +8229,14 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["tanktarget"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
 									["Health"] = {
 										["enabled"] = false,
@@ -8256,33 +8244,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -8301,15 +8262,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -8328,169 +8316,15 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["focustarget"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
 									["Castbar"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
@@ -8499,6 +8333,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -8515,6 +8376,54 @@ ElvDB = {
 															1, -- [4]
 														},
 														["castbarIconSize"] = 3,
+														["size"] = 3,
+													},
+												},
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["conditions"] = "",
+												["enableColors"] = false,
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+									["Health"] = {
+										["enabled"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["highlight"] = {
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
 														["size"] = 3,
 													},
 													["borders"] = {
@@ -8545,6 +8454,7 @@ ElvDB = {
 														},
 													},
 												},
+												["name"] = "New Tab",
 												["enableColors"] = false,
 												["conditions"] = "",
 												["colors"] = {
@@ -8564,20 +8474,11 @@ ElvDB = {
 												},
 											}, -- [1]
 										},
+										["frequentUpdates"] = false,
 										["events"] = "",
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
-								},
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["pet"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["statusbars"] = {
 									["Power"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
@@ -8586,81 +8487,6 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
 													["borders"] = {
 														["enabled"] = false,
 														["castbarIcon"] = false,
@@ -8696,58 +8522,6 @@ ElvDB = {
 															1, -- [3]
 															1, -- [4]
 														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
 														["castbarIcon"] = false,
 														["castbarIconColors"] = {
 															1, -- [1]
@@ -8758,41 +8532,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -8810,103 +8557,16 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["partypet"] = {
-								["enabled"] = false,
 								["selectedBar"] = "Health",
 								["infoPanelBorderAdapt"] = "Health",
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
 							["targettarget"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
-									["Power"] = {
+									["Castbar"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -8914,6 +8574,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -8932,41 +8619,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -8989,33 +8649,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -9034,15 +8667,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -9060,7 +8720,7 @@ ElvDB = {
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
-									["Castbar"] = {
+									["Power"] = {
 										["enabled"] = false,
 										["frequentUpdates"] = false,
 										["tabs"] = {
@@ -9068,6 +8728,33 @@ ElvDB = {
 												["enabled"] = false,
 												["name"] = "New Tab",
 												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -9086,41 +8773,14 @@ ElvDB = {
 														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
+												["conditions"] = "",
+												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -9138,122 +8798,195 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
+								["enabled"] = false,
+							},
+							["partypet"] = {
+								["statusbars"] = {
+									["Health"] = {
+										["enabled"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["highlight"] = {
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["size"] = 3,
+													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+												},
+												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["frequentUpdates"] = false,
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
 								["classBarBorderAdapt"] = "Health",
+								["glowPriority"] = "Health",
+								["bordersPriority"] = "Health",
+								["enabled"] = false,
+							},
+							["assisttarget"] = {
+								["statusbars"] = {
+									["Health"] = {
+										["enabled"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["highlight"] = {
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["size"] = 3,
+													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+												},
+												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["frequentUpdates"] = false,
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
+								["glowPriority"] = "Health",
+								["bordersPriority"] = "Health",
+								["enabled"] = false,
 							},
 							["player"] = {
 								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
 									["Power"] = {
 										["enabled"] = false,
 										["tabs"] = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -9270,65 +9003,6 @@ ElvDB = {
 															1, -- [3]
 															1, -- [4]
 														},
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-							},
-							["pettarget"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
 													["borders"] = {
@@ -9359,89 +9033,14 @@ ElvDB = {
 														},
 													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -9461,11 +9060,9 @@ ElvDB = {
 									},
 									["Castbar"] = {
 										["enabled"] = false,
-										["frequentUpdates"] = false,
 										["tabs"] = {
 											{
 												["enabled"] = false,
-												["name"] = "New Tab",
 												["highlight"] = {
 													["glow"] = {
 														["enabled"] = false,
@@ -9475,6 +9072,7 @@ ElvDB = {
 															1, -- [3]
 															1, -- [4]
 														},
+														["castbarIconSize"] = 3,
 														["castbarIcon"] = false,
 														["castbarIconColors"] = {
 															1, -- [1]
@@ -9482,7 +9080,6 @@ ElvDB = {
 															1, -- [3]
 															1, -- [4]
 														},
-														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
 													["borders"] = {
@@ -9513,99 +9110,14 @@ ElvDB = {
 														},
 													},
 												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["raidpet"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -9624,496 +9136,8 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["boss"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["arena"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["infoPanelBorderEnabled"] = false,
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
 							},
 							["assist"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
 								["statusbars"] = {
 									["Health"] = {
 										["enabled"] = false,
@@ -10121,33 +9145,6 @@ ElvDB = {
 											{
 												["enabled"] = false,
 												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
 													["glow"] = {
 														["enabled"] = false,
 														["colors"] = {
@@ -10166,15 +9163,42 @@ ElvDB = {
 														},
 														["size"] = 3,
 													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
 												},
 												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
 													1, -- [3]
 												},
-												["conditions"] = "",
-												["enableColors"] = false,
 												["flash"] = {
 													["enabled"] = false,
 													["colors"] = {
@@ -10193,20 +9217,109 @@ ElvDB = {
 										["updateThrottle"] = 0.1,
 									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
+								["enabled"] = false,
 							},
-							["assisttarget"] = {
-								["enabled"] = false,
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
+							["raidpet"] = {
 								["statusbars"] = {
 									["Health"] = {
 										["enabled"] = false,
 										["tabs"] = {
 											{
 												["enabled"] = false,
+												["highlight"] = {
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["size"] = 3,
+													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+												},
+												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["frequentUpdates"] = false,
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
+								["glowPriority"] = "Health",
+								["bordersPriority"] = "Health",
+								["enabled"] = false,
+							},
+							["boss"] = {
+								["statusbars"] = {
+									["Castbar"] = {
+										["enabled"] = false,
+										["frequentUpdates"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["name"] = "New Tab",
 												["highlight"] = {
 													["borders"] = {
 														["enabled"] = false,
@@ -10243,7 +9356,6 @@ ElvDB = {
 															1, -- [3]
 															1, -- [4]
 														},
-														["castbarIconSize"] = 3,
 														["castbarIcon"] = false,
 														["castbarIconColors"] = {
 															1, -- [1]
@@ -10251,10 +9363,10 @@ ElvDB = {
 															1, -- [3]
 															1, -- [4]
 														},
+														["castbarIconSize"] = 3,
 														["size"] = 3,
 													},
 												},
-												["name"] = "New Tab",
 												["colors"] = {
 													1, -- [1]
 													1, -- [2]
@@ -10274,15 +9386,894 @@ ElvDB = {
 												},
 											}, -- [1]
 										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+									["Health"] = {
+										["enabled"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["highlight"] = {
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["size"] = 3,
+													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+												},
+												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
 										["frequentUpdates"] = false,
 										["events"] = "",
 										["selectedTab"] = 1,
 										["updateThrottle"] = 0.1,
 									},
+									["Power"] = {
+										["enabled"] = false,
+										["frequentUpdates"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["name"] = "New Tab",
+												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["size"] = 3,
+													},
+												},
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["conditions"] = "",
+												["enableColors"] = false,
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
 								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
 								["glowPriority"] = "Health",
 								["bordersPriority"] = "Health",
+								["enabled"] = false,
+							},
+							["arena"] = {
+								["statusbars"] = {
+									["Castbar"] = {
+										["enabled"] = false,
+										["frequentUpdates"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["name"] = "New Tab",
+												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["size"] = 3,
+													},
+												},
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["conditions"] = "",
+												["enableColors"] = false,
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+									["Health"] = {
+										["enabled"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["highlight"] = {
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["size"] = 3,
+													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+												},
+												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["frequentUpdates"] = false,
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+									["Power"] = {
+										["enabled"] = false,
+										["frequentUpdates"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["name"] = "New Tab",
+												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["size"] = 3,
+													},
+												},
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["conditions"] = "",
+												["enableColors"] = false,
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
 								["classBarBorderAdapt"] = "Health",
+								["glowPriority"] = "Health",
+								["bordersPriority"] = "Health",
+								["enabled"] = false,
+							},
+							["pettarget"] = {
+								["statusbars"] = {
+									["Castbar"] = {
+										["enabled"] = false,
+										["frequentUpdates"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["name"] = "New Tab",
+												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["size"] = 3,
+													},
+												},
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["conditions"] = "",
+												["enableColors"] = false,
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+									["Health"] = {
+										["enabled"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["highlight"] = {
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["size"] = 3,
+													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+												},
+												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["frequentUpdates"] = false,
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+									["Power"] = {
+										["enabled"] = false,
+										["frequentUpdates"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["name"] = "New Tab",
+												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["size"] = 3,
+													},
+												},
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["conditions"] = "",
+												["enableColors"] = false,
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
+								["glowPriority"] = "Health",
+								["bordersPriority"] = "Health",
+								["enabled"] = false,
+							},
+							["pet"] = {
+								["statusbars"] = {
+									["Castbar"] = {
+										["enabled"] = false,
+										["frequentUpdates"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["name"] = "New Tab",
+												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["size"] = 3,
+													},
+												},
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["conditions"] = "",
+												["enableColors"] = false,
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+									["Health"] = {
+										["enabled"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["highlight"] = {
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["size"] = 3,
+													},
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["infoPanelBorderEnabled"] = false,
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+												},
+												["name"] = "New Tab",
+												["enableColors"] = false,
+												["conditions"] = "",
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["frequentUpdates"] = false,
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+									["Power"] = {
+										["enabled"] = false,
+										["frequentUpdates"] = false,
+										["tabs"] = {
+											{
+												["enabled"] = false,
+												["name"] = "New Tab",
+												["highlight"] = {
+													["borders"] = {
+														["enabled"] = false,
+														["castbarIcon"] = false,
+														["classBarBorderEnabled"] = false,
+														["infoPanelBorderEnabled"] = false,
+														["classBarBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["overrideMode"] = "NONE",
+														["infoPanelBorderColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+														},
+													},
+													["glow"] = {
+														["enabled"] = false,
+														["colors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIcon"] = false,
+														["castbarIconColors"] = {
+															1, -- [1]
+															1, -- [2]
+															1, -- [3]
+															1, -- [4]
+														},
+														["castbarIconSize"] = 3,
+														["size"] = 3,
+													},
+												},
+												["colors"] = {
+													1, -- [1]
+													1, -- [2]
+													1, -- [3]
+												},
+												["conditions"] = "",
+												["enableColors"] = false,
+												["flash"] = {
+													["enabled"] = false,
+													["colors"] = {
+														1, -- [1]
+														1, -- [2]
+														1, -- [3]
+														1, -- [4]
+													},
+													["speed"] = 0.5,
+												},
+											}, -- [1]
+										},
+										["events"] = "",
+										["selectedTab"] = 1,
+										["updateThrottle"] = 0.1,
+									},
+								},
+								["selectedBar"] = "Health",
+								["infoPanelBorderAdapt"] = "Health",
+								["classBarBorderAdapt"] = "Health",
+								["glowPriority"] = "Health",
+								["bordersPriority"] = "Health",
+								["enabled"] = false,
 							},
 						},
 					},
@@ -10313,8 +10304,6 @@ ElvDB = {
 									["spellList"] = {
 									},
 									["selected"] = "GLOBAL",
-									["filterList"] = {
-									},
 									["special"] = {
 										["shadow"] = false,
 										["shadowColor"] = {
@@ -10332,180 +10321,9 @@ ElvDB = {
 										["border"] = false,
 										["size"] = 3,
 									},
+									["filterList"] = {
+									},
 								},
-							},
-						},
-					},
-					["CooldownsNP"] = {
-						["ENEMY_PLAYER"] = {
-							["enabled"] = false,
-							["header"] = {
-								["relativeTo"] = "LEFT",
-								["point"] = "RIGHT",
-								["xOffset"] = -4,
-								["level"] = 35,
-								["yOffset"] = 0,
-							},
-							["cooldownFill"] = {
-								["enabled"] = false,
-								["direction"] = "LEFT",
-								["reversed"] = false,
-							},
-							["spellList"] = {
-								[6789] = 120,
-								[7744] = 120,
-								[54706] = 40,
-								[49376] = 28,
-								[1856] = 120,
-								[50285] = 40,
-								[11113] = 15,
-								[16190] = 180,
-								[64382] = 90,
-								[51722] = 60,
-								[42292] = 120,
-								[11876] = 120,
-								[53476] = 30,
-								[53480] = 60,
-								[49039] = 120,
-								[53517] = 180,
-								[14185] = 300,
-								[20589] = 90,
-								[5211] = 50,
-								[50274] = 12,
-								[33395] = 25,
-								[50433] = 10,
-								[33831] = 180,
-								[5277] = 180,
-								[49206] = 180,
-								[46924] = 75,
-								[11129] = 120,
-								[54785] = 45,
-								[49222] = 60,
-								[19647] = 24,
-								[5484] = 32,
-								[64044] = 90,
-								[17877] = 15,
-								[6552] = 10,
-								[50516] = 17,
-								[32182] = 300,
-								[46968] = 17,
-								[26090] = 30,
-								[30283] = 20,
-								[20252] = 20,
-								[5730] = 20,
-								[51052] = 120,
-								[3045] = 180,
-								[42950] = 20,
-								[60970] = 30,
-								[48020] = 26,
-								[1766] = 10,
-								[6940] = 96,
-								[50318] = 60,
-								[47528] = 10,
-								[12042] = 106,
-								[29166] = 180,
-								[871] = 120,
-								[49576] = 25,
-								[30823] = 60,
-								[12809] = 30,
-								[53271] = 35,
-								[59752] = 120,
-								[48707] = 45,
-								[31224] = 70,
-								[50541] = 60,
-								[23989] = 180,
-								[57994] = 5,
-								[53426] = 180,
-								[61685] = 25,
-								[44572] = 30,
-								[51533] = 120,
-								[2825] = 300,
-								[50271] = 10,
-								[2094] = 120,
-								[32379] = 10,
-								[48505] = 60,
-								[61336] = 180,
-								[20066] = 60,
-								[12043] = 90,
-								[2983] = 60,
-								[53478] = 360,
-								[26297] = 180,
-								[72] = 12,
-								[10890] = 23,
-								[31935] = 15,
-								[19574] = 90,
-								[31821] = 120,
-								[20594] = 120,
-								[10278] = 180,
-								[12975] = 180,
-								[51514] = 35,
-								[51490] = 35,
-								[33206] = 180,
-								[4167] = 40,
-								[50613] = 120,
-								[23920] = 9,
-								[31661] = 17,
-								[11958] = 384,
-								[10308] = 40,
-								[47585] = 75,
-								[642] = 300,
-								[55709] = 480,
-								[45438] = 300,
-								[12472] = 144,
-								[10060] = 120,
-								[66] = 132,
-								[53201] = 60,
-								[34490] = 20,
-								[53351] = 10,
-								[2484] = 15,
-								[100] = 15,
-								[676] = 60,
-								[8177] = 14,
-								[19503] = 30,
-								[16166] = 180,
-								[48792] = 180,
-								[1044] = 25,
-								[15487] = 45,
-								[19386] = 54,
-								[49203] = 60,
-								[19263] = 120,
-								[16979] = 14,
-								[22812] = 60,
-								[58984] = 120,
-								[36554] = 24,
-								[11732] = 120,
-								[2139] = 24,
-								[47476] = 60,
-								[7812] = 60,
-								[50245] = 40,
-								[50519] = 60,
-							},
-							["text"] = {
-								["enabled"] = false,
-								["font"] = "Expressway",
-								["flag"] = "OUTLINE",
-								["yOffset"] = 0,
-								["xOffset"] = 0,
-								["size"] = 12,
-							},
-							["icons"] = {
-								["perRow"] = 3,
-								["direction"] = "TOP",
-								["trinketOnTop"] = false,
-								["sorting"] = "durationAsc",
-								["maxRows"] = 2,
-								["borderColor"] = false,
-								["borderCustomColor"] = {
-									0, -- [1]
-									0, -- [2]
-									0, -- [3]
-								},
-								["animateFadeOut"] = false,
-								["throttle"] = 0.05,
-								["spacing"] = 4,
-								["size"] = 26,
-							},
-							["highlightedSpells"] = {
 							},
 						},
 					},
@@ -10535,24 +10353,24 @@ ElvDB = {
 										["DRUID"] = {
 											["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
 										},
-										["SHAMAN"] = {
-											["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-										},
 										["PALADIN"] = {
 											["texture"] = "Interface\\Icons\\inv_hammer_01",
+										},
+										["SHAMAN"] = {
+											["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
 										},
 									},
 								},
 								["ENEMY_PLAYER"] = {
 									["classes"] = {
-										["HUNTER"] = {
-											["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
+										["DEATHKNIGHT"] = {
+											["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
 										},
 										["WARRIOR"] = {
 											["texture"] = "Interface\\Icons\\inv_sword_27",
 										},
-										["PALADIN"] = {
-											["texture"] = "Interface\\Icons\\inv_hammer_01",
+										["ROGUE"] = {
+											["texture"] = "Interface\\Icons\\inv_throwingknife_04",
 										},
 										["MAGE"] = {
 											["texture"] = "Interface\\Icons\\inv_staff_13",
@@ -10563,8 +10381,8 @@ ElvDB = {
 										["WARLOCK"] = {
 											["texture"] = "Interface\\Icons\\spell_nature_drowsy",
 										},
-										["ROGUE"] = {
-											["texture"] = "Interface\\Icons\\inv_throwingknife_04",
+										["HUNTER"] = {
+											["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
 										},
 										["DRUID"] = {
 											["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
@@ -10572,8 +10390,8 @@ ElvDB = {
 										["SHAMAN"] = {
 											["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
 										},
-										["DEATHKNIGHT"] = {
-											["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
+										["PALADIN"] = {
+											["texture"] = "Interface\\Icons\\inv_hammer_01",
 										},
 									},
 									["frameLevel"] = 100,
@@ -10593,123 +10411,265 @@ ElvDB = {
 						["classList"] = {
 						},
 					},
+					["CooldownsNP"] = {
+						["ENEMY_PLAYER"] = {
+							["enabled"] = false,
+							["highlightedSpells"] = {
+							},
+							["header"] = {
+								["relativeTo"] = "LEFT",
+								["point"] = "RIGHT",
+								["xOffset"] = -4,
+								["level"] = 35,
+								["yOffset"] = 0,
+							},
+							["spellList"] = {
+								[6789] = 120,
+								[50519] = 60,
+								[54706] = 40,
+								[49376] = 28,
+								[1856] = 120,
+								[64382] = 90,
+								[11113] = 15,
+								[16190] = 180,
+								[50285] = 40,
+								[53480] = 60,
+								[42292] = 120,
+								[11876] = 120,
+								[53476] = 30,
+								[7812] = 60,
+								[49039] = 120,
+								[30823] = 60,
+								[50516] = 17,
+								[20589] = 90,
+								[5211] = 50,
+								[50274] = 12,
+								[33395] = 25,
+								[47528] = 10,
+								[33831] = 180,
+								[5277] = 180,
+								[49206] = 180,
+								[46924] = 75,
+								[11129] = 120,
+								[16979] = 14,
+								[49222] = 60,
+								[19647] = 24,
+								[49203] = 60,
+								[19386] = 54,
+								[51533] = 120,
+								[6552] = 10,
+								[14185] = 300,
+								[32182] = 300,
+								[47476] = 60,
+								[26090] = 30,
+								[30283] = 20,
+								[20252] = 20,
+								[5730] = 20,
+								[51052] = 120,
+								[3045] = 180,
+								[48792] = 180,
+								[60970] = 30,
+								[48020] = 26,
+								[1766] = 10,
+								[6940] = 96,
+								[50318] = 60,
+								[22812] = 60,
+								[12042] = 106,
+								[29166] = 180,
+								[871] = 120,
+								[49576] = 25,
+								[53517] = 180,
+								[12809] = 30,
+								[5484] = 32,
+								[59752] = 120,
+								[48707] = 45,
+								[61685] = 25,
+								[61336] = 180,
+								[23989] = 180,
+								[57994] = 5,
+								[53426] = 180,
+								[31224] = 70,
+								[50541] = 60,
+								[15487] = 45,
+								[44572] = 30,
+								[50271] = 10,
+								[2094] = 120,
+								[32379] = 10,
+								[48505] = 60,
+								[2825] = 300,
+								[20066] = 60,
+								[12043] = 90,
+								[53478] = 360,
+								[53351] = 10,
+								[26297] = 180,
+								[72] = 12,
+								[34490] = 20,
+								[53201] = 60,
+								[19574] = 90,
+								[66] = 132,
+								[20594] = 120,
+								[10278] = 180,
+								[11958] = 384,
+								[10308] = 40,
+								[51490] = 35,
+								[33206] = 180,
+								[4167] = 40,
+								[50613] = 120,
+								[12975] = 180,
+								[31661] = 17,
+								[51514] = 35,
+								[55709] = 480,
+								[47585] = 75,
+								[642] = 300,
+								[23920] = 9,
+								[45438] = 300,
+								[12472] = 144,
+								[10060] = 120,
+								[31821] = 120,
+								[31935] = 15,
+								[10890] = 23,
+								[2983] = 60,
+								[2484] = 15,
+								[100] = 15,
+								[676] = 60,
+								[8177] = 14,
+								[19503] = 30,
+								[16166] = 180,
+								[42950] = 20,
+								[1044] = 25,
+								[17877] = 15,
+								[64044] = 90,
+								[53271] = 35,
+								[19263] = 120,
+								[54785] = 45,
+								[50433] = 10,
+								[58984] = 120,
+								[46968] = 17,
+								[11732] = 120,
+								[2139] = 24,
+								[36554] = 24,
+								[51722] = 60,
+								[50245] = 40,
+								[7744] = 120,
+							},
+							["text"] = {
+								["enabled"] = false,
+								["font"] = "Expressway",
+								["flag"] = "OUTLINE",
+								["size"] = 12,
+								["xOffset"] = 0,
+								["yOffset"] = 0,
+							},
+							["icons"] = {
+								["perRow"] = 3,
+								["animateFadeOut"] = false,
+								["trinketOnTop"] = false,
+								["size"] = 26,
+								["maxRows"] = 2,
+								["borderColor"] = false,
+								["borderCustomColor"] = {
+									0, -- [1]
+									0, -- [2]
+									0, -- [3]
+								},
+								["throttle"] = 0.05,
+								["direction"] = "TOP",
+								["spacing"] = 4,
+								["sorting"] = "durationAsc",
+							},
+							["cooldownFill"] = {
+								["enabled"] = false,
+								["direction"] = "LEFT",
+								["reversed"] = false,
+							},
+						},
+					},
 					["NameLevel"] = {
 						["FRIENDLY_NPC"] = {
 							["Name"] = {
 								["enabled"] = false,
-								["customColor"] = false,
+								["yOffset"] = 0,
 								["xOffset"] = 0,
+								["reactionColor"] = false,
 								["color"] = {
 									1, -- [1]
 									1, -- [2]
 									1, -- [3]
 								},
-								["reactionColor"] = false,
-								["yOffset"] = 0,
+								["customColor"] = false,
 							},
 							["Level"] = {
+								["enabled"] = false,
+								["yOffset"] = 0,
 								["classColor"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
 								["color"] = {
 									1, -- [1]
 									1, -- [2]
 									1, -- [3]
 								},
 								["reactionColor"] = false,
-								["enabled"] = false,
-								["yOffset"] = 0,
+								["xOffset"] = 0,
+								["customColor"] = false,
 							},
 						},
 						["ENEMY_PLAYER"] = {
 							["Name"] = {
 								["enabled"] = false,
-								["customColor"] = false,
+								["yOffset"] = 0,
 								["xOffset"] = 0,
+								["reactionColor"] = false,
 								["color"] = {
 									1, -- [1]
 									1, -- [2]
 									1, -- [3]
 								},
-								["reactionColor"] = false,
-								["yOffset"] = 0,
+								["customColor"] = false,
 							},
 							["Level"] = {
+								["enabled"] = false,
+								["yOffset"] = 0,
 								["classColor"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
 								["color"] = {
 									1, -- [1]
 									1, -- [2]
 									1, -- [3]
 								},
 								["reactionColor"] = false,
-								["enabled"] = false,
-								["yOffset"] = 0,
+								["xOffset"] = 0,
+								["customColor"] = false,
 							},
 						},
 						["ENEMY_NPC"] = {
 							["Name"] = {
 								["enabled"] = false,
-								["customColor"] = false,
+								["yOffset"] = 0,
 								["xOffset"] = 0,
+								["reactionColor"] = false,
 								["color"] = {
 									1, -- [1]
 									1, -- [2]
 									1, -- [3]
 								},
-								["reactionColor"] = false,
-								["yOffset"] = 0,
+								["customColor"] = false,
 							},
 							["Level"] = {
+								["enabled"] = false,
+								["yOffset"] = 0,
 								["classColor"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
 								["color"] = {
 									1, -- [1]
 									1, -- [2]
 									1, -- [3]
 								},
 								["reactionColor"] = false,
-								["enabled"] = false,
-								["yOffset"] = 0,
+								["xOffset"] = 0,
+								["customColor"] = false,
 							},
 						},
 					},
 				},
 			},
-			["enhanceFriendsList"] = {
-				["nameFontSize"] = 11,
-				["nameFont"] = "Expressway",
-				["zoneFontSize"] = 11,
-				["Offline"] = {
-					["lastSeen"] = false,
-					["colorizeNameOnly"] = true,
-					["level"] = true,
-					["classIcon"] = true,
-				},
-				["Online"] = {
-					["levelText"] = false,
-					["colorizeNameOnly"] = true,
-					["enhancedZone"] = true,
-					["classIcon"] = true,
-					["enhancedName"] = true,
-					["classText"] = false,
-				},
-				["zoneFont"] = "Expressway",
-			},
-			["MUI"] = {
-				["general"] = {
-					["profileSettings"] = {
-						["media"] = {
-							["texture"] = "Blizzard",
-						},
-						["actionbars"] = {
-							["showMouseover"] = false,
-						},
-					},
-				},
-			},
+			["hideTutorial"] = 1,
 			["CBO"] = {
 				["player"] = {
 					["overlayOnFrame"] = "HEALTH",
@@ -10760,46 +10720,46 @@ ElvDB = {
 				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
 				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,42",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-310,318",
-				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,308,-509",
-				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-393,4",
+				["TimeManagerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-325,-251",
+				["ArenaHeaderMover"] = "TOP,ElvUIParent,TOP,219,-262",
+				["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,547,243",
 				["ElvUI_RMBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,423,2",
-				["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-308,274",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,-272,4",
 				["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-483,4",
 				["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-191,-4",
-				["PvPMover"] = "TOP,ElvUIParent,TOP,0,-4",
+				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,542,838",
 				["BagsMover"] = "TOPRIGHT,RightChatPanel,TOPLEFT,-4,0",
-				["ElvUF_PlayerAuraMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,324,466",
+				["ElvAB_6"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,482,4",
 				["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,252,256",
 				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-426,289",
 				["TargetPortraitMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-551,352",
-				["ArenaHeaderMover"] = "TOP,ElvUIParent,TOP,219,-262",
-				["ElvAB_6"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,482,4",
+				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-393,4",
+				["ElvUF_PlayerAuraMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,324,466",
 				["ElvAB_10"] = "BOTTOM,ElvUIParent,BOTTOM,0,297",
-				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,542,838",
-				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-212,-205",
-				["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,547,243",
+				["PvPMover"] = "TOP,ElvUIParent,TOP,0,-4",
+				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-44,-209",
 				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-162,-343",
+				["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-308,274",
 				["ElvUF_PartyMover"] = "BOTTOM,ElvUIParent,BOTTOM,-156,78",
-				["TimeManagerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-325,-251",
+				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,308,-509",
 				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-190,-146",
 				["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-4",
 			},
 			["tooltip"] = {
-				["fontSize"] = 11,
+				["itemCount"] = "BOTH",
 				["useCustomFactionColors"] = true,
 				["headerFontSize"] = 11,
 				["cursorAnchor"] = true,
 				["fontOutline"] = "OUTLINE",
 				["cursorAnchorType"] = "ANCHOR_CURSOR_RIGHT",
 				["healthBar"] = {
-					["font"] = "PT Sans Narrow",
-					["height"] = 10,
 					["fontSize"] = 12,
+					["height"] = 10,
+					["font"] = "PT Sans Narrow",
 				},
 				["alwaysShowRealm"] = true,
 				["textFontSize"] = 11,
-				["itemCount"] = "BOTH",
+				["fontSize"] = 11,
 				["playerTitles"] = false,
 				["smallTextFontSize"] = 11,
 			},
@@ -10808,11 +10768,6 @@ ElvDB = {
 				["timeStampFormat"] = "%H:%M",
 				["historySize"] = 200,
 				["fontOutline"] = "OUTLINE",
-				["customTimeColor"] = {
-					["b"] = 1,
-					["g"] = 1,
-					["r"] = 1,
-				},
 				["numScrollMessages"] = 4,
 				["panelHeightRight"] = 260,
 				["tapFontSize"] = 14,
@@ -10826,13 +10781,18 @@ ElvDB = {
 					["BATTLEGROUND"] = false,
 					["SAY"] = false,
 				},
-				["maxLines"] = 160,
+				["tabSelectedTextEnabled"] = true,
 				["tabFontSize"] = 11,
 				["panelColorConverted"] = true,
 				["panelHeight"] = 250,
 				["panelWidthRight"] = 290,
+				["customTimeColor"] = {
+					["b"] = 1,
+					["g"] = 1,
+					["r"] = 1,
+				},
 				["panelBackdrop"] = "LEFT",
-				["tabSelectedTextEnabled"] = true,
+				["maxLines"] = 160,
 				["panelColor"] = {
 					["a"] = 1,
 					["b"] = 0.05882352941176471,
@@ -10840,129 +10800,28 @@ ElvDB = {
 					["r"] = 0.05882352941176471,
 				},
 			},
-			["bags"] = {
-				["currencyFormat"] = "ICON",
-				["bagSize"] = 31,
-				["junkIcon"] = true,
-				["itemLevel"] = false,
-				["bankSize"] = 28,
-				["itemLevelFontOutline"] = "OUTLINE",
-				["countFontSize"] = 11,
-				["split"] = {
-					["player"] = true,
+			["auras"] = {
+				["fontOutline"] = "OUTLINE",
+				["font"] = "PT Sans Narrow",
+				["debuffs"] = {
+					["countFontSize"] = 11,
+					["durationFontSize"] = 11,
+					["size"] = 36,
+					["horizontalSpacing"] = 4,
+					["verticalSpacing"] = 0,
+					["wrapAfter"] = 10,
 				},
-				["itemLevelFontSize"] = 11,
-				["sortInverted"] = false,
-				["bankWidth"] = 467,
-				["bagWidth"] = 333,
-				["countFont"] = "PT Sans Narrow",
-				["vendorGrays"] = {
-					["details"] = true,
-					["enable"] = true,
-					["interval"] = 0.1,
-				},
-				["itemLevelFont"] = "PT Sans Narrow",
-				["countFontOutline"] = "OUTLINE",
-				["bagBar"] = {
-					["mouseover"] = true,
-				},
-				["colors"] = {
-					["items"] = {
-						["questItem"] = {
-							["g"] = 0.10196078431373,
-							["b"] = 0.10196078431373,
-						},
-					},
-				},
-				["showBindType"] = true,
-				["cooldown"] = {
-					["fonts"] = {
-						["font"] = "AvantGarde LT Bold",
-					},
-				},
-				["moneyFormat"] = "FULL",
-			},
-			["CustomTweaks"] = {
-				["CastbarFont"] = {
-					["Player"] = {
-						["text"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-						["duration"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontSize"] = 15,
-							["fontOutline"] = "OUTLINE",
-						},
-					},
-					["Focus"] = {
-						["text"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-						["duration"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-					},
-					["Target"] = {
-						["text"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-						["duration"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-					},
-					["Arena"] = {
-						["text"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-						["duration"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-					},
-					["Pet"] = {
-						["text"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-						["duration"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-					},
-					["Boss"] = {
-						["text"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-						["duration"] = {
-							["font"] = "AvantGarde LT Medium",
-							["fontOutline"] = "OUTLINE",
-						},
-					},
-				},
-				["RaidControl"] = {
-					["hide"] = true,
-				},
-				["AuraIconSpacing"] = {
-					["spacing"] = 6,
-				},
-				["ChatMaxLines"] = {
-					["MaxLines"] = 700,
-				},
-				["PowerBarTexture"] = {
-					["powerstatusbar"] = "Melli",
+				["buffs"] = {
+					["horizontalSpacing"] = 4,
+					["durationFontSize"] = 11,
+					["countFontSize"] = 11,
+					["size"] = 30,
 				},
 			},
 			["unitframe"] = {
 				["targetOnMouseDown"] = true,
 				["fontSize"] = 14,
-				["statusbar"] = "Clean",
+				["font"] = "PT Sans Narrow",
 				["units"] = {
 					["party"] = {
 						["debuffs"] = {
@@ -11006,10 +10865,7 @@ ElvDB = {
 							["text_format"] = "",
 						},
 						["height"] = 40,
-						["buffs"] = {
-							["sizeOverride"] = 0,
-							["perrow"] = 3,
-						},
+						["verticalSpacing"] = 2,
 						["visibility"] = "[nogroup] show; [group:raid] hide; show",
 						["rdebuffs"] = {
 							["enable"] = true,
@@ -11023,15 +10879,15 @@ ElvDB = {
 						["buffIndicator"] = {
 							["enable"] = false,
 						},
-						["castbar"] = {
-							["width"] = 182,
-							["height"] = 10,
-							["latency"] = true,
-						},
 						["power"] = {
 							["text_format"] = "",
 							["yOffset"] = 2,
 							["position"] = "BOTTOMRIGHT",
+						},
+						["castbar"] = {
+							["width"] = 182,
+							["height"] = 10,
+							["latency"] = true,
 						},
 						["width"] = 80,
 						["health"] = {
@@ -11041,18 +10897,21 @@ ElvDB = {
 							["text_format"] = "",
 						},
 						["orientation"] = "MIDDLE",
-						["verticalSpacing"] = 2,
+						["buffs"] = {
+							["sizeOverride"] = 0,
+							["perrow"] = 3,
+						},
 					},
 					["tank"] = {
 						["debuffs"] = {
 							["clickThrough"] = true,
 						},
 						["width"] = 100,
-						["name"] = {
-							["text_format"] = "[name:medium]",
-						},
 						["fader"] = {
 							["enable"] = false,
+						},
+						["name"] = {
+							["text_format"] = "[name:medium]",
 						},
 						["height"] = 30,
 						["buffs"] = {
@@ -11091,22 +10950,24 @@ ElvDB = {
 							["perrow"] = 3,
 						},
 						["portrait"] = {
-							["overlay"] = true,
-							["enable"] = true,
 							["overlayAlpha"] = 1,
+							["enable"] = true,
+							["overlay"] = true,
 							["width"] = 60,
 						},
 						["raidRoleIcons"] = {
 							["enable"] = false,
 						},
-						["roleIcon"] = {
-						},
-						["classbar"] = {
+						["RestIcon"] = {
+							["texture"] = "RESTING",
 							["enable"] = false,
-							["additionalPowerText"] = false,
-							["height"] = 7,
-							["detachedWidth"] = 330,
-							["fill"] = "spaced",
+							["xOffset"] = -8,
+							["yOffset"] = -8,
+						},
+						["CombatIcon"] = {
+							["customTexture"] = "Interface\\Media\\Textures\\Combat.blp",
+							["enable"] = false,
+							["size"] = 22,
 						},
 						["raidicon"] = {
 							["attachTo"] = "CENTER",
@@ -11115,17 +10976,17 @@ ElvDB = {
 						},
 						["swingbar"] = {
 							["backdropColor"] = {
-								["r"] = 0.24313725490196,
-								["g"] = 0.24313725490196,
 								["b"] = 0.24313725490196,
+								["g"] = 0.24313725490196,
+								["r"] = 0.24313725490196,
 							},
-							["color"] = {
-								["r"] = 0.35686274509804,
-								["g"] = 0.49803921568627,
-								["b"] = 1,
-							},
-							["spacing"] = 1,
 							["height"] = 3,
+							["spacing"] = 1,
+							["color"] = {
+								["b"] = 1,
+								["g"] = 0.49803921568627,
+								["r"] = 0.35686274509804,
+							},
 							["text"] = {
 								["enable"] = false,
 								["font"] = "AvantGarde LT Medium",
@@ -11137,16 +10998,12 @@ ElvDB = {
 						["aurabar"] = {
 							["enable"] = false,
 						},
-						["RestIcon"] = {
-							["texture"] = "RESTING",
-							["xOffset"] = -8,
-							["enable"] = false,
-							["yOffset"] = -8,
+						["roleIcon"] = {
 						},
 						["pvpIcon"] = {
 							["anchorPoint"] = "LEFT",
-							["xOffset"] = -15,
 							["scale"] = 0.99,
+							["xOffset"] = -15,
 						},
 						["customTexts"] = {
 							["Nombre de Jugador"] = {
@@ -11216,8 +11073,8 @@ ElvDB = {
 							["strataAndLevel"] = {
 								["frameStrata"] = "HIGH",
 							},
-							["height"] = 9,
 							["detachedWidth"] = 260,
+							["height"] = 9,
 						},
 						["height"] = 40,
 						["buffs"] = {
@@ -11231,10 +11088,12 @@ ElvDB = {
 							["attachTo"] = "HEALTH",
 							["sortMethod"] = "PLAYER",
 						},
-						["CombatIcon"] = {
-							["customTexture"] = "Interface\\Media\\Textures\\Combat.blp",
+						["classbar"] = {
 							["enable"] = false,
-							["size"] = 22,
+							["additionalPowerText"] = false,
+							["detachedWidth"] = 330,
+							["height"] = 7,
+							["fill"] = "spaced",
 						},
 						["pvp"] = {
 							["text_format"] = "",
@@ -11247,17 +11106,6 @@ ElvDB = {
 						["invertGroupingOrder"] = false,
 						["groupSpacing"] = 4,
 						["customTexts"] = {
-							["RaidName"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[name:short]",
-								["yOffset"] = 0,
-								["font"] = "Expressway",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 12,
-							},
 							["RaidStatus"] = {
 								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
@@ -11269,15 +11117,24 @@ ElvDB = {
 								["enable"] = true,
 								["size"] = 14,
 							},
+							["RaidName"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[name:short]",
+								["yOffset"] = 0,
+								["font"] = "Expressway",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 12,
+							},
 						},
 						["name"] = {
 							["text_format"] = "",
 						},
 						["startFromCenter"] = false,
 						["height"] = 40,
-						["buffs"] = {
-							["sizeOverride"] = 0,
-						},
+						["verticalSpacing"] = 2,
 						["visibility"] = "[group:raid] show; hide",
 						["horizontalSpacing"] = 0,
 						["rdebuffs"] = {
@@ -11300,7 +11157,9 @@ ElvDB = {
 							["text_format"] = "",
 							["yOffset"] = 0,
 						},
-						["verticalSpacing"] = 2,
+						["buffs"] = {
+							["sizeOverride"] = 0,
+						},
 					},
 					["focustarget"] = {
 						["debuffs"] = {
@@ -11348,23 +11207,12 @@ ElvDB = {
 							["enable"] = true,
 							["width"] = 5,
 						},
-						["power"] = {
-							["xOffset"] = 0,
-							["width"] = "spaced",
-							["height"] = 6,
+						["castbar"] = {
+							["enable"] = false,
+							["width"] = 120,
+							["height"] = 20,
 						},
 						["customTexts"] = {
-							["PetName"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[name:veryshort]",
-								["yOffset"] = 0,
-								["font"] = "Expressway",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 15,
-							},
 							["PetHealth"] = {
 								["attachTextTo"] = "Health",
 								["enable"] = false,
@@ -11376,6 +11224,17 @@ ElvDB = {
 								["xOffset"] = 0,
 								["size"] = 14,
 							},
+							["PetName"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[name:veryshort]",
+								["yOffset"] = 0,
+								["font"] = "Expressway",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 15,
+							},
 						},
 						["width"] = 100,
 						["health"] = {
@@ -11386,10 +11245,10 @@ ElvDB = {
 							["clickThrough"] = true,
 							["countFont"] = "AvantGarde LT Bold",
 						},
-						["castbar"] = {
-							["enable"] = false,
-							["width"] = 120,
-							["height"] = 20,
+						["power"] = {
+							["xOffset"] = 0,
+							["width"] = "spaced",
+							["height"] = 6,
 						},
 						["name"] = {
 							["text_format"] = "",
@@ -11400,11 +11259,11 @@ ElvDB = {
 							["clickThrough"] = true,
 						},
 						["width"] = 100,
-						["name"] = {
-							["text_format"] = "[name:medium]",
-						},
 						["fader"] = {
 							["enable"] = false,
+						},
+						["name"] = {
+							["text_format"] = "[name:medium]",
 						},
 						["height"] = 30,
 						["buffs"] = {
@@ -11440,8 +11299,8 @@ ElvDB = {
 							["enable"] = false,
 						},
 						["threatStyle"] = "HEALTHBORDER",
-						["castbar"] = {
-							["latency"] = false,
+						["power"] = {
+							["enable"] = false,
 						},
 						["customTexts"] = {
 							["BossPower"] = {
@@ -11486,8 +11345,9 @@ ElvDB = {
 						["buffs"] = {
 							["enable"] = false,
 						},
-						["power"] = {
+						["castbar"] = {
 							["enable"] = false,
+							["latency"] = false,
 						},
 					},
 					["raid40"] = {
@@ -11527,10 +11387,7 @@ ElvDB = {
 							["text_format"] = "",
 						},
 						["height"] = 29,
-						["buffs"] = {
-							["clickThrough"] = true,
-							["countFont"] = "AvantGarde LT Bold",
-						},
+						["verticalSpacing"] = -1,
 						["horizontalSpacing"] = -1,
 						["enable"] = false,
 						["rdebuffs"] = {
@@ -11552,7 +11409,10 @@ ElvDB = {
 							["frequentUpdates"] = true,
 							["text_format"] = "",
 						},
-						["verticalSpacing"] = -1,
+						["buffs"] = {
+							["clickThrough"] = true,
+							["countFont"] = "AvantGarde LT Bold",
+						},
 					},
 					["focus"] = {
 						["debuffs"] = {
@@ -11563,28 +11423,19 @@ ElvDB = {
 							["enable"] = false,
 						},
 						["disableTargetGlow"] = true,
-						["fader"] = {
-							["enable"] = false,
-							["range"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
 						},
 						["roleIcon"] = {
 						},
 						["threatStyle"] = "NONE",
-						["power"] = {
-							["height"] = 8,
+						["castbar"] = {
+							["enable"] = false,
+							["width"] = 320,
+							["height"] = 35,
+							["icon"] = false,
 						},
 						["customTexts"] = {
-							["FocusName"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 3,
-								["text_format"] = "[name:medium]",
-								["yOffset"] = 0,
-								["font"] = "Expressway",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 15,
-							},
 							["FocusHealth"] = {
 								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
@@ -11596,33 +11447,42 @@ ElvDB = {
 								["enable"] = false,
 								["size"] = 14,
 							},
+							["FocusName"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 3,
+								["text_format"] = "[name:medium]",
+								["yOffset"] = 0,
+								["font"] = "Expressway",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 15,
+							},
 						},
 						["width"] = 100,
-						["castbar"] = {
-							["enable"] = false,
-							["width"] = 320,
-							["height"] = 35,
-							["icon"] = false,
+						["power"] = {
+							["height"] = 8,
 						},
-						["name"] = {
-							["text_format"] = "",
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
 						},
 						["height"] = 30,
 						["buffs"] = {
 							["clickThrough"] = true,
 							["countFont"] = "AvantGarde LT Bold",
 						},
-						["health"] = {
-							["frequentUpdates"] = true,
+						["name"] = {
+							["text_format"] = "",
 						},
 					},
 					["target"] = {
 						["combobar"] = {
 							["enable"] = false,
-							["autoHide"] = false,
-							["detachedWidth"] = 320,
-							["height"] = 7,
 							["spacing"] = 7,
+							["height"] = 7,
+							["detachedWidth"] = 320,
+							["autoHide"] = false,
 							["fill"] = "spaced",
 						},
 						["debuffs"] = {
@@ -11638,27 +11498,27 @@ ElvDB = {
 							["attachTo"] = "HEALTH",
 						},
 						["portrait"] = {
-							["overlay"] = true,
-							["enable"] = true,
 							["overlayAlpha"] = 1,
+							["enable"] = true,
+							["overlay"] = true,
 							["width"] = 60,
 						},
-						["pvpIcon"] = {
-							["anchorPoint"] = "LEFT",
-							["xOffset"] = -11,
-							["scale"] = 0.75,
+						["power"] = {
+							["xOffset"] = 0,
+							["text_format"] = "",
+							["attachTextTo"] = "Power",
+							["height"] = 9,
+							["detachedWidth"] = 32,
 						},
 						["aurabar"] = {
 							["enable"] = false,
 						},
 						["roleIcon"] = {
 						},
-						["power"] = {
-							["xOffset"] = 0,
-							["text_format"] = "",
-							["attachTextTo"] = "Power",
-							["detachedWidth"] = 32,
-							["height"] = 9,
+						["pvpIcon"] = {
+							["anchorPoint"] = "LEFT",
+							["scale"] = 0.75,
+							["xOffset"] = -11,
 						},
 						["customTexts"] = {
 							["Porcentage de Salud de Unidad"] = {
@@ -11732,8 +11592,8 @@ ElvDB = {
 							["combat"] = true,
 							["power"] = true,
 							["enable"] = false,
-							["health"] = true,
 							["playertarget"] = true,
+							["health"] = true,
 							["casting"] = true,
 							["vehicle"] = true,
 						},
@@ -11773,12 +11633,9 @@ ElvDB = {
 						["enable"] = false,
 						["growthDirection"] = "UP",
 						["spacing"] = 42,
-						["power"] = {
-							["xOffset"] = 0,
-							["text_format"] = "",
-							["width"] = "inset",
-							["height"] = 9,
-							["enable"] = false,
+						["castbar"] = {
+							["width"] = 184,
+							["height"] = 15,
 						},
 						["customTexts"] = {
 							["ArenaPower"] = {
@@ -11816,12 +11673,16 @@ ElvDB = {
 							},
 						},
 						["width"] = 184,
-						["name"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
 							["text_format"] = "",
 						},
-						["castbar"] = {
-							["width"] = 184,
-							["height"] = 15,
+						["power"] = {
+							["enable"] = false,
+							["text_format"] = "",
+							["width"] = "inset",
+							["height"] = 9,
+							["xOffset"] = 0,
 						},
 						["height"] = 32,
 						["buffs"] = {
@@ -11833,12 +11694,11 @@ ElvDB = {
 							["attachTo"] = "HEALTH",
 							["xOffset"] = 5,
 						},
-						["health"] = {
-							["frequentUpdates"] = true,
-							["text_format"] = "",
-						},
 						["fader"] = {
 							["enable"] = false,
+						},
+						["name"] = {
+							["text_format"] = "",
 						},
 					},
 					["targettarget"] = {
@@ -11870,18 +11730,18 @@ ElvDB = {
 						["portrait"] = {
 							["width"] = 40,
 						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
 						["name"] = {
 							["text_format"] = "",
 						},
-						["orientation"] = "RIGHT",
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["height"] = 30,
 						["buffs"] = {
 							["clickThrough"] = true,
 							["countFont"] = "AvantGarde LT Bold",
 						},
-						["height"] = 30,
+						["orientation"] = "RIGHT",
 						["raidicon"] = {
 							["attachTo"] = "CENTER",
 							["enable"] = false,
@@ -11902,7 +11762,7 @@ ElvDB = {
 						},
 					},
 				},
-				["font"] = "PT Sans Narrow",
+				["smoothbars"] = true,
 				["colors"] = {
 					["classpower_backdrop"] = {
 						["b"] = 0.09411764705882353,
@@ -12009,6 +11869,7 @@ ElvDB = {
 							["enable"] = false,
 						},
 					},
+					["classbackdrop"] = true,
 					["reaction"] = {
 						["NEUTRAL"] = {
 							["b"] = 0.196078431372549,
@@ -12016,10 +11877,9 @@ ElvDB = {
 							["r"] = 1,
 						},
 					},
-					["classbackdrop"] = true,
 				},
 				["fontOutline"] = "OUTLINE",
-				["smoothbars"] = true,
+				["statusbar"] = "Clean",
 				["cooldown"] = {
 					["hhmmThreshold"] = 30,
 					["override"] = false,
@@ -12029,6 +11889,83 @@ ElvDB = {
 						["fontSize"] = 16,
 					},
 					["mmssThreshold"] = 600,
+				},
+			},
+			["CustomTweaks"] = {
+				["CastbarFont"] = {
+					["Player"] = {
+						["text"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+						["duration"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontSize"] = 15,
+							["fontOutline"] = "OUTLINE",
+						},
+					},
+					["Focus"] = {
+						["text"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+						["duration"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+					},
+					["Target"] = {
+						["text"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+						["duration"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+					},
+					["Arena"] = {
+						["text"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+						["duration"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+					},
+					["Pet"] = {
+						["text"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+						["duration"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+					},
+					["Boss"] = {
+						["text"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+						["duration"] = {
+							["font"] = "AvantGarde LT Medium",
+							["fontOutline"] = "OUTLINE",
+						},
+					},
+				},
+				["RaidControl"] = {
+					["hide"] = true,
+				},
+				["AuraIconSpacing"] = {
+					["spacing"] = 6,
+				},
+				["ChatMaxLines"] = {
+					["MaxLines"] = 700,
+				},
+				["PowerBarTexture"] = {
+					["powerstatusbar"] = "Melli",
 				},
 			},
 			["datatexts"] = {
@@ -12042,7 +11979,7 @@ ElvDB = {
 						["middle"] = "MRT",
 					},
 					["LeftChatDataPanel"] = {
-						["right"] = "Time",
+						["right"] = "System",
 						["left"] = "ElvUI Config",
 					},
 					["LeftCoordDtPanel"] = "System",
@@ -12090,7 +12027,13 @@ ElvDB = {
 					["buttonsize"] = 28,
 					["backdropSpacing"] = 3,
 				},
-				["fontSize"] = 13,
+				["bar6"] = {
+					["enabled"] = true,
+					["point"] = "TOPLEFT",
+					["mouseover"] = true,
+					["showGrid"] = false,
+					["buttonsPerRow"] = 4,
+				},
 				["bar10"] = {
 					["buttons"] = 8,
 					["buttonspacing"] = 0,
@@ -12104,10 +12047,12 @@ ElvDB = {
 					["enabled"] = true,
 					["buttonsPerRow"] = 5,
 				},
-				["barTotem"] = {
-					["buttonsize"] = 28,
+				["bar5"] = {
+					["point"] = "TOPLEFT",
+					["buttons"] = 12,
 					["mouseover"] = true,
-					["flyoutSpacing"] = 3,
+					["showGrid"] = false,
+					["buttonsPerRow"] = 4,
 				},
 				["bar2"] = {
 					["enabled"] = true,
@@ -12117,23 +12062,15 @@ ElvDB = {
 						["WARRIOR"] = "",
 					},
 				},
-				["bar6"] = {
-					["enabled"] = true,
-					["point"] = "TOPLEFT",
-					["mouseover"] = true,
-					["showGrid"] = false,
-					["buttonsPerRow"] = 4,
-				},
+				["fontSize"] = 13,
 				["transparentButtons"] = true,
 				["raidmarkersbar"] = {
 					["orient"] = "VERTICAL",
 				},
-				["bar5"] = {
-					["point"] = "TOPLEFT",
-					["buttons"] = 12,
+				["barTotem"] = {
+					["flyoutSpacing"] = 3,
 					["mouseover"] = true,
-					["showGrid"] = false,
-					["buttonsPerRow"] = 4,
+					["buttonsize"] = 28,
 				},
 				["macrotext"] = true,
 				["stanceBar"] = {
@@ -12152,10 +12089,10 @@ ElvDB = {
 				},
 				["bar4"] = {
 					["point"] = "TOPLEFT",
-					["backdrop"] = false,
+					["mouseover"] = true,
 					["showGrid"] = false,
 					["buttonsPerRow"] = 4,
-					["mouseover"] = true,
+					["backdrop"] = false,
 				},
 			},
 			["nameplates"] = {
@@ -12165,7 +12102,7 @@ ElvDB = {
 					["friendlyWidth"] = 140,
 					["friendlyHeight"] = 15,
 				},
-				["smoothbars"] = true,
+				["statusbar"] = "Clean",
 				["filters"] = {
 					["ElvUI_Totem"] = {
 						["triggers"] = {
@@ -12181,20 +12118,20 @@ ElvDB = {
 					["FRIENDLY_PLAYER"] = {
 						["debuffs"] = {
 							["growthX"] = "RIGHT",
-							["durationFont"] = "AvantGarde LT Bold",
+							["enable"] = false,
 							["countYOffset"] = 0,
 							["yOffset"] = 15,
 							["anchorPoint"] = "TOPLEFT",
 							["countXOffset"] = 0,
-							["filters"] = {
-								["priority"] = "Personal,CCDebuffs,Blacklist",
-							},
+							["size"] = 28,
 							["countFont"] = "AvantGarde LT Bold",
 							["perrow"] = 3,
 							["attachTo"] = "FRAME",
 							["countFontSize"] = 10,
-							["size"] = 28,
-							["enable"] = false,
+							["filters"] = {
+								["priority"] = "Personal,CCDebuffs,Blacklist",
+							},
+							["durationFont"] = "AvantGarde LT Bold",
 						},
 						["health"] = {
 							["height"] = 8,
@@ -12214,22 +12151,22 @@ ElvDB = {
 							["castTimeFormat"] = "REMAINING",
 							["width"] = 130,
 							["font"] = "Expressway",
-							["iconOffsetX"] = -1,
 							["height"] = 7,
+							["iconOffsetX"] = -1,
 						},
 						["buffs"] = {
-							["durationFont"] = "AvantGarde LT Bold",
+							["enable"] = false,
 							["countYOffset"] = 0,
 							["yOffset"] = 15,
 							["countXOffset"] = 0,
-							["filters"] = {
-								["priority"] = "",
-							},
+							["size"] = 25,
 							["countFont"] = "AvantGarde LT Bold",
 							["perrow"] = 5,
 							["countFontSize"] = 10,
-							["size"] = 25,
-							["enable"] = false,
+							["filters"] = {
+								["priority"] = "",
+							},
+							["durationFont"] = "AvantGarde LT Bold",
 						},
 						["level"] = {
 							["xOffset"] = 2,
@@ -12243,11 +12180,11 @@ ElvDB = {
 						},
 						["name"] = {
 							["fontSize"] = 10,
-							["parent"] = "Nameplate",
+							["xOffset"] = 1,
 							["yOffset"] = 0,
 							["font"] = "Expressway",
 							["position"] = "BOTTOMLEFT",
-							["xOffset"] = 1,
+							["parent"] = "Nameplate",
 						},
 					},
 					["TARGET"] = {
@@ -12261,15 +12198,15 @@ ElvDB = {
 							["yOffset"] = 15,
 							["anchorPoint"] = "TOPLEFT",
 							["countXOffset"] = 0,
-							["filters"] = {
-								["priority"] = "Personal,CCDebuffs,Blacklist",
-							},
+							["size"] = 28,
 							["countFont"] = "AvantGarde LT Bold",
 							["perrow"] = 3,
 							["attachTo"] = "FRAME",
 							["countFontSize"] = 10,
 							["durationFont"] = "AvantGarde LT Bold",
-							["size"] = 28,
+							["filters"] = {
+								["priority"] = "Personal,CCDebuffs,Blacklist",
+							},
 						},
 						["castbar"] = {
 							["enable"] = false,
@@ -12279,37 +12216,12 @@ ElvDB = {
 							["castTimeFormat"] = "REMAINING",
 							["width"] = 130,
 							["font"] = "AvantGarde LT Bold",
-							["iconOffsetX"] = -1,
 							["height"] = 7,
+							["iconOffsetX"] = -1,
 						},
 						["raidTargetIndicator"] = {
 							["position"] = "RIGHT",
 							["size"] = 22,
-						},
-						["name"] = {
-							["yOffset"] = -3,
-							["font"] = "Expressway",
-							["xOffset"] = -1,
-						},
-						["level"] = {
-							["font"] = "AvantGarde LT Bold",
-							["xOffset"] = 2,
-							["enable"] = false,
-							["yOffset"] = 1,
-						},
-						["buffs"] = {
-							["durationFont"] = "Expressway",
-							["countYOffset"] = 0,
-							["yOffset"] = 15,
-							["countXOffset"] = 0,
-							["filters"] = {
-								["priority"] = "",
-							},
-							["countFont"] = "Expressway",
-							["perrow"] = 5,
-							["countFontSize"] = 10,
-							["size"] = 28,
-							["enable"] = false,
 						},
 						["health"] = {
 							["height"] = 4,
@@ -12322,26 +12234,51 @@ ElvDB = {
 							},
 							["width"] = 50,
 						},
+						["level"] = {
+							["font"] = "AvantGarde LT Bold",
+							["enable"] = false,
+							["xOffset"] = 2,
+							["yOffset"] = 1,
+						},
+						["name"] = {
+							["yOffset"] = -3,
+							["font"] = "Expressway",
+							["xOffset"] = -1,
+						},
+						["buffs"] = {
+							["enable"] = false,
+							["countYOffset"] = 0,
+							["yOffset"] = 15,
+							["countXOffset"] = 0,
+							["size"] = 28,
+							["countFont"] = "Expressway",
+							["perrow"] = 5,
+							["countFontSize"] = 10,
+							["filters"] = {
+								["priority"] = "",
+							},
+							["durationFont"] = "Expressway",
+						},
 					},
 					["ENEMY_PLAYER"] = {
 						["debuffs"] = {
-							["growthX"] = "RIGHT",
+							["durationFontSize"] = 10,
 							["durationFont"] = "Expressway",
 							["countYOffset"] = 0,
 							["yOffset"] = 0,
 							["anchorPoint"] = "LEFT",
 							["countXOffset"] = 0,
 							["spacing"] = 8,
-							["durationPosition"] = "LEFT",
+							["size"] = 15,
 							["countFont"] = "Expressway",
 							["perrow"] = 5,
 							["attachTo"] = "FRAME",
 							["countFontSize"] = 9,
-							["durationFontSize"] = 10,
-							["size"] = 15,
+							["growthX"] = "RIGHT",
 							["filters"] = {
 								["priority"] = "Personal,CCDebuffs,Blacklist",
 							},
+							["durationPosition"] = "LEFT",
 						},
 						["castbar"] = {
 							["enable"] = false,
@@ -12351,8 +12288,15 @@ ElvDB = {
 							["castTimeFormat"] = "REMAINING",
 							["width"] = 130,
 							["font"] = "AvantGarde LT Bold",
-							["iconOffsetX"] = -1,
 							["height"] = 7,
+							["iconOffsetX"] = -1,
+						},
+						["name"] = {
+							["fontSize"] = 12,
+							["yOffset"] = 4,
+							["abbrev"] = true,
+							["font"] = "AvantGarde LT Bold",
+							["position"] = "TOP",
 						},
 						["health"] = {
 							["height"] = 13,
@@ -12364,34 +12308,27 @@ ElvDB = {
 							["useClassColor"] = false,
 							["width"] = 130,
 						},
-						["name"] = {
-							["fontSize"] = 12,
-							["yOffset"] = 4,
-							["abbrev"] = true,
-							["font"] = "AvantGarde LT Bold",
-							["position"] = "TOP",
-						},
-						["buffs"] = {
-							["durationFontSize"] = 10,
-							["countYOffset"] = 0,
-							["yOffset"] = 41,
-							["countXOffset"] = 0,
-							["filters"] = {
-								["maxDuration"] = 0,
-								["priority"] = "Personal,Blacklist,blockNoDuration,PlayerBuffs,TurtleBuffs",
-							},
-							["countFont"] = "AvantGarde LT Bold",
-							["perrow"] = 5,
-							["countFontSize"] = 9,
-							["durationFont"] = "AvantGarde LT Bold",
-							["size"] = 19,
-						},
 						["level"] = {
 							["font"] = "AvantGarde LT Bold",
 							["position"] = "RIGHT",
 							["xOffset"] = 2,
 							["enable"] = false,
 							["yOffset"] = 0,
+						},
+						["buffs"] = {
+							["durationFontSize"] = 10,
+							["countYOffset"] = 0,
+							["yOffset"] = 41,
+							["countXOffset"] = 0,
+							["size"] = 19,
+							["countFont"] = "AvantGarde LT Bold",
+							["perrow"] = 5,
+							["countFontSize"] = 9,
+							["durationFont"] = "AvantGarde LT Bold",
+							["filters"] = {
+								["maxDuration"] = 0,
+								["priority"] = "Personal,Blacklist,blockNoDuration,PlayerBuffs,TurtleBuffs",
+							},
 						},
 					},
 					["ENEMY_NPC"] = {
@@ -12424,22 +12361,11 @@ ElvDB = {
 							["castTimeFormat"] = "REMAINING",
 							["width"] = 130,
 							["font"] = "AvantGarde LT Bold",
-							["iconOffsetX"] = -1,
 							["height"] = 7,
+							["iconOffsetX"] = -1,
 						},
 						["eliteIcon"] = {
 							["position"] = "TOP",
-						},
-						["name"] = {
-							["fontSize"] = 9,
-							["yOffset"] = 4,
-							["abbrev"] = true,
-							["font"] = "Expressway",
-							["position"] = "TOP",
-						},
-						["iconFrame"] = {
-							["enable"] = true,
-							["size"] = 10,
 						},
 						["health"] = {
 							["height"] = 15,
@@ -12450,6 +12376,25 @@ ElvDB = {
 							},
 							["width"] = 145,
 						},
+						["iconFrame"] = {
+							["enable"] = true,
+							["size"] = 10,
+						},
+						["buffs"] = {
+							["durationFont"] = "AvantGarde LT Bold",
+							["countYOffset"] = 0,
+							["yOffset"] = 41,
+							["countXOffset"] = 0,
+							["size"] = 19,
+							["countFont"] = "AvantGarde LT Bold",
+							["perrow"] = 5,
+							["countFontSize"] = 9,
+							["durationFontSize"] = 10,
+							["enable"] = false,
+							["filters"] = {
+								["priority"] = "Personal,Blacklist,blockNoDuration,PlayerBuffs,TurtleBuffs",
+							},
+						},
 						["level"] = {
 							["font"] = "AvantGarde LT Bold",
 							["position"] = "RIGHT",
@@ -12457,20 +12402,12 @@ ElvDB = {
 							["enable"] = false,
 							["yOffset"] = 0,
 						},
-						["buffs"] = {
-							["enable"] = false,
-							["countYOffset"] = 0,
-							["yOffset"] = 41,
-							["countXOffset"] = 0,
-							["filters"] = {
-								["priority"] = "Personal,Blacklist,blockNoDuration,PlayerBuffs,TurtleBuffs",
-							},
-							["countFont"] = "AvantGarde LT Bold",
-							["perrow"] = 5,
-							["countFontSize"] = 9,
-							["durationFontSize"] = 10,
-							["durationFont"] = "AvantGarde LT Bold",
-							["size"] = 19,
+						["name"] = {
+							["fontSize"] = 9,
+							["yOffset"] = 4,
+							["abbrev"] = true,
+							["font"] = "Expressway",
+							["position"] = "TOP",
 						},
 					},
 				},
@@ -12551,25 +12488,49 @@ ElvDB = {
 					["checkSeconds"] = true,
 					["threshold"] = 0,
 				},
-				["statusbar"] = "Clean",
+				["smoothbars"] = true,
 			},
-			["auras"] = {
-				["fontOutline"] = "OUTLINE",
-				["font"] = "PT Sans Narrow",
-				["debuffs"] = {
-					["horizontalSpacing"] = 4,
-					["durationFontSize"] = 11,
-					["size"] = 36,
-					["countFontSize"] = 11,
-					["verticalSpacing"] = 0,
-					["wrapAfter"] = 10,
+			["bags"] = {
+				["currencyFormat"] = "ICON",
+				["bagSize"] = 31,
+				["junkIcon"] = true,
+				["itemLevel"] = false,
+				["bankSize"] = 28,
+				["itemLevelFontOutline"] = "OUTLINE",
+				["countFontSize"] = 11,
+				["split"] = {
+					["player"] = true,
 				},
-				["buffs"] = {
-					["horizontalSpacing"] = 4,
-					["durationFontSize"] = 11,
-					["countFontSize"] = 11,
-					["size"] = 30,
+				["itemLevelFontSize"] = 11,
+				["sortInverted"] = false,
+				["moneyFormat"] = "FULL",
+				["bagWidth"] = 333,
+				["countFont"] = "PT Sans Narrow",
+				["vendorGrays"] = {
+					["details"] = true,
+					["enable"] = true,
+					["interval"] = 0.1,
 				},
+				["itemLevelFont"] = "PT Sans Narrow",
+				["countFontOutline"] = "OUTLINE",
+				["bagBar"] = {
+					["mouseover"] = true,
+				},
+				["colors"] = {
+					["items"] = {
+						["questItem"] = {
+							["g"] = 0.10196078431373,
+							["b"] = 0.10196078431373,
+						},
+					},
+				},
+				["showBindType"] = true,
+				["cooldown"] = {
+					["fonts"] = {
+						["font"] = "AvantGarde LT Bold",
+					},
+				},
+				["bankWidth"] = 467,
 			},
 			["cooldown"] = {
 				["hhmmColor"] = {
@@ -12587,16 +12548,16 @@ ElvDB = {
 					["r"] = 0.94901960784314,
 				},
 				["useIndicatorColor"] = true,
-				["checkSeconds"] = true,
+				["hoursColor"] = {
+					["b"] = 0.9843137254902,
+					["r"] = 0.97254901960784,
+				},
 				["fonts"] = {
 					["enable"] = true,
 					["font"] = "Expressway",
 					["fontSize"] = 16,
 				},
-				["hoursColor"] = {
-					["b"] = 0.9843137254902,
-					["r"] = 0.97254901960784,
-				},
+				["checkSeconds"] = true,
 				["threshold"] = 0,
 				["mmssColor"] = {
 					["b"] = 0.9686274509803901,
@@ -12608,20824 +12569,25 @@ ElvDB = {
 					["r"] = 0.97647058823529,
 				},
 			},
-			["hideTutorial"] = 1,
-		},
-		["Karlahunt - Icecrown"] = {
-			["currentTutorial"] = 1,
-			["unitframe"] = {
-				["units"] = {
-					["targettargettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["focustarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["pet"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["boss"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["pettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["focus"] = {
-						["roleIcon"] = {
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["target"] = {
-						["roleIcon"] = {
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["arena"] = {
-						["roleIcon"] = {
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["targettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["player"] = {
-						["roleIcon"] = {
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
+			["enhanceFriendsList"] = {
+				["nameFontSize"] = 11,
+				["zoneFont"] = "Expressway",
+				["zoneFontSize"] = 11,
+				["Offline"] = {
+					["lastSeen"] = false,
+					["colorizeNameOnly"] = true,
+					["level"] = true,
+					["classIcon"] = true,
 				},
-			},
-			["Extras"] = {
-				["nameplates"] = {
-					["ClassificationIcons"] = {
-						["Players"] = {
-							["affiliations"] = {
-								["FRIENDLY_PLAYER"] = {
-									["classes"] = {
-										["HUNTER"] = {
-											["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-										},
-										["WARRIOR"] = {
-											["texture"] = "Interface\\Icons\\inv_sword_27",
-										},
-										["ROGUE"] = {
-											["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-										},
-										["MAGE"] = {
-											["texture"] = "Interface\\Icons\\inv_staff_13",
-										},
-										["PRIEST"] = {
-											["texture"] = "Interface\\Icons\\inv_staff_30",
-										},
-										["WARLOCK"] = {
-											["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-										},
-										["DRUID"] = {
-											["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-										},
-										["SHAMAN"] = {
-											["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-										},
-										["PALADIN"] = {
-											["texture"] = "Interface\\Icons\\inv_hammer_01",
-										},
-									},
-								},
-								["ENEMY_PLAYER"] = {
-									["classes"] = {
-										["HUNTER"] = {
-											["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-										},
-										["WARRIOR"] = {
-											["texture"] = "Interface\\Icons\\inv_sword_27",
-										},
-										["ROGUE"] = {
-											["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-										},
-										["MAGE"] = {
-											["texture"] = "Interface\\Icons\\inv_staff_13",
-										},
-										["PRIEST"] = {
-											["texture"] = "Interface\\Icons\\inv_staff_30",
-										},
-										["WARLOCK"] = {
-											["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-										},
-										["PALADIN"] = {
-											["texture"] = "Interface\\Icons\\inv_hammer_01",
-										},
-										["DRUID"] = {
-											["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-										},
-										["SHAMAN"] = {
-											["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-										},
-										["DEATHKNIGHT"] = {
-											["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-										},
-									},
-									["frameLevel"] = 100,
-									["height"] = 24,
-									["points"] = {
-										["relativeTo"] = "RIGHT",
-										["point"] = "LEFT",
-										["parent"] = "ElvUF_Target",
-										["xOffset"] = -12,
-										["yOffset"] = 0,
-									},
-									["backdrop"] = false,
-									["width"] = 24,
-								},
-							},
-						},
-						["classList"] = {
-						},
-					},
-					["AurasNP"] = {
-						["Highlights"] = {
-							["types"] = {
-								["ENEMY"] = {
-									["enabled"] = false,
-									["global"] = {
-										["shadow"] = false,
-										["color"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["shadowColor"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["border"] = false,
-										["size"] = 3,
-									},
-									["spellList"] = {
-									},
-									["selected"] = "GLOBAL",
-									["filterList"] = {
-									},
-									["special"] = {
-										["shadow"] = false,
-										["color"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["shadowColor"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["border"] = false,
-										["size"] = 3,
-									},
-								},
-							},
-						},
-					},
-					["CooldownsNP"] = {
-						["ENEMY_PLAYER"] = {
-							["enabled"] = false,
-							["header"] = {
-								["relativeTo"] = "LEFT",
-								["point"] = "RIGHT",
-								["xOffset"] = -4,
-								["level"] = 35,
-								["yOffset"] = 0,
-							},
-							["cooldownFill"] = {
-								["enabled"] = false,
-								["direction"] = "LEFT",
-								["reversed"] = false,
-							},
-							["spellList"] = {
-								[6789] = 120,
-								[53480] = 60,
-								[54706] = 40,
-								[50519] = 60,
-								[7744] = 120,
-								[51722] = 60,
-								[1856] = 120,
-								[16190] = 180,
-								[64382] = 90,
-								[42292] = 120,
-								[11113] = 15,
-								[11876] = 120,
-								[53476] = 30,
-								[7812] = 60,
-								[49039] = 120,
-								[26090] = 30,
-								[5730] = 20,
-								[20589] = 90,
-								[5211] = 50,
-								[48020] = 26,
-								[53517] = 180,
-								[30823] = 60,
-								[33831] = 180,
-								[5277] = 180,
-								[49206] = 180,
-								[46924] = 75,
-								[11129] = 120,
-								[54785] = 45,
-								[49222] = 60,
-								[53271] = 35,
-								[17877] = 15,
-								[64044] = 90,
-								[36554] = 24,
-								[6552] = 10,
-								[50516] = 17,
-								[32182] = 300,
-								[47476] = 60,
-								[50274] = 12,
-								[30283] = 20,
-								[20252] = 20,
-								[33395] = 25,
-								[51052] = 120,
-								[3045] = 180,
-								[42950] = 20,
-								[60970] = 30,
-								[50433] = 10,
-								[1766] = 10,
-								[6940] = 96,
-								[50318] = 60,
-								[47528] = 10,
-								[12042] = 106,
-								[29166] = 180,
-								[871] = 120,
-								[49576] = 25,
-								[19647] = 24,
-								[12809] = 30,
-								[5484] = 32,
-								[59752] = 120,
-								[48707] = 45,
-								[31224] = 70,
-								[14185] = 300,
-								[23989] = 180,
-								[57994] = 5,
-								[53426] = 180,
-								[61685] = 25,
-								[50541] = 60,
-								[51533] = 120,
-								[2825] = 300,
-								[50271] = 10,
-								[2094] = 120,
-								[32379] = 10,
-								[48505] = 60,
-								[61336] = 180,
-								[20066] = 60,
-								[12043] = 90,
-								[2983] = 60,
-								[53478] = 360,
-								[26297] = 180,
-								[72] = 12,
-								[10890] = 23,
-								[31935] = 15,
-								[19574] = 90,
-								[31821] = 120,
-								[20594] = 120,
-								[10278] = 180,
-								[12975] = 180,
-								[51514] = 35,
-								[51490] = 35,
-								[33206] = 180,
-								[4167] = 40,
-								[50613] = 120,
-								[23920] = 9,
-								[31661] = 17,
-								[11958] = 384,
-								[10308] = 40,
-								[47585] = 75,
-								[642] = 300,
-								[55709] = 480,
-								[45438] = 300,
-								[12472] = 144,
-								[10060] = 120,
-								[66] = 132,
-								[53201] = 60,
-								[34490] = 20,
-								[53351] = 10,
-								[2484] = 15,
-								[100] = 15,
-								[676] = 60,
-								[8177] = 14,
-								[19503] = 30,
-								[16166] = 180,
-								[48792] = 180,
-								[1044] = 25,
-								[15487] = 45,
-								[19386] = 54,
-								[44572] = 30,
-								[19263] = 120,
-								[16979] = 14,
-								[49203] = 60,
-								[58984] = 120,
-								[22812] = 60,
-								[11732] = 120,
-								[2139] = 24,
-								[46968] = 17,
-								[49376] = 28,
-								[50245] = 40,
-								[50285] = 40,
-							},
-							["text"] = {
-								["enabled"] = false,
-								["font"] = "Expressway",
-								["flag"] = "OUTLINE",
-								["yOffset"] = 0,
-								["xOffset"] = 0,
-								["size"] = 12,
-							},
-							["icons"] = {
-								["perRow"] = 3,
-								["animateFadeOut"] = false,
-								["trinketOnTop"] = false,
-								["sorting"] = "durationAsc",
-								["maxRows"] = 2,
-								["spacing"] = 4,
-								["borderCustomColor"] = {
-									0, -- [1]
-									0, -- [2]
-									0, -- [3]
-								},
-								["direction"] = "TOP",
-								["throttle"] = 0.05,
-								["borderColor"] = false,
-								["size"] = 26,
-							},
-							["highlightedSpells"] = {
-							},
-						},
-					},
-					["NameLevel"] = {
-						["ENEMY_NPC"] = {
-							["Name"] = {
-								["enabled"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["reactionColor"] = false,
-								["yOffset"] = 0,
-							},
-							["Level"] = {
-								["classColor"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["reactionColor"] = false,
-								["enabled"] = false,
-								["yOffset"] = 0,
-							},
-						},
-						["ENEMY_PLAYER"] = {
-							["Name"] = {
-								["enabled"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["reactionColor"] = false,
-								["yOffset"] = 0,
-							},
-							["Level"] = {
-								["classColor"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["reactionColor"] = false,
-								["enabled"] = false,
-								["yOffset"] = 0,
-							},
-						},
-						["FRIENDLY_NPC"] = {
-							["Name"] = {
-								["enabled"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["reactionColor"] = false,
-								["yOffset"] = 0,
-							},
-							["Level"] = {
-								["classColor"] = false,
-								["customColor"] = false,
-								["xOffset"] = 0,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["reactionColor"] = false,
-								["enabled"] = false,
-								["yOffset"] = 0,
-							},
-						},
-					},
+				["Online"] = {
+					["levelText"] = false,
+					["colorizeNameOnly"] = true,
+					["enhancedZone"] = true,
+					["classIcon"] = true,
+					["enhancedName"] = true,
+					["classText"] = false,
 				},
-				["general"] = {
-					["Bags"] = {
-						["BagsExtended"] = {
-							["containers"] = {
-								["bank"] = {
-									["specialBags"] = {
-									},
-									["sectionSpacing"] = 14,
-									["iconSpacing"] = 4,
-									["selectedSection"] = 1,
-									["sections"] = {
-										{
-											["title"] = {
-												["enabled"] = false,
-												["relativeTo"] = "TOPLEFT",
-												["point"] = "BOTTOMLEFT",
-												["color"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["text"] = "Remaining",
-												["yOffset"] = 4,
-												["flags"] = "OUTLINE",
-												["font"] = "Expressway",
-												["xOffset"] = 0,
-												["size"] = 13,
-											},
-											["collectionMethod"] = "",
-											["ignoreList"] = {
-											},
-											["sortMethod"] = "",
-											["minimize"] = {
-												["enabled"] = false,
-												["lineColor"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-													0.5, -- [4]
-												},
-											},
-											["length"] = 999,
-											["icon"] = {
-												["enabled"] = false,
-												["relativeTo"] = "BOTTOMLEFT",
-												["point"] = "BOTTOMRIGHT",
-												["size"] = 16,
-												["xOffset"] = 0,
-												["toText"] = true,
-												["yOffset"] = 0,
-												["texture"] = "Interface\\Icons\\INV_Potion_93",
-											},
-											["yOffset"] = 0,
-										}, -- [1]
-									},
-								},
-							},
-						},
-					},
-				},
-				["unitframes"] = {
-					["AuraBars"] = {
-						["units"] = {
-							["target"] = {
-								["enabled"] = false,
-								["spellnamePoint"] = "LEFT",
-								["barWidth"] = 0,
-								["iconXoffset"] = 8,
-								["spelltimeYOffset"] = 0,
-								["spellnameRelativeTo"] = "LEFT",
-								["bounce"] = true,
-								["spelltimeHide"] = false,
-								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
-								["spellnameHide"] = false,
-								["bounceFlipStartPos"] = false,
-								["spelltimeRelativeTo"] = "RIGHT",
-								["iconSize"] = 24,
-								["spellnameYOffset"] = 0,
-								["spelltimePoint"] = "RIGHT",
-							},
-							["pet"] = {
-								["enabled"] = false,
-								["spellnamePoint"] = "LEFT",
-								["barWidth"] = 0,
-								["iconXoffset"] = 8,
-								["spelltimeYOffset"] = 0,
-								["spellnameRelativeTo"] = "LEFT",
-								["bounce"] = true,
-								["spelltimeHide"] = false,
-								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
-								["spellnameHide"] = false,
-								["bounceFlipStartPos"] = false,
-								["spelltimeRelativeTo"] = "RIGHT",
-								["iconSize"] = 24,
-								["spellnameYOffset"] = 0,
-								["spelltimePoint"] = "RIGHT",
-							},
-							["focus"] = {
-								["enabled"] = false,
-								["spellnamePoint"] = "LEFT",
-								["barWidth"] = 0,
-								["iconXoffset"] = 8,
-								["spelltimeYOffset"] = 0,
-								["spellnameRelativeTo"] = "LEFT",
-								["bounce"] = true,
-								["spelltimeHide"] = false,
-								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
-								["spellnameHide"] = false,
-								["bounceFlipStartPos"] = false,
-								["spelltimeRelativeTo"] = "RIGHT",
-								["iconSize"] = 24,
-								["spellnameYOffset"] = 0,
-								["spelltimePoint"] = "RIGHT",
-							},
-						},
-					},
-					["FCF"] = {
-						["units"] = {
-							["party"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["blacklist"] = {
-								},
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
-							},
-							["raid40"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["blacklist"] = {
-								},
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
-							},
-							["focus"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["blacklist"] = {
-								},
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
-							},
-							["target"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["blacklist"] = {
-								},
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
-							},
-							["raid"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["blacklist"] = {
-								},
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
-							},
-							["arena"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 0.75,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["fontMult"] = 1.25,
-										["animationsByFlag"] = false,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["blacklist"] = {
-								},
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["fontSize"] = 18,
-							},
-						},
-					},
-					["ColorFilter"] = {
-						["units"] = {
-							["tank"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["targettargettarget"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["partytarget"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["party"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["raid40"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["focus"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["target"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["raid"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["tanktarget"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["focustarget"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["targettarget"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["partypet"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["pet"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["player"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-							},
-							["pettarget"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["raidpet"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["boss"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["arena"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["name"] = "New Tab",
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["assist"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-							["assisttarget"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["size"] = 3,
-													},
-												},
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["enabled"] = false,
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-							},
-						},
-					},
-					["CooldownsUF"] = {
-						["FRIENDLY_PLAYER"] = {
-							["units"] = {
-								["player"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["direction"] = "TOP",
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["raid40"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["direction"] = "TOP",
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["focus"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["direction"] = "TOP",
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["raid"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["direction"] = "TOP",
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["arena"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["direction"] = "TOP",
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["party"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["direction"] = "TOP",
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-							},
-						},
-						["ENEMY_PLAYER"] = {
-							["selectedSpell"] = "",
-							["spellList"] = {
-								[6789] = 120,
-								[53480] = 60,
-								[54706] = 40,
-								[50519] = 60,
-								[7744] = 120,
-								[51722] = 60,
-								[1856] = 120,
-								[16190] = 180,
-								[64382] = 90,
-								[42292] = 120,
-								[11113] = 15,
-								[11876] = 120,
-								[53476] = 30,
-								[7812] = 60,
-								[49039] = 120,
-								[26090] = 30,
-								[5730] = 20,
-								[20589] = 90,
-								[5211] = 50,
-								[48020] = 26,
-								[53517] = 180,
-								[30823] = 60,
-								[33831] = 180,
-								[5277] = 180,
-								[49206] = 180,
-								[46924] = 75,
-								[11129] = 120,
-								[54785] = 45,
-								[49222] = 60,
-								[53271] = 35,
-								[17877] = 15,
-								[64044] = 90,
-								[36554] = 24,
-								[6552] = 10,
-								[50516] = 17,
-								[32182] = 300,
-								[47476] = 60,
-								[50274] = 12,
-								[30283] = 20,
-								[20252] = 20,
-								[33395] = 25,
-								[51052] = 120,
-								[3045] = 180,
-								[42950] = 20,
-								[60970] = 30,
-								[50433] = 10,
-								[1766] = 10,
-								[6940] = 96,
-								[50318] = 60,
-								[47528] = 10,
-								[12042] = 106,
-								[29166] = 180,
-								[871] = 120,
-								[49576] = 25,
-								[19647] = 24,
-								[12809] = 30,
-								[5484] = 32,
-								[59752] = 120,
-								[48707] = 45,
-								[31224] = 70,
-								[14185] = 300,
-								[23989] = 180,
-								[57994] = 5,
-								[53426] = 180,
-								[61685] = 25,
-								[50541] = 60,
-								[51533] = 120,
-								[2825] = 300,
-								[50271] = 10,
-								[2094] = 120,
-								[32379] = 10,
-								[48505] = 60,
-								[61336] = 180,
-								[20066] = 60,
-								[12043] = 90,
-								[2983] = 60,
-								[53478] = 360,
-								[26297] = 180,
-								[72] = 12,
-								[10890] = 23,
-								[31935] = 15,
-								[19574] = 90,
-								[31821] = 120,
-								[20594] = 120,
-								[10278] = 180,
-								[12975] = 180,
-								[51514] = 35,
-								[51490] = 35,
-								[33206] = 180,
-								[4167] = 40,
-								[50613] = 120,
-								[23920] = 9,
-								[31661] = 17,
-								[11958] = 384,
-								[10308] = 40,
-								[47585] = 75,
-								[642] = 300,
-								[55709] = 480,
-								[45438] = 300,
-								[12472] = 144,
-								[10060] = 120,
-								[66] = 132,
-								[53201] = 60,
-								[34490] = 20,
-								[53351] = 10,
-								[2484] = 15,
-								[100] = 15,
-								[676] = 60,
-								[8177] = 14,
-								[19503] = 30,
-								[16166] = 180,
-								[48792] = 180,
-								[1044] = 25,
-								[15487] = 45,
-								[19386] = 54,
-								[44572] = 30,
-								[19263] = 120,
-								[16979] = 14,
-								[49203] = 60,
-								[58984] = 120,
-								[22812] = 60,
-								[11732] = 120,
-								[2139] = 24,
-								[46968] = 17,
-								[49376] = 28,
-								[50245] = 40,
-								[50285] = 40,
-							},
-							["highlightedSpells"] = {
-							},
-							["units"] = {
-								["player"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderColor"] = false,
-										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["raid40"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderColor"] = false,
-										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["focus"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderColor"] = false,
-										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["target"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["direction"] = "TOP",
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["raid"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderColor"] = false,
-										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["party"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderColor"] = false,
-										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["arena"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["spacing"] = 4,
-										["borderColor"] = false,
-										["throttle"] = 0.05,
-										["animateFadeOut"] = false,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-							},
-						},
-					},
-					["ClassificationIndicator"] = {
-						["units"] = {
-							["tank"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["targettargettarget"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["partytarget"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["party"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["raid40"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["focus"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["assisttarget"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["raid"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["tanktarget"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["focustarget"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["targettarget"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["player"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["pettarget"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["boss"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["arena"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["assist"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enabled"] = false,
-								["enableClasses"] = false,
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["frameRotation"] = 0,
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["width"] = 24,
-								["frameStrata"] = "LOW",
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["height"] = 24,
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["enableNPCs"] = false,
-							},
-							["target"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-									},
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-							},
-						},
-					},
-					["UFMisc."] = {
-						["NameAutoShorten"] = {
-							["units"] = {
-								["tank"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["targettargettarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["partytarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["party"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["raid40"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["focus"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["target"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["raid"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["tanktarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["focustarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["targettarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["partypet"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["pet"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["pettarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["raidpet"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["boss"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["arena"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["assist"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["assisttarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-							},
-						},
-						["DetachPower"] = {
-							["units"] = {
-								["boss"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
-									["width"] = 0,
-									["yOffset"] = -4,
-								},
-								["arena"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
-									["width"] = 0,
-									["yOffset"] = -4,
-								},
-								["raid40"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
-									["width"] = 0,
-									["yOffset"] = -4,
-								},
-								["raid"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
-									["width"] = 0,
-									["yOffset"] = -4,
-								},
-							},
-						},
-					},
-					["DRTracker"] = {
-						["units"] = {
-							["player"] = {
-								["enabled"] = false,
-								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
-								["growthDir"] = "RIGHT",
-								["xOffset"] = -4,
-								["yOffset"] = -36,
-								["iconsLimit"] = 3,
-								["spacing"] = 4,
-								["iconSize"] = 24,
-								["noCdNumbers"] = false,
-								["strengthIndicator"] = {
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["point"] = "TOP",
-										["y"] = -4,
-										["flag"] = "OUTLINE",
-										["x"] = 0,
-										["relativeTo"] = "BOTTOM",
-										["size"] = 12,
-									},
-									["colors"] = {
-										["good"] = {
-											0.29, -- [1]
-											0.6800000000000001, -- [2]
-											0.29, -- [3]
-										},
-										["bad"] = {
-											0.78, -- [1]
-											0.25, -- [2]
-											0.25, -- [3]
-										},
-										["neutral"] = {
-											0.85, -- [1]
-											0.77, -- [2]
-											0.36, -- [3]
-										},
-									},
-									["box"] = {
-										["enabled"] = false,
-										["point"] = "TOPLEFT",
-										["size"] = 12,
-									},
-								},
-								["typeBorders"] = false,
-							},
-							["arena"] = {
-								["enabled"] = false,
-								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
-								["growthDir"] = "RIGHT",
-								["xOffset"] = -4,
-								["yOffset"] = -36,
-								["iconsLimit"] = 3,
-								["spacing"] = 4,
-								["iconSize"] = 24,
-								["noCdNumbers"] = false,
-								["strengthIndicator"] = {
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["point"] = "TOP",
-										["y"] = -4,
-										["flag"] = "OUTLINE",
-										["x"] = 0,
-										["relativeTo"] = "BOTTOM",
-										["size"] = 12,
-									},
-									["colors"] = {
-										["good"] = {
-											0.29, -- [1]
-											0.6800000000000001, -- [2]
-											0.29, -- [3]
-										},
-										["bad"] = {
-											0.78, -- [1]
-											0.25, -- [2]
-											0.25, -- [3]
-										},
-										["neutral"] = {
-											0.85, -- [1]
-											0.77, -- [2]
-											0.36, -- [3]
-										},
-									},
-									["box"] = {
-										["enabled"] = false,
-										["point"] = "TOPLEFT",
-										["size"] = 12,
-									},
-								},
-								["typeBorders"] = false,
-							},
-							["focus"] = {
-								["enabled"] = false,
-								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
-								["growthDir"] = "RIGHT",
-								["xOffset"] = -4,
-								["yOffset"] = -36,
-								["iconsLimit"] = 3,
-								["spacing"] = 4,
-								["iconSize"] = 24,
-								["noCdNumbers"] = false,
-								["strengthIndicator"] = {
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["point"] = "TOP",
-										["y"] = -4,
-										["flag"] = "OUTLINE",
-										["x"] = 0,
-										["relativeTo"] = "BOTTOM",
-										["size"] = 12,
-									},
-									["colors"] = {
-										["good"] = {
-											0.29, -- [1]
-											0.6800000000000001, -- [2]
-											0.29, -- [3]
-										},
-										["bad"] = {
-											0.78, -- [1]
-											0.25, -- [2]
-											0.25, -- [3]
-										},
-										["neutral"] = {
-											0.85, -- [1]
-											0.77, -- [2]
-											0.36, -- [3]
-										},
-									},
-									["box"] = {
-										["enabled"] = false,
-										["point"] = "TOPLEFT",
-										["size"] = 12,
-									},
-								},
-								["typeBorders"] = false,
-							},
-						},
-					},
-					["AurasUF"] = {
-						["Highlights"] = {
-							["types"] = {
-								["ENEMY"] = {
-									["enabled"] = false,
-									["global"] = {
-										["shadow"] = false,
-										["color"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["shadowColor"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["border"] = false,
-										["size"] = 3,
-									},
-									["spellList"] = {
-									},
-									["selected"] = "GLOBAL",
-									["filterList"] = {
-									},
-									["special"] = {
-										["shadow"] = false,
-										["color"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["shadowColor"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["border"] = false,
-										["size"] = 3,
-									},
-								},
-							},
-						},
-					},
-				},
-			},
-			["chat"] = {
-				["panelColorConverted"] = true,
-			},
-		},
-		["Karlashami - Icecrown"] = {
-			["currentTutorial"] = 3,
-			["unitframe"] = {
-				["units"] = {
-					["targettargettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["focustarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["pettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["boss"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["player"] = {
-						["roleIcon"] = {
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["focus"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-						["roleIcon"] = {
-						},
-					},
-					["target"] = {
-						["roleIcon"] = {
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["arena"] = {
-						["roleIcon"] = {
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["targettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["pet"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-				},
-			},
-			["Extras"] = {
-				["nameplates"] = {
-					["ClassificationIcons"] = {
-						["Players"] = {
-							["affiliations"] = {
-								["FRIENDLY_PLAYER"] = {
-									["classes"] = {
-										["HUNTER"] = {
-											["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-										},
-										["WARRIOR"] = {
-											["texture"] = "Interface\\Icons\\inv_sword_27",
-										},
-										["ROGUE"] = {
-											["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-										},
-										["MAGE"] = {
-											["texture"] = "Interface\\Icons\\inv_staff_13",
-										},
-										["PRIEST"] = {
-											["texture"] = "Interface\\Icons\\inv_staff_30",
-										},
-										["WARLOCK"] = {
-											["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-										},
-										["DRUID"] = {
-											["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-										},
-										["PALADIN"] = {
-											["texture"] = "Interface\\Icons\\inv_hammer_01",
-										},
-										["SHAMAN"] = {
-											["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-										},
-									},
-								},
-								["ENEMY_PLAYER"] = {
-									["classes"] = {
-										["HUNTER"] = {
-											["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-										},
-										["WARRIOR"] = {
-											["texture"] = "Interface\\Icons\\inv_sword_27",
-										},
-										["ROGUE"] = {
-											["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-										},
-										["MAGE"] = {
-											["texture"] = "Interface\\Icons\\inv_staff_13",
-										},
-										["PRIEST"] = {
-											["texture"] = "Interface\\Icons\\inv_staff_30",
-										},
-										["WARLOCK"] = {
-											["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-										},
-										["DEATHKNIGHT"] = {
-											["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-										},
-										["DRUID"] = {
-											["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-										},
-										["SHAMAN"] = {
-											["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-										},
-										["PALADIN"] = {
-											["texture"] = "Interface\\Icons\\inv_hammer_01",
-										},
-									},
-									["frameLevel"] = 100,
-									["height"] = 24,
-									["points"] = {
-										["relativeTo"] = "RIGHT",
-										["point"] = "LEFT",
-										["parent"] = "ElvUF_Target",
-										["xOffset"] = -12,
-										["yOffset"] = 0,
-									},
-									["backdrop"] = false,
-									["width"] = 24,
-								},
-							},
-						},
-						["classList"] = {
-						},
-					},
-					["AurasNP"] = {
-						["Highlights"] = {
-							["types"] = {
-								["ENEMY"] = {
-									["enabled"] = false,
-									["global"] = {
-										["shadow"] = false,
-										["color"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["shadowColor"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["border"] = false,
-										["size"] = 3,
-									},
-									["spellList"] = {
-									},
-									["selected"] = "GLOBAL",
-									["special"] = {
-										["shadow"] = false,
-										["color"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["shadowColor"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["border"] = false,
-										["size"] = 3,
-									},
-									["filterList"] = {
-									},
-								},
-							},
-						},
-					},
-					["CooldownsNP"] = {
-						["ENEMY_PLAYER"] = {
-							["enabled"] = false,
-							["header"] = {
-								["relativeTo"] = "LEFT",
-								["point"] = "RIGHT",
-								["xOffset"] = -4,
-								["level"] = 35,
-								["yOffset"] = 0,
-							},
-							["highlightedSpells"] = {
-							},
-							["cooldownFill"] = {
-								["enabled"] = false,
-								["direction"] = "LEFT",
-								["reversed"] = false,
-							},
-							["text"] = {
-								["enabled"] = false,
-								["font"] = "Expressway",
-								["flag"] = "OUTLINE",
-								["size"] = 12,
-								["xOffset"] = 0,
-								["yOffset"] = 0,
-							},
-							["icons"] = {
-								["perRow"] = 3,
-								["animateFadeOut"] = false,
-								["trinketOnTop"] = false,
-								["size"] = 26,
-								["maxRows"] = 2,
-								["borderColor"] = false,
-								["spacing"] = 4,
-								["throttle"] = 0.05,
-								["direction"] = "TOP",
-								["borderCustomColor"] = {
-									0, -- [1]
-									0, -- [2]
-									0, -- [3]
-								},
-								["sorting"] = "durationAsc",
-							},
-							["spellList"] = {
-								[6789] = 120,
-								[50519] = 60,
-								[54706] = 40,
-								[49376] = 28,
-								[7744] = 120,
-								[50285] = 40,
-								[11113] = 15,
-								[16190] = 180,
-								[64382] = 90,
-								[30823] = 60,
-								[42292] = 120,
-								[11876] = 120,
-								[53476] = 30,
-								[53480] = 60,
-								[49039] = 120,
-								[46968] = 17,
-								[50516] = 17,
-								[20589] = 90,
-								[51722] = 60,
-								[50274] = 12,
-								[5730] = 20,
-								[22812] = 60,
-								[33831] = 180,
-								[5277] = 180,
-								[49206] = 180,
-								[46924] = 75,
-								[11129] = 120,
-								[16979] = 14,
-								[49222] = 60,
-								[53517] = 180,
-								[49203] = 60,
-								[19386] = 54,
-								[15487] = 45,
-								[6552] = 10,
-								[14185] = 300,
-								[32182] = 300,
-								[36554] = 24,
-								[26090] = 30,
-								[30283] = 20,
-								[20252] = 20,
-								[33395] = 25,
-								[51052] = 120,
-								[53426] = 180,
-								[48792] = 180,
-								[60970] = 30,
-								[48020] = 26,
-								[1766] = 10,
-								[6940] = 96,
-								[50318] = 60,
-								[47528] = 10,
-								[12042] = 106,
-								[29166] = 180,
-								[871] = 120,
-								[49576] = 25,
-								[19647] = 24,
-								[12809] = 30,
-								[53271] = 35,
-								[59752] = 120,
-								[17877] = 15,
-								[61685] = 25,
-								[44572] = 30,
-								[51533] = 120,
-								[57994] = 5,
-								[3045] = 180,
-								[31224] = 70,
-								[2825] = 300,
-								[23989] = 180,
-								[61336] = 180,
-								[50271] = 10,
-								[2094] = 120,
-								[32379] = 10,
-								[48505] = 60,
-								[50541] = 60,
-								[20066] = 60,
-								[12043] = 90,
-								[53351] = 10,
-								[53478] = 360,
-								[26297] = 180,
-								[72] = 12,
-								[34490] = 20,
-								[53201] = 60,
-								[19574] = 90,
-								[66] = 132,
-								[20594] = 120,
-								[10278] = 180,
-								[11958] = 384,
-								[10308] = 40,
-								[51490] = 35,
-								[33206] = 180,
-								[4167] = 40,
-								[50613] = 120,
-								[55709] = 480,
-								[31661] = 17,
-								[51514] = 35,
-								[12975] = 180,
-								[23920] = 9,
-								[642] = 300,
-								[47585] = 75,
-								[45438] = 300,
-								[12472] = 144,
-								[10060] = 120,
-								[31821] = 120,
-								[31935] = 15,
-								[10890] = 23,
-								[2983] = 60,
-								[2484] = 15,
-								[100] = 15,
-								[676] = 60,
-								[8177] = 14,
-								[19503] = 30,
-								[16166] = 180,
-								[42950] = 20,
-								[1044] = 25,
-								[48707] = 45,
-								[64044] = 90,
-								[5484] = 32,
-								[19263] = 120,
-								[54785] = 45,
-								[50433] = 10,
-								[58984] = 120,
-								[47476] = 60,
-								[11732] = 120,
-								[2139] = 24,
-								[5211] = 50,
-								[7812] = 60,
-								[50245] = 40,
-								[1856] = 120,
-							},
-						},
-					},
-					["NameLevel"] = {
-						["ENEMY_NPC"] = {
-							["Name"] = {
-								["enabled"] = false,
-								["yOffset"] = 0,
-								["xOffset"] = 0,
-								["reactionColor"] = false,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["customColor"] = false,
-							},
-							["Level"] = {
-								["classColor"] = false,
-								["yOffset"] = 0,
-								["enabled"] = false,
-								["xOffset"] = 0,
-								["reactionColor"] = false,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["customColor"] = false,
-							},
-						},
-						["ENEMY_PLAYER"] = {
-							["Name"] = {
-								["enabled"] = false,
-								["yOffset"] = 0,
-								["xOffset"] = 0,
-								["reactionColor"] = false,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["customColor"] = false,
-							},
-							["Level"] = {
-								["classColor"] = false,
-								["yOffset"] = 0,
-								["enabled"] = false,
-								["xOffset"] = 0,
-								["reactionColor"] = false,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["customColor"] = false,
-							},
-						},
-						["FRIENDLY_NPC"] = {
-							["Name"] = {
-								["enabled"] = false,
-								["yOffset"] = 0,
-								["xOffset"] = 0,
-								["reactionColor"] = false,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["customColor"] = false,
-							},
-							["Level"] = {
-								["classColor"] = false,
-								["yOffset"] = 0,
-								["enabled"] = false,
-								["xOffset"] = 0,
-								["reactionColor"] = false,
-								["color"] = {
-									1, -- [1]
-									1, -- [2]
-									1, -- [3]
-								},
-								["customColor"] = false,
-							},
-						},
-					},
-				},
-				["general"] = {
-					["Bags"] = {
-						["BagsExtended"] = {
-							["containers"] = {
-								["bank"] = {
-									["specialBags"] = {
-									},
-									["sectionSpacing"] = 14,
-									["iconSpacing"] = 4,
-									["selectedSection"] = 1,
-									["sections"] = {
-										{
-											["ignoreList"] = {
-											},
-											["collectionMethod"] = "",
-											["title"] = {
-												["enabled"] = false,
-												["relativeTo"] = "TOPLEFT",
-												["point"] = "BOTTOMLEFT",
-												["color"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["text"] = "Remaining",
-												["yOffset"] = 4,
-												["flags"] = "OUTLINE",
-												["font"] = "Expressway",
-												["xOffset"] = 0,
-												["size"] = 13,
-											},
-											["sortMethod"] = "",
-											["icon"] = {
-												["enabled"] = false,
-												["relativeTo"] = "BOTTOMLEFT",
-												["point"] = "BOTTOMRIGHT",
-												["texture"] = "Interface\\Icons\\INV_Potion_93",
-												["xOffset"] = 0,
-												["yOffset"] = 0,
-												["toText"] = true,
-												["size"] = 16,
-											},
-											["length"] = 999,
-											["minimize"] = {
-												["enabled"] = false,
-												["lineColor"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-													0.5, -- [4]
-												},
-											},
-											["yOffset"] = 0,
-										}, -- [1]
-									},
-								},
-							},
-						},
-					},
-				},
-				["unitframes"] = {
-					["AuraBars"] = {
-						["units"] = {
-							["target"] = {
-								["enabled"] = false,
-								["spellnamePoint"] = "LEFT",
-								["spelltimePoint"] = "RIGHT",
-								["spellnameYOffset"] = 0,
-								["spelltimeYOffset"] = 0,
-								["iconXoffset"] = 8,
-								["bounce"] = true,
-								["spelltimeHide"] = false,
-								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
-								["spellnameHide"] = false,
-								["bounceFlipStartPos"] = false,
-								["spelltimeRelativeTo"] = "RIGHT",
-								["iconSize"] = 24,
-								["spellnameRelativeTo"] = "LEFT",
-								["barWidth"] = 0,
-							},
-							["pet"] = {
-								["enabled"] = false,
-								["spellnamePoint"] = "LEFT",
-								["spelltimePoint"] = "RIGHT",
-								["spellnameYOffset"] = 0,
-								["spelltimeYOffset"] = 0,
-								["iconXoffset"] = 8,
-								["bounce"] = true,
-								["spelltimeHide"] = false,
-								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
-								["spellnameHide"] = false,
-								["bounceFlipStartPos"] = false,
-								["spelltimeRelativeTo"] = "RIGHT",
-								["iconSize"] = 24,
-								["spellnameRelativeTo"] = "LEFT",
-								["barWidth"] = 0,
-							},
-							["focus"] = {
-								["enabled"] = false,
-								["spellnamePoint"] = "LEFT",
-								["spelltimePoint"] = "RIGHT",
-								["spellnameYOffset"] = 0,
-								["spelltimeYOffset"] = 0,
-								["iconXoffset"] = 8,
-								["bounce"] = true,
-								["spelltimeHide"] = false,
-								["spelltimeXOffset"] = 0,
-								["spellnameXOffset"] = 0,
-								["spellnameHide"] = false,
-								["bounceFlipStartPos"] = false,
-								["spelltimeRelativeTo"] = "RIGHT",
-								["iconSize"] = 24,
-								["spellnameRelativeTo"] = "LEFT",
-								["barWidth"] = 0,
-							},
-						},
-					},
-					["FCF"] = {
-						["units"] = {
-							["party"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["fontSize"] = 18,
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["blacklist"] = {
-								},
-							},
-							["raid40"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["fontSize"] = 18,
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["blacklist"] = {
-								},
-							},
-							["focus"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["fontSize"] = 18,
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["blacklist"] = {
-								},
-							},
-							["target"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["fontSize"] = 18,
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["blacklist"] = {
-								},
-							},
-							["raid"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["fontSize"] = 18,
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["blacklist"] = {
-								},
-							},
-							["arena"] = {
-								["textY"] = 24,
-								["textPoint"] = "BOTTOM",
-								["textStrata"] = "LOW",
-								["scrollTime"] = 1.2,
-								["textLevel"] = 85,
-								["showIcon"] = false,
-								["fontFlags"] = "",
-								["enabled"] = false,
-								["textX"] = 0,
-								["animation"] = "fountain",
-								["fadeTime"] = 3,
-								["flags"] = {
-									["BLOCK"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["ABSORB"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRITICAL"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["RESIST"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-									["CRUSHING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 1.25,
-										["animation"] = "fountain",
-									},
-									["GLANCING"] = {
-										["customAnimation"] = "",
-										["animationsByFlag"] = false,
-										["fontMult"] = 0.75,
-										["animation"] = "fountain",
-									},
-								},
-								["font"] = "Expressway",
-								["events"] = {
-									["DODGE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["REFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["BUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["DEFLECT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["EVADE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["IMMUNE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["PARRY"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["RESIST"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["WOUND"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											179, -- [1]
-											26, -- [2]
-											26, -- [3]
-										},
-									},
-									["HEAL"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											26, -- [1]
-											204, -- [2]
-											26, -- [3]
-										},
-									},
-									["BLOCK"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ABSORB"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["ENERGIZE"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											105, -- [1]
-											204, -- [2]
-											240, -- [3]
-										},
-									},
-									["DEBUFF"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["MISS"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-									["INTERRUPT"] = {
-										["tryToColorBySchool"] = false,
-										["disabled"] = false,
-										["animation"] = "fountain",
-										["customAnimation"] = "",
-										["colors"] = {
-											255, -- [1]
-											255, -- [2]
-											255, -- [3]
-										},
-									},
-								},
-								["fontSize"] = 18,
-								["school"] = {
-									{
-										179, -- [1]
-										26, -- [2]
-										26, -- [3]
-									}, -- [1]
-									{
-										255, -- [1]
-										230, -- [2]
-										128, -- [3]
-									}, -- [2]
-									nil, -- [3]
-									{
-										255, -- [1]
-										128, -- [2]
-										0, -- [3]
-									}, -- [4]
-									nil, -- [5]
-									{
-										255, -- [1]
-										178, -- [2]
-										64, -- [3]
-									}, -- [6]
-									nil, -- [7]
-									{
-										77, -- [1]
-										255, -- [2]
-										77, -- [3]
-									}, -- [8]
-									nil, -- [9]
-									nil, -- [10]
-									nil, -- [11]
-									nil, -- [12]
-									nil, -- [13]
-									nil, -- [14]
-									nil, -- [15]
-									{
-										128, -- [1]
-										255, -- [2]
-										255, -- [3]
-									}, -- [16]
-									nil, -- [17]
-									nil, -- [18]
-									nil, -- [19]
-									nil, -- [20]
-									nil, -- [21]
-									nil, -- [22]
-									nil, -- [23]
-									nil, -- [24]
-									nil, -- [25]
-									nil, -- [26]
-									nil, -- [27]
-									{
-										153, -- [1]
-										212, -- [2]
-										111, -- [3]
-									}, -- [28]
-									nil, -- [29]
-									nil, -- [30]
-									nil, -- [31]
-									{
-										128, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [32]
-									nil, -- [33]
-									nil, -- [34]
-									nil, -- [35]
-									{
-										192, -- [1]
-										128, -- [2]
-										128, -- [3]
-									}, -- [36]
-									nil, -- [37]
-									nil, -- [38]
-									nil, -- [39]
-									{
-										103, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [40]
-									nil, -- [41]
-									nil, -- [42]
-									nil, -- [43]
-									nil, -- [44]
-									nil, -- [45]
-									nil, -- [46]
-									nil, -- [47]
-									{
-										128, -- [1]
-										192, -- [2]
-										255, -- [3]
-									}, -- [48]
-									nil, -- [49]
-									nil, -- [50]
-									nil, -- [51]
-									nil, -- [52]
-									nil, -- [53]
-									nil, -- [54]
-									nil, -- [55]
-									nil, -- [56]
-									nil, -- [57]
-									nil, -- [58]
-									nil, -- [59]
-									nil, -- [60]
-									nil, -- [61]
-									nil, -- [62]
-									nil, -- [63]
-									{
-										255, -- [1]
-										128, -- [2]
-										255, -- [3]
-									}, -- [64]
-									nil, -- [65]
-									nil, -- [66]
-									nil, -- [67]
-									nil, -- [68]
-									nil, -- [69]
-									nil, -- [70]
-									nil, -- [71]
-									{
-										166, -- [1]
-										192, -- [2]
-										166, -- [3]
-									}, -- [72]
-									[0] = {
-										255, -- [1]
-										255, -- [2]
-										255, -- [3]
-									},
-									[127] = {
-										182, -- [1]
-										164, -- [2]
-										142, -- [3]
-									},
-									[126] = {
-										183, -- [1]
-										187, -- [2]
-										162, -- [3]
-									},
-								},
-								["iconPosition"] = "before",
-								["textRelativeTo"] = "TOP",
-								["blacklist"] = {
-								},
-							},
-						},
-					},
-					["AurasUF"] = {
-						["Highlights"] = {
-							["types"] = {
-								["ENEMY"] = {
-									["enabled"] = false,
-									["global"] = {
-										["shadow"] = false,
-										["color"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["shadowColor"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["border"] = false,
-										["size"] = 3,
-									},
-									["spellList"] = {
-									},
-									["selected"] = "GLOBAL",
-									["special"] = {
-										["shadow"] = false,
-										["color"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["shadowColor"] = {
-											0.9300000000000001, -- [1]
-											0.91, -- [2]
-											0.55, -- [3]
-											1, -- [4]
-										},
-										["border"] = false,
-										["size"] = 3,
-									},
-									["filterList"] = {
-									},
-								},
-							},
-						},
-					},
-					["CooldownsUF"] = {
-						["FRIENDLY_PLAYER"] = {
-							["units"] = {
-								["player"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["borderColor"] = false,
-										["spacing"] = 4,
-										["throttle"] = 0.05,
-										["direction"] = "TOP",
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["raid40"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["borderColor"] = false,
-										["spacing"] = 4,
-										["throttle"] = 0.05,
-										["direction"] = "TOP",
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["focus"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["borderColor"] = false,
-										["spacing"] = 4,
-										["throttle"] = 0.05,
-										["direction"] = "TOP",
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["raid"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["borderColor"] = false,
-										["spacing"] = 4,
-										["throttle"] = 0.05,
-										["direction"] = "TOP",
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["party"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["borderColor"] = false,
-										["spacing"] = 4,
-										["throttle"] = 0.05,
-										["direction"] = "TOP",
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["arena"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["borderColor"] = false,
-										["spacing"] = 4,
-										["throttle"] = 0.05,
-										["direction"] = "TOP",
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-							},
-						},
-						["ENEMY_PLAYER"] = {
-							["selectedSpell"] = "",
-							["spellList"] = {
-								[6789] = 120,
-								[50519] = 60,
-								[54706] = 40,
-								[49376] = 28,
-								[7744] = 120,
-								[50285] = 40,
-								[11113] = 15,
-								[16190] = 180,
-								[64382] = 90,
-								[30823] = 60,
-								[42292] = 120,
-								[11876] = 120,
-								[53476] = 30,
-								[53480] = 60,
-								[49039] = 120,
-								[46968] = 17,
-								[50516] = 17,
-								[20589] = 90,
-								[51722] = 60,
-								[50274] = 12,
-								[5730] = 20,
-								[22812] = 60,
-								[33831] = 180,
-								[5277] = 180,
-								[49206] = 180,
-								[46924] = 75,
-								[11129] = 120,
-								[16979] = 14,
-								[49222] = 60,
-								[53517] = 180,
-								[49203] = 60,
-								[19386] = 54,
-								[15487] = 45,
-								[6552] = 10,
-								[14185] = 300,
-								[32182] = 300,
-								[36554] = 24,
-								[26090] = 30,
-								[30283] = 20,
-								[20252] = 20,
-								[33395] = 25,
-								[51052] = 120,
-								[53426] = 180,
-								[48792] = 180,
-								[60970] = 30,
-								[48020] = 26,
-								[1766] = 10,
-								[6940] = 96,
-								[50318] = 60,
-								[47528] = 10,
-								[12042] = 106,
-								[29166] = 180,
-								[871] = 120,
-								[49576] = 25,
-								[19647] = 24,
-								[12809] = 30,
-								[53271] = 35,
-								[59752] = 120,
-								[17877] = 15,
-								[61685] = 25,
-								[44572] = 30,
-								[51533] = 120,
-								[57994] = 5,
-								[3045] = 180,
-								[31224] = 70,
-								[2825] = 300,
-								[23989] = 180,
-								[61336] = 180,
-								[50271] = 10,
-								[2094] = 120,
-								[32379] = 10,
-								[48505] = 60,
-								[50541] = 60,
-								[20066] = 60,
-								[12043] = 90,
-								[53351] = 10,
-								[53478] = 360,
-								[26297] = 180,
-								[72] = 12,
-								[34490] = 20,
-								[53201] = 60,
-								[19574] = 90,
-								[66] = 132,
-								[20594] = 120,
-								[10278] = 180,
-								[11958] = 384,
-								[10308] = 40,
-								[51490] = 35,
-								[33206] = 180,
-								[4167] = 40,
-								[50613] = 120,
-								[55709] = 480,
-								[31661] = 17,
-								[51514] = 35,
-								[12975] = 180,
-								[23920] = 9,
-								[642] = 300,
-								[47585] = 75,
-								[45438] = 300,
-								[12472] = 144,
-								[10060] = 120,
-								[31821] = 120,
-								[31935] = 15,
-								[10890] = 23,
-								[2983] = 60,
-								[2484] = 15,
-								[100] = 15,
-								[676] = 60,
-								[8177] = 14,
-								[19503] = 30,
-								[16166] = 180,
-								[42950] = 20,
-								[1044] = 25,
-								[48707] = 45,
-								[64044] = 90,
-								[5484] = 32,
-								[19263] = 120,
-								[54785] = 45,
-								[50433] = 10,
-								[58984] = 120,
-								[47476] = 60,
-								[11732] = 120,
-								[2139] = 24,
-								[5211] = 50,
-								[7812] = 60,
-								[50245] = 40,
-								[1856] = 120,
-							},
-							["highlightedSpells"] = {
-							},
-							["units"] = {
-								["player"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["spacing"] = 4,
-										["animateFadeOut"] = false,
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["raid40"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["spacing"] = 4,
-										["animateFadeOut"] = false,
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["focus"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["spacing"] = 4,
-										["animateFadeOut"] = false,
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["target"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["size"] = 12,
-										["xOffset"] = 0,
-										["yOffset"] = 0,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["animateFadeOut"] = false,
-										["trinketOnTop"] = false,
-										["size"] = 26,
-										["maxRows"] = 2,
-										["borderColor"] = false,
-										["spacing"] = 4,
-										["throttle"] = 0.05,
-										["direction"] = "TOP",
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["sorting"] = "durationAsc",
-									},
-								},
-								["raid"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["spacing"] = 4,
-										["animateFadeOut"] = false,
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["arena"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["spacing"] = 4,
-										["animateFadeOut"] = false,
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-								["party"] = {
-									["enabled"] = false,
-									["header"] = {
-										["relativeTo"] = "LEFT",
-										["point"] = "RIGHT",
-										["xOffset"] = -4,
-										["level"] = 35,
-										["strata"] = "LOW",
-										["yOffset"] = 0,
-									},
-									["cooldownFill"] = {
-										["enabled"] = false,
-										["direction"] = "LEFT",
-										["classic"] = false,
-										["reversed"] = false,
-									},
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["flag"] = "OUTLINE",
-										["yOffset"] = 0,
-										["xOffset"] = 0,
-										["size"] = 12,
-									},
-									["icons"] = {
-										["perRow"] = 3,
-										["direction"] = "TOP",
-										["trinketOnTop"] = false,
-										["sorting"] = "durationAsc",
-										["maxRows"] = 2,
-										["borderCustomColor"] = {
-											0, -- [1]
-											0, -- [2]
-											0, -- [3]
-										},
-										["spacing"] = 4,
-										["animateFadeOut"] = false,
-										["throttle"] = 0.05,
-										["borderColor"] = false,
-										["size"] = 26,
-									},
-								},
-							},
-						},
-					},
-					["ClassificationIndicator"] = {
-						["units"] = {
-							["tank"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["targettargettarget"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["partytarget"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["party"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["raid40"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["focus"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["assisttarget"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["raid"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["tanktarget"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["focustarget"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["targettarget"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["player"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["target"] = {
-								["HUNTER"] = {
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARRIOR"] = {
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["ROGUE"] = {
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["MAGE"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["SHAMAN"] = {
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rare"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["elite"] = {
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-									},
-								},
-								["PALADIN"] = {
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["WARLOCK"] = {
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["worldboss"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["PRIEST"] = {
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DRUID"] = {
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["rareelite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["DEATHKNIGHT"] = {
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-							},
-							["assist"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["arena"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["boss"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-							["pettarget"] = {
-								["HUNTER"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_weapon_bow_07",
-								},
-								["WARRIOR"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_sword_27",
-								},
-								["SHAMAN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_jewelry_talisman_04",
-								},
-								["MAGE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_13",
-								},
-								["rare"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Grey",
-								},
-								["elite"] = {
-									["texture"] = "Interface\\WorldMap\\Skull_64",
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0.5,
-										["right"] = 0.5,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["flipIndicator"] = false,
-								},
-								["points"] = {
-									["xOffset"] = -12,
-									["relativeTo"] = "RIGHT",
-									["point"] = "LEFT",
-									["yOffset"] = 0,
-								},
-								["ROGUE"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_throwingknife_04",
-								},
-								["DRUID"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_misc_monsterclaw_04",
-								},
-								["enabled"] = false,
-								["PALADIN"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_hammer_01",
-								},
-								["frameLevel"] = 65,
-								["DEATHKNIGHT"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_deathknight_classicon",
-								},
-								["PRIEST"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\inv_staff_30",
-								},
-								["WARLOCK"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\Icons\\spell_nature_drowsy",
-								},
-								["frameRotation"] = 0,
-								["width"] = 24,
-								["worldboss"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Red",
-								},
-								["frameStrata"] = "LOW",
-								["selectedEnemyType"] = "elite",
-								["backdrop"] = false,
-								["height"] = 24,
-								["enableClasses"] = false,
-								["rareelite"] = {
-									["flipIndicator"] = false,
-									["colorByType"] = false,
-									["texCoords"] = {
-										["top"] = 0,
-										["right"] = 1,
-										["left"] = 0,
-										["bottom"] = 1,
-									},
-									["texture"] = "Interface\\WorldMap\\Skull_64Purple",
-								},
-								["enableNPCs"] = false,
-							},
-						},
-					},
-					["ColorFilter"] = {
-						["units"] = {
-							["tank"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["targettargettarget"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["partytarget"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["party"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["raid40"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["focus"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["target"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["raid"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["tanktarget"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["focustarget"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["targettarget"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["partypet"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["assisttarget"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["player"] = {
-								["statusbars"] = {
-									["Power"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Castbar"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-							},
-							["assist"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["raidpet"] = {
-								["statusbars"] = {
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["boss"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["arena"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["pettarget"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-							["pet"] = {
-								["statusbars"] = {
-									["Castbar"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Health"] = {
-										["enabled"] = false,
-										["frequentUpdates"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["name"] = "New Tab",
-												["highlight"] = {
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIcon"] = false,
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["size"] = 3,
-													},
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-												},
-												["enableColors"] = false,
-												["conditions"] = "",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-									["Power"] = {
-										["enabled"] = false,
-										["tabs"] = {
-											{
-												["enabled"] = false,
-												["highlight"] = {
-													["borders"] = {
-														["enabled"] = false,
-														["castbarIcon"] = false,
-														["classBarBorderEnabled"] = false,
-														["infoPanelBorderEnabled"] = false,
-														["classBarBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["overrideMode"] = "NONE",
-														["infoPanelBorderColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-														},
-													},
-													["glow"] = {
-														["enabled"] = false,
-														["colors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconColors"] = {
-															1, -- [1]
-															1, -- [2]
-															1, -- [3]
-															1, -- [4]
-														},
-														["castbarIconSize"] = 3,
-														["castbarIcon"] = false,
-														["size"] = 3,
-													},
-												},
-												["name"] = "New Tab",
-												["colors"] = {
-													1, -- [1]
-													1, -- [2]
-													1, -- [3]
-												},
-												["conditions"] = "",
-												["enableColors"] = false,
-												["flash"] = {
-													["enabled"] = false,
-													["colors"] = {
-														1, -- [1]
-														1, -- [2]
-														1, -- [3]
-														1, -- [4]
-													},
-													["speed"] = 0.5,
-												},
-											}, -- [1]
-										},
-										["frequentUpdates"] = false,
-										["events"] = "",
-										["selectedTab"] = 1,
-										["updateThrottle"] = 0.1,
-									},
-								},
-								["selectedBar"] = "Health",
-								["infoPanelBorderAdapt"] = "Health",
-								["classBarBorderAdapt"] = "Health",
-								["glowPriority"] = "Health",
-								["bordersPriority"] = "Health",
-								["enabled"] = false,
-							},
-						},
-					},
-					["DRTracker"] = {
-						["units"] = {
-							["player"] = {
-								["enabled"] = false,
-								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
-								["growthDir"] = "RIGHT",
-								["xOffset"] = -4,
-								["yOffset"] = -36,
-								["typeBorders"] = false,
-								["spacing"] = 4,
-								["iconSize"] = 24,
-								["noCdNumbers"] = false,
-								["strengthIndicator"] = {
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["point"] = "TOP",
-										["y"] = -4,
-										["flag"] = "OUTLINE",
-										["relativeTo"] = "BOTTOM",
-										["x"] = 0,
-										["size"] = 12,
-									},
-									["colors"] = {
-										["good"] = {
-											0.29, -- [1]
-											0.6800000000000001, -- [2]
-											0.29, -- [3]
-										},
-										["bad"] = {
-											0.78, -- [1]
-											0.25, -- [2]
-											0.25, -- [3]
-										},
-										["neutral"] = {
-											0.85, -- [1]
-											0.77, -- [2]
-											0.36, -- [3]
-										},
-									},
-									["box"] = {
-										["enabled"] = false,
-										["point"] = "TOPLEFT",
-										["size"] = 12,
-									},
-								},
-								["iconsLimit"] = 3,
-							},
-							["arena"] = {
-								["enabled"] = false,
-								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
-								["growthDir"] = "RIGHT",
-								["xOffset"] = -4,
-								["yOffset"] = -36,
-								["typeBorders"] = false,
-								["spacing"] = 4,
-								["iconSize"] = 24,
-								["noCdNumbers"] = false,
-								["strengthIndicator"] = {
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["point"] = "TOP",
-										["y"] = -4,
-										["flag"] = "OUTLINE",
-										["relativeTo"] = "BOTTOM",
-										["x"] = 0,
-										["size"] = 12,
-									},
-									["colors"] = {
-										["good"] = {
-											0.29, -- [1]
-											0.6800000000000001, -- [2]
-											0.29, -- [3]
-										},
-										["bad"] = {
-											0.78, -- [1]
-											0.25, -- [2]
-											0.25, -- [3]
-										},
-										["neutral"] = {
-											0.85, -- [1]
-											0.77, -- [2]
-											0.36, -- [3]
-										},
-									},
-									["box"] = {
-										["enabled"] = false,
-										["point"] = "TOPLEFT",
-										["size"] = 12,
-									},
-								},
-								["iconsLimit"] = 3,
-							},
-							["focus"] = {
-								["enabled"] = false,
-								["relativeTo"] = "BOTTOMLEFT",
-								["point"] = "TOPLEFT",
-								["growthDir"] = "RIGHT",
-								["xOffset"] = -4,
-								["yOffset"] = -36,
-								["typeBorders"] = false,
-								["spacing"] = 4,
-								["iconSize"] = 24,
-								["noCdNumbers"] = false,
-								["strengthIndicator"] = {
-									["text"] = {
-										["enabled"] = false,
-										["font"] = "Expressway",
-										["point"] = "TOP",
-										["y"] = -4,
-										["flag"] = "OUTLINE",
-										["relativeTo"] = "BOTTOM",
-										["x"] = 0,
-										["size"] = 12,
-									},
-									["colors"] = {
-										["good"] = {
-											0.29, -- [1]
-											0.6800000000000001, -- [2]
-											0.29, -- [3]
-										},
-										["bad"] = {
-											0.78, -- [1]
-											0.25, -- [2]
-											0.25, -- [3]
-										},
-										["neutral"] = {
-											0.85, -- [1]
-											0.77, -- [2]
-											0.36, -- [3]
-										},
-									},
-									["box"] = {
-										["enabled"] = false,
-										["point"] = "TOPLEFT",
-										["size"] = 12,
-									},
-								},
-								["iconsLimit"] = 3,
-							},
-						},
-					},
-					["UFMisc."] = {
-						["NameAutoShorten"] = {
-							["units"] = {
-								["tank"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["targettargettarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["partytarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["party"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["raid40"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["focus"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["target"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["raid"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["tanktarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["focustarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["targettarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["partypet"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["assisttarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["assist"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["raidpet"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["boss"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["arena"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["pettarget"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-								["pet"] = {
-									["toHealth"] = false,
-									["xOffset"] = 0,
-								},
-							},
-						},
-						["DetachPower"] = {
-							["units"] = {
-								["boss"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
-									["yOffset"] = -4,
-									["width"] = 0,
-								},
-								["raid"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
-									["yOffset"] = -4,
-									["width"] = 0,
-								},
-								["raid40"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
-									["yOffset"] = -4,
-									["width"] = 0,
-								},
-								["arena"] = {
-									["enabled"] = true,
-									["relativeTo"] = "BOTTOM",
-									["point"] = "TOP",
-									["xOffset"] = 0,
-									["yOffset"] = -4,
-									["width"] = 0,
-								},
-							},
-						},
-					},
-				},
-			},
-			["chat"] = {
-				["panelColorConverted"] = true,
+				["nameFont"] = "Expressway",
 			},
 		},
 	},
@@ -33433,126 +12595,62 @@ ElvDB = {
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["Macalo - "] = "Macalo - ",
-		["Karlarog - Icecrown"] = "Karlarog - Icecrown",
 		["Karlashadow - Icecrown"] = "Karlashadow - Icecrown",
-		["Whitestone - Thalassa"] = "Whitestone - Thalassa",
 		["Karlawar - WOTLK_SERVER"] = "Karlawar - WOTLK_SERVER",
 		["Karladk - Icecrown"] = "Karladk - Icecrown",
 		["Pollopalbuff - Thalassa"] = "Pollopalbuff - Thalassa",
-		["Karwar - Icecrown"] = "Karwar - Icecrown",
+		["Whitestone - Thalassa"] = "Whitestone - Thalassa",
 		["Vergasaurio - Thalassa"] = "Vergasaurio - Thalassa",
-		["Karlaren - Icecrown"] = "Karlaren - Icecrown",
+		["Karwar - Icecrown"] = "Karwar - Icecrown",
 		["Ormitorrinco - Thalassa"] = "Ormitorrinco - Thalassa",
 		["Kadk - Icecrown"] = "Kadk - Icecrown",
 		["Karlahunt - Icecrown"] = "Karlahunt - Icecrown",
-		["Trolla - Thalassa"] = "Trolla - Thalassa",
+		["Warlockstone - Thalassa"] = "Warlockstone - Thalassa",
 		["Macalo - Thalassa"] = "Macalo - Thalassa",
-		["Blackghost - Thalassa"] = "Blackghost - Thalassa",
-		["Piingasaurio - Thalassa"] = "Piingasaurio - Thalassa",
-		["Sarumanh - Icecrown"] = "Sarumanh - Icecrown",
 		["Nievi - Icecrown"] = "Nievi - Icecrown",
+		["Karlawar - Icecrown"] = "Karlawar - Icecrown",
+		["Sarumanh - Icecrown"] = "Sarumanh - Icecrown",
+		["Karlawarr - Icecrown"] = "Karlawarr - Icecrown",
 		["Magocore - Thalassa"] = "Magocore - Thalassa",
 		["Titopollo - Icecrown"] = "Titopollo - Icecrown",
 		["Vergasaurio - "] = "Vergasaurio - ",
 		["Menoscero - Icecrown"] = "Menoscero - Icecrown",
-		["Papasaurio - Thalassa"] = "Papasaurio - Thalassa",
-		["Karlawarr - Icecrown"] = "Karlawarr - Icecrown",
 		["Karlapal - Icecrown"] = "Karlapal - Icecrown",
+		["Papasaurio - Thalassa"] = "Papasaurio - Thalassa",
+		["Piingasaurio - Thalassa"] = "Piingasaurio - Thalassa",
 		["Womansaurio - Thalassa"] = "Womansaurio - Thalassa",
-		["Karlawar - Icecrown"] = "Karlawar - Icecrown",
-		["Karlashami - Icecrown"] = "Karlashami - Icecrown",
-		["Warlockstone - Thalassa"] = "Warlockstone - Thalassa",
+		["Trolla - Thalassa"] = "Trolla - Thalassa",
+		["Blackghost - Thalassa"] = "Blackghost - Thalassa",
+		["Karlaren - Icecrown"] = "Karlaren - Icecrown",
 		["Papisaurio - Thalassa"] = "Papisaurio - Thalassa",
 	},
 	["profiles"] = {
 		["Macalo - "] = {
-			["install_complete"] = "6.09",
-			["MUI"] = {
-				["install_version"] = "7.04",
+			["enhanced"] = {
+				["minimapButtonGrabber"] = true,
 			},
 			["worldmap"] = {
 				["enable"] = false,
 			},
-			["enhanced"] = {
-				["minimapButtonGrabber"] = true,
-			},
-		},
-		["Karlarog - Icecrown"] = {
 			["MUI"] = {
 				["install_version"] = "7.04",
-			},
-			["general"] = {
-				["chatBubbleFontSize"] = 12,
-				["normTex"] = "Solid",
-				["chatBubbles"] = "nobackdrop",
-				["glossTex"] = "Clean",
-			},
-			["enhanced"] = {
-				["character"] = {
-					["modelFrames"] = true,
-					["player"] = {
-						["orderName2"] = "",
-						["collapsedName2"] = {
-							["ITEM_LEVEL"] = false,
-							["RANGED_COMBAT"] = false,
-							["DEFENSES"] = false,
-							["RESISTANCE"] = false,
-							["SPELL_COMBAT"] = false,
-							["MELEE_COMBAT"] = true,
-							["BASE_STATS"] = false,
-						},
-						["collapsedName"] = {
-							["MELEE_COMBAT"] = true,
-						},
-					},
-					["enable"] = true,
-				},
-				["actionbar"] = {
-					["keyPressAnimation"] = true,
-				},
-				["deathRecap"] = true,
-				["minimapButtonGrabber"] = true,
-				["animatedAchievementBars"] = true,
-			},
-			["skins"] = {
-				["blizzard"] = {
-					["BlizzardOptions"] = false,
-					["calendar"] = false,
-				},
-			},
-			["bags"] = {
-				["bagBar"] = true,
-			},
-			["addOnSkins"] = {
-				["Carbonite"] = false,
 			},
 			["install_complete"] = "6.09",
 		},
 		["Karlashadow - Icecrown"] = {
-			["install_complete"] = "6.09",
-			["bags"] = {
-				["bagBar"] = true,
-			},
-			["general"] = {
-				["chatBubbleFontSize"] = 12,
-				["normTex"] = "Solid",
-				["glossTex"] = "Clean",
-				["chatBubbles"] = "nobackdrop",
+			["MUI"] = {
+				["install_version"] = "7.04",
 			},
 			["actionbar"] = {
 				["lbf"] = {
 					["enable"] = true,
-					["skin"] = "Svelte Square Shadow",
 				},
 			},
-			["skins"] = {
-				["blizzard"] = {
-					["BlizzardOptions"] = false,
-					["calendar"] = false,
-				},
-			},
-			["addOnSkins"] = {
-				["Carbonite"] = false,
+			["general"] = {
+				["chatBubbleFontSize"] = 12,
+				["normTex"] = "Solid",
+				["chatBubbles"] = "nobackdrop",
+				["glossTex"] = "Clean",
 			},
 			["enhanced"] = {
 				["character"] = {
@@ -33564,8 +12662,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = true,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = true,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -33574,35 +12672,34 @@ ElvPrivateDB = {
 					},
 					["enable"] = true,
 				},
-				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
+				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
-			["MUI"] = {
-				["install_version"] = "7.04",
+			["skins"] = {
+				["blizzard"] = {
+					["BlizzardOptions"] = false,
+					["calendar"] = false,
+				},
 			},
-		},
-		["Whitestone - Thalassa"] = {
-			["worldmap"] = {
-				["enable"] = false,
+			["bags"] = {
+				["bagBar"] = true,
 			},
-			["MUI"] = {
-				["install_version"] = "7.04",
+			["addOnSkins"] = {
+				["Carbonite"] = false,
 			},
 			["install_complete"] = "6.09",
 		},
 		["Karlawar - WOTLK_SERVER"] = {
-			["MUI"] = {
-				["install_version"] = "7.04",
-			},
+			["install_complete"] = "6.09",
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
 				["normTex"] = "Solid",
-				["chatBubbles"] = "nobackdrop",
 				["glossTex"] = "Clean",
+				["chatBubbles"] = "nobackdrop",
 			},
 			["enhanced"] = {
 				["character"] = {
@@ -33614,8 +12711,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = true,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = true,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -33643,17 +12740,17 @@ ElvPrivateDB = {
 			["addOnSkins"] = {
 				["Carbonite"] = false,
 			},
-			["install_complete"] = "6.09",
+			["MUI"] = {
+				["install_version"] = "7.04",
+			},
 		},
 		["Karladk - Icecrown"] = {
-			["MUI"] = {
-				["install_version"] = "7.04",
-			},
+			["install_complete"] = "6.09",
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
 				["normTex"] = "Solid",
-				["chatBubbles"] = "nobackdrop",
 				["glossTex"] = "Clean",
+				["chatBubbles"] = "nobackdrop",
 			},
 			["enhanced"] = {
 				["character"] = {
@@ -33665,8 +12762,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = true,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = true,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -33675,10 +12772,10 @@ ElvPrivateDB = {
 					},
 					["enable"] = true,
 				},
-				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
+				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
@@ -33688,13 +12785,15 @@ ElvPrivateDB = {
 					["calendar"] = false,
 				},
 			},
-			["addOnSkins"] = {
-				["Carbonite"] = false,
-			},
 			["bags"] = {
 				["bagBar"] = true,
 			},
-			["install_complete"] = "6.09",
+			["addOnSkins"] = {
+				["Carbonite"] = false,
+			},
+			["MUI"] = {
+				["install_version"] = "7.04",
+			},
 		},
 		["Pollopalbuff - Thalassa"] = {
 			["CustomTweaks"] = {
@@ -33707,30 +12806,30 @@ ElvPrivateDB = {
 			["general"] = {
 				["chatBubbleFontSize"] = 10,
 				["normTex"] = "Flatt",
-				["glossTex"] = "Flatt",
+				["dmgfont"] = "Expressway",
 				["chatBubbles"] = "backdrop_noborder",
 				["chatBubbleName"] = true,
 				["chatBubbleFont"] = "Expressway",
 				["namefont"] = "Expressway",
-				["dmgfont"] = "Expressway",
+				["glossTex"] = "Flatt",
 			},
 			["enhanced"] = {
 				["character"] = {
 					["modelFrames"] = true,
 					["player"] = {
+						["collapsedName"] = {
+							["MELEE_COMBAT"] = true,
+							["RANGED_COMBAT"] = true,
+						},
+						["orderName2"] = "",
 						["collapsedName2"] = {
 							["ITEM_LEVEL"] = false,
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = false,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = false,
 							["BASE_STATS"] = false,
-						},
-						["orderName2"] = "",
-						["collapsedName"] = {
-							["MELEE_COMBAT"] = true,
-							["RANGED_COMBAT"] = true,
 						},
 						["collapsedName1"] = {
 						},
@@ -33743,63 +12842,21 @@ ElvPrivateDB = {
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
-			["worldmap"] = {
-				["enable"] = false,
-			},
+			["install_complete"] = "6.08",
 			["MUI"] = {
 				["install_version"] = "5.12",
 			},
-			["install_complete"] = "6.08",
+			["worldmap"] = {
+				["enable"] = false,
+			},
 		},
-		["Karwar - Icecrown"] = {
+		["Whitestone - Thalassa"] = {
 			["install_complete"] = "6.09",
-			["general"] = {
-				["chatBubbleFontSize"] = 12,
-				["normTex"] = "Solid",
-				["glossTex"] = "Clean",
-				["chatBubbles"] = "nobackdrop",
-			},
-			["enhanced"] = {
-				["character"] = {
-					["modelFrames"] = true,
-					["player"] = {
-						["orderName2"] = "",
-						["collapsedName2"] = {
-							["ITEM_LEVEL"] = false,
-							["RANGED_COMBAT"] = false,
-							["DEFENSES"] = false,
-							["RESISTANCE"] = false,
-							["SPELL_COMBAT"] = false,
-							["MELEE_COMBAT"] = true,
-							["BASE_STATS"] = false,
-						},
-						["collapsedName"] = {
-							["MELEE_COMBAT"] = true,
-						},
-					},
-					["enable"] = true,
-				},
-				["actionbar"] = {
-					["keyPressAnimation"] = true,
-				},
-				["deathRecap"] = true,
-				["minimapButtonGrabber"] = true,
-				["animatedAchievementBars"] = true,
-			},
-			["skins"] = {
-				["blizzard"] = {
-					["BlizzardOptions"] = false,
-					["calendar"] = false,
-				},
-			},
-			["bags"] = {
-				["bagBar"] = true,
-			},
-			["addOnSkins"] = {
-				["Carbonite"] = false,
-			},
 			["MUI"] = {
 				["install_version"] = "7.04",
+			},
+			["worldmap"] = {
+				["enable"] = false,
 			},
 		},
 		["Vergasaurio - Thalassa"] = {
@@ -33813,30 +12870,30 @@ ElvPrivateDB = {
 			["general"] = {
 				["chatBubbleFontSize"] = 10,
 				["normTex"] = "Flatt",
-				["glossTex"] = "Flatt",
+				["dmgfont"] = "Expressway",
 				["chatBubbles"] = "backdrop_noborder",
 				["chatBubbleName"] = true,
 				["namefont"] = "Expressway",
 				["chatBubbleFont"] = "Expressway",
-				["dmgfont"] = "Expressway",
+				["glossTex"] = "Flatt",
 			},
 			["enhanced"] = {
 				["character"] = {
 					["modelFrames"] = true,
 					["player"] = {
-						["collapsedName"] = {
-							["MELEE_COMBAT"] = true,
-							["RANGED_COMBAT"] = true,
-						},
-						["orderName2"] = "",
 						["collapsedName2"] = {
 							["ITEM_LEVEL"] = false,
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = false,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = false,
 							["BASE_STATS"] = false,
+						},
+						["orderName2"] = "",
+						["collapsedName"] = {
+							["MELEE_COMBAT"] = true,
+							["RANGED_COMBAT"] = true,
 						},
 						["collapsedName1"] = {
 						},
@@ -33849,21 +12906,21 @@ ElvPrivateDB = {
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
-			["MUI"] = {
-				["install_version"] = "5.12",
-			},
+			["install_complete"] = "6.08",
 			["worldmap"] = {
 				["enable"] = false,
 			},
-			["install_complete"] = "6.08",
+			["MUI"] = {
+				["install_version"] = "5.12",
+			},
 		},
-		["Karlaren - Icecrown"] = {
+		["Karwar - Icecrown"] = {
 			["MUI"] = {
 				["install_version"] = "7.04",
 			},
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
-				["normTex"] = "Clean",
+				["normTex"] = "Solid",
 				["chatBubbles"] = "nobackdrop",
 				["glossTex"] = "Clean",
 			},
@@ -33872,26 +12929,25 @@ ElvPrivateDB = {
 					["modelFrames"] = true,
 					["player"] = {
 						["orderName2"] = "",
-						["collapsedName"] = {
-							["SPELL_COMBAT"] = true,
-							["RANGED_COMBAT"] = true,
-						},
 						["collapsedName2"] = {
 							["ITEM_LEVEL"] = false,
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["SPELL_COMBAT"] = false,
 							["MELEE_COMBAT"] = true,
+							["SPELL_COMBAT"] = false,
 							["BASE_STATS"] = false,
+						},
+						["collapsedName"] = {
+							["MELEE_COMBAT"] = true,
 						},
 					},
 					["enable"] = true,
 				},
-				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
+				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
@@ -33901,11 +12957,11 @@ ElvPrivateDB = {
 					["calendar"] = false,
 				},
 			},
-			["addOnSkins"] = {
-				["Carbonite"] = false,
-			},
 			["bags"] = {
 				["bagBar"] = true,
+			},
+			["addOnSkins"] = {
+				["Carbonite"] = false,
 			},
 			["install_complete"] = "6.09",
 		},
@@ -33913,14 +12969,12 @@ ElvPrivateDB = {
 			["install_complete"] = "6.09",
 		},
 		["Kadk - Icecrown"] = {
-			["MUI"] = {
-				["install_version"] = "7.04",
-			},
+			["install_complete"] = "6.09",
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
 				["normTex"] = "Solid",
-				["chatBubbles"] = "nobackdrop",
 				["glossTex"] = "Clean",
+				["chatBubbles"] = "nobackdrop",
 			},
 			["enhanced"] = {
 				["character"] = {
@@ -33932,8 +12986,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["SPELL_COMBAT"] = false,
 							["MELEE_COMBAT"] = true,
+							["SPELL_COMBAT"] = false,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -33961,13 +13015,18 @@ ElvPrivateDB = {
 			["bags"] = {
 				["bagBar"] = true,
 			},
-			["install_complete"] = "6.09",
+			["MUI"] = {
+				["install_version"] = "7.04",
+			},
 		},
 		["Karlahunt - Icecrown"] = {
+			["MUI"] = {
+				["install_version"] = "7.04",
+			},
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
-				["chatBubbles"] = "nobackdrop",
 				["normTex"] = "Solid",
+				["chatBubbles"] = "nobackdrop",
 				["glossTex"] = "Clean",
 			},
 			["enhanced"] = {
@@ -33980,8 +13039,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["SPELL_COMBAT"] = false,
 							["MELEE_COMBAT"] = true,
+							["SPELL_COMBAT"] = false,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -33990,33 +13049,36 @@ ElvPrivateDB = {
 					},
 					["enable"] = true,
 				},
+				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
-				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
-			["bags"] = {
-				["bagBar"] = true,
-			},
-			["MUI"] = {
-				["install_version"] = "7.04",
-			},
 			["skins"] = {
 				["blizzard"] = {
-					["calendar"] = false,
 					["BlizzardOptions"] = false,
+					["calendar"] = false,
 				},
 			},
 			["addOnSkins"] = {
 				["Carbonite"] = false,
 			},
+			["bags"] = {
+				["bagBar"] = true,
+			},
 			["install_complete"] = "6.09",
 		},
-		["Trolla - Thalassa"] = {
+		["Warlockstone - Thalassa"] = {
+			["enhanced"] = {
+				["minimapButtonGrabber"] = true,
+			},
 			["MUI"] = {
 				["install_version"] = "5.13",
+			},
+			["worldmap"] = {
+				["enable"] = false,
 			},
 			["install_complete"] = "6.09",
 		},
@@ -34027,45 +13089,45 @@ ElvPrivateDB = {
 				["PushedColor"] = false,
 				["AuraIconSpacing"] = true,
 				["CastbarText"] = false,
-				["RaidControl"] = true,
+				["NoBorders"] = true,
 				["MinimapSizeLimits"] = true,
 				["ChatMaxLines"] = true,
 				["BagButtons"] = true,
-				["NoBorders"] = true,
+				["RaidControl"] = true,
 			},
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
 				["normTex"] = "Flatt",
-				["dmgfont"] = "Expressway",
+				["glossTex"] = "Flatt",
 				["chatBubbleFontOutline"] = "OUTLINE",
 				["namefont"] = "Expressway",
 				["chatBubbleFont"] = "Expressway",
-				["glossTex"] = "Flatt",
+				["dmgfont"] = "Expressway",
 			},
 			["enhanced"] = {
+				["interruptTracker"] = {
+					["everywhere"] = true,
+				},
 				["character"] = {
 					["modelFrames"] = true,
 					["player"] = {
-						["collapsedName"] = {
-							["MELEE_COMBAT"] = true,
-							["RANGED_COMBAT"] = true,
-						},
-						["orderName2"] = "",
 						["collapsedName2"] = {
 							["ITEM_LEVEL"] = true,
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = false,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = false,
 							["BASE_STATS"] = false,
+						},
+						["orderName2"] = "",
+						["collapsedName"] = {
+							["MELEE_COMBAT"] = true,
+							["RANGED_COMBAT"] = true,
 						},
 						["collapsedName1"] = {
 						},
 					},
-				},
-				["interruptTracker"] = {
-					["everywhere"] = true,
 				},
 				["minimapButtonGrabber"] = true,
 				["deathRecap"] = true,
@@ -34073,9 +13135,7 @@ ElvPrivateDB = {
 			["skins"] = {
 				["dropdownCheckBoxSkin"] = true,
 			},
-			["worldmap"] = {
-				["enable"] = false,
-			},
+			["install_complete"] = "6.08",
 			["MUI"] = {
 				["general"] = {
 					["profileSettings"] = {
@@ -34086,25 +13146,117 @@ ElvPrivateDB = {
 				},
 				["install_version"] = "5.13",
 			},
-			["install_complete"] = "6.08",
-		},
-		["Blackghost - Thalassa"] = {
-			["install_complete"] = "6.09",
-			["MUI"] = {
-				["install_version"] = "5.13",
-			},
-		},
-		["Piingasaurio - Thalassa"] = {
-			["install_complete"] = "6.09",
-			["MUI"] = {
-				["install_version"] = "7.04",
-			},
 			["worldmap"] = {
 				["enable"] = false,
 			},
-			["enhanced"] = {
-				["minimapButtonGrabber"] = true,
+		},
+		["Nievi - Icecrown"] = {
+			["MUI"] = {
+				["install_version"] = "7.04",
 			},
+			["general"] = {
+				["chatBubbleFontSize"] = 12,
+				["normTex"] = "Solid",
+				["chatBubbles"] = "nobackdrop",
+				["glossTex"] = "Clean",
+			},
+			["enhanced"] = {
+				["character"] = {
+					["modelFrames"] = true,
+					["player"] = {
+						["orderName2"] = "",
+						["collapsedName2"] = {
+							["ITEM_LEVEL"] = false,
+							["RANGED_COMBAT"] = false,
+							["DEFENSES"] = false,
+							["RESISTANCE"] = false,
+							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = true,
+							["BASE_STATS"] = false,
+						},
+						["collapsedName"] = {
+							["MELEE_COMBAT"] = true,
+						},
+					},
+					["enable"] = true,
+				},
+				["actionbar"] = {
+					["keyPressAnimation"] = true,
+				},
+				["deathRecap"] = true,
+				["minimapButtonGrabber"] = true,
+				["animatedAchievementBars"] = true,
+			},
+			["skins"] = {
+				["blizzard"] = {
+					["BlizzardOptions"] = false,
+					["calendar"] = false,
+					["talent"] = false,
+				},
+			},
+			["bags"] = {
+				["bagBar"] = true,
+			},
+			["addOnSkins"] = {
+				["Carbonite"] = false,
+			},
+			["install_complete"] = "6.09",
+		},
+		["Karlawar - Icecrown"] = {
+			["general"] = {
+				["chatBubbleFontSize"] = 12,
+				["chatBubbles"] = "nobackdrop",
+				["normTex"] = "Solid",
+				["glossTex"] = "Clean",
+			},
+			["enhanced"] = {
+				["character"] = {
+					["modelFrames"] = true,
+					["player"] = {
+						["orderName2"] = "",
+						["collapsedName2"] = {
+							["ITEM_LEVEL"] = false,
+							["RANGED_COMBAT"] = true,
+							["DEFENSES"] = true,
+							["RESISTANCE"] = true,
+							["SPELL_COMBAT"] = true,
+							["MELEE_COMBAT"] = false,
+							["BASE_STATS"] = false,
+						},
+						["collapsedName"] = {
+							["MELEE_COMBAT"] = true,
+						},
+					},
+					["enable"] = true,
+				},
+				["actionbar"] = {
+					["keyPressAnimation"] = true,
+				},
+				["deathRecap"] = true,
+				["minimapButtonGrabber"] = true,
+				["animatedAchievementBars"] = true,
+			},
+			["addOnSkins"] = {
+				["Skada"] = false,
+				["Carbonite"] = false,
+			},
+			["MUI"] = {
+				["install_version"] = "7.04",
+			},
+			["actionbar"] = {
+				["lbf"] = {
+					["enable"] = true,
+				},
+			},
+			["skins"] = {
+				["blizzard"] = {
+					["calendar"] = false,
+				},
+			},
+			["bags"] = {
+				["bagBar"] = true,
+			},
+			["install_complete"] = "6.09",
 		},
 		["Sarumanh - Icecrown"] = {
 			["MUI"] = {
@@ -34126,8 +13278,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["SPELL_COMBAT"] = false,
 							["MELEE_COMBAT"] = true,
+							["SPELL_COMBAT"] = false,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -34136,10 +13288,10 @@ ElvPrivateDB = {
 					},
 					["enable"] = true,
 				},
+				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
-				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
@@ -34149,15 +13301,15 @@ ElvPrivateDB = {
 					["calendar"] = false,
 				},
 			},
-			["bags"] = {
-				["bagBar"] = true,
-			},
 			["addOnSkins"] = {
 				["Carbonite"] = false,
 			},
+			["bags"] = {
+				["bagBar"] = true,
+			},
 			["install_complete"] = "6.09",
 		},
-		["Nievi - Icecrown"] = {
+		["Karlawarr - Icecrown"] = {
 			["install_complete"] = "6.09",
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
@@ -34175,8 +13327,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = true,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = true,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -34185,10 +13337,10 @@ ElvPrivateDB = {
 					},
 					["enable"] = true,
 				},
+				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
-				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
@@ -34198,24 +13350,24 @@ ElvPrivateDB = {
 					["calendar"] = false,
 				},
 			},
-			["bags"] = {
-				["bagBar"] = true,
-			},
 			["addOnSkins"] = {
 				["Carbonite"] = false,
+			},
+			["bags"] = {
+				["bagBar"] = true,
 			},
 			["MUI"] = {
 				["install_version"] = "7.04",
 			},
 		},
 		["Magocore - Thalassa"] = {
-			["enhanced"] = {
-				["minimapButtonGrabber"] = true,
-			},
+			["install_complete"] = "6.09",
 			["MUI"] = {
 				["install_version"] = "5.13",
 			},
-			["install_complete"] = "6.09",
+			["enhanced"] = {
+				["minimapButtonGrabber"] = true,
+			},
 		},
 		["Titopollo - Icecrown"] = {
 			["install_complete"] = "6.09",
@@ -34238,20 +13390,21 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["SPELL_COMBAT"] = false,
 							["MELEE_COMBAT"] = true,
+							["SPELL_COMBAT"] = false,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
 							["MELEE_COMBAT"] = true,
+							["RANGED_COMBAT"] = true,
 						},
 					},
 					["enable"] = true,
 				},
+				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
-				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
@@ -34267,7 +13420,6 @@ ElvPrivateDB = {
 			["actionbar"] = {
 				["lbf"] = {
 					["enable"] = true,
-					["skin"] = "Svelte Square Shadow",
 				},
 			},
 			["MUI"] = {
@@ -34275,78 +13427,18 @@ ElvPrivateDB = {
 			},
 		},
 		["Vergasaurio - "] = {
-			["install_complete"] = "6.09",
-			["MUI"] = {
-				["install_version"] = "7.04",
+			["enhanced"] = {
+				["minimapButtonGrabber"] = true,
 			},
 			["worldmap"] = {
 				["enable"] = false,
 			},
-			["enhanced"] = {
-				["minimapButtonGrabber"] = true,
+			["MUI"] = {
+				["install_version"] = "7.04",
 			},
+			["install_complete"] = "6.09",
 		},
 		["Menoscero - Icecrown"] = {
-			["install_complete"] = "6.09",
-			["general"] = {
-				["chatBubbleFontSize"] = 12,
-				["normTex"] = "Solid",
-				["glossTex"] = "Clean",
-				["chatBubbles"] = "nobackdrop",
-			},
-			["enhanced"] = {
-				["character"] = {
-					["modelFrames"] = true,
-					["player"] = {
-						["orderName2"] = "",
-						["collapsedName2"] = {
-							["ITEM_LEVEL"] = false,
-							["RANGED_COMBAT"] = false,
-							["DEFENSES"] = false,
-							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = true,
-							["SPELL_COMBAT"] = false,
-							["BASE_STATS"] = false,
-						},
-						["collapsedName"] = {
-							["MELEE_COMBAT"] = true,
-						},
-					},
-					["enable"] = true,
-				},
-				["deathRecap"] = true,
-				["actionbar"] = {
-					["keyPressAnimation"] = true,
-				},
-				["minimapButtonGrabber"] = true,
-				["animatedAchievementBars"] = true,
-			},
-			["skins"] = {
-				["blizzard"] = {
-					["BlizzardOptions"] = false,
-					["calendar"] = false,
-				},
-			},
-			["addOnSkins"] = {
-				["Carbonite"] = false,
-			},
-			["bags"] = {
-				["bagBar"] = true,
-			},
-			["MUI"] = {
-				["install_version"] = "7.04",
-			},
-		},
-		["Papasaurio - Thalassa"] = {
-			["enhanced"] = {
-				["minimapButtonGrabber"] = true,
-			},
-			["MUI"] = {
-				["install_version"] = "7.04",
-			},
-			["install_complete"] = "6.09",
-		},
-		["Karlawarr - Icecrown"] = {
 			["MUI"] = {
 				["install_version"] = "7.04",
 			},
@@ -34366,8 +13458,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = true,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = true,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -34398,12 +13490,14 @@ ElvPrivateDB = {
 			["install_complete"] = "6.09",
 		},
 		["Karlapal - Icecrown"] = {
-			["install_complete"] = "6.09",
+			["MUI"] = {
+				["install_version"] = "7.04",
+			},
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
 				["normTex"] = "Solid",
-				["glossTex"] = "Clean",
 				["chatBubbles"] = "nobackdrop",
+				["glossTex"] = "Clean",
 			},
 			["enhanced"] = {
 				["character"] = {
@@ -34415,8 +13509,8 @@ ElvPrivateDB = {
 							["RANGED_COMBAT"] = false,
 							["DEFENSES"] = false,
 							["RESISTANCE"] = false,
-							["MELEE_COMBAT"] = true,
 							["SPELL_COMBAT"] = false,
+							["MELEE_COMBAT"] = true,
 							["BASE_STATS"] = false,
 						},
 						["collapsedName"] = {
@@ -34425,10 +13519,10 @@ ElvPrivateDB = {
 					},
 					["enable"] = true,
 				},
+				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
-				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
@@ -34438,15 +13532,34 @@ ElvPrivateDB = {
 					["calendar"] = false,
 				},
 			},
+			["addOnSkins"] = {
+				["Carbonite"] = false,
+			},
 			["bags"] = {
 				["bagBar"] = true,
 			},
-			["addOnSkins"] = {
-				["Carbonite"] = false,
+			["install_complete"] = "6.09",
+		},
+		["Papasaurio - Thalassa"] = {
+			["install_complete"] = "6.09",
+			["MUI"] = {
+				["install_version"] = "7.04",
+			},
+			["enhanced"] = {
+				["minimapButtonGrabber"] = true,
+			},
+		},
+		["Piingasaurio - Thalassa"] = {
+			["enhanced"] = {
+				["minimapButtonGrabber"] = true,
+			},
+			["worldmap"] = {
+				["enable"] = false,
 			},
 			["MUI"] = {
 				["install_version"] = "7.04",
 			},
+			["install_complete"] = "6.09",
 		},
 		["Womansaurio - Thalassa"] = {
 			["general"] = {
@@ -34457,44 +13570,43 @@ ElvPrivateDB = {
 			["enhanced"] = {
 				["minimapButtonGrabber"] = true,
 			},
-			["worldmap"] = {
-				["enable"] = false,
-			},
+			["install_complete"] = "6.09",
 			["MUI"] = {
 				["install_version"] = "7.04",
 			},
+			["worldmap"] = {
+				["enable"] = false,
+			},
+		},
+		["Trolla - Thalassa"] = {
+			["install_complete"] = "6.09",
+			["MUI"] = {
+				["install_version"] = "5.13",
+			},
+		},
+		["Blackghost - Thalassa"] = {
+			["MUI"] = {
+				["install_version"] = "5.13",
+			},
 			["install_complete"] = "6.09",
 		},
-		["Karlawar - Icecrown"] = {
+		["Karlaren - Icecrown"] = {
 			["install_complete"] = "6.09",
-			["addOnSkins"] = {
-				["Carbonite"] = false,
-				["Skada"] = false,
-			},
 			["general"] = {
 				["chatBubbleFontSize"] = 12,
-				["normTex"] = "Solid",
+				["normTex"] = "Clean",
 				["glossTex"] = "Clean",
 				["chatBubbles"] = "nobackdrop",
-			},
-			["actionbar"] = {
-				["lbf"] = {
-					["enable"] = true,
-				},
-			},
-			["skins"] = {
-				["blizzard"] = {
-					["calendar"] = false,
-				},
-			},
-			["bags"] = {
-				["bagBar"] = true,
 			},
 			["enhanced"] = {
 				["character"] = {
 					["modelFrames"] = true,
 					["player"] = {
 						["orderName2"] = "",
+						["collapsedName"] = {
+							["RANGED_COMBAT"] = true,
+							["SPELL_COMBAT"] = true,
+						},
 						["collapsedName2"] = {
 							["ITEM_LEVEL"] = false,
 							["RANGED_COMBAT"] = false,
@@ -34504,49 +13616,40 @@ ElvPrivateDB = {
 							["SPELL_COMBAT"] = false,
 							["BASE_STATS"] = false,
 						},
-						["collapsedName"] = {
-							["MELEE_COMBAT"] = true,
-						},
 					},
 					["enable"] = true,
 				},
+				["deathRecap"] = true,
 				["actionbar"] = {
 					["keyPressAnimation"] = true,
 				},
-				["deathRecap"] = true,
 				["minimapButtonGrabber"] = true,
 				["animatedAchievementBars"] = true,
 			},
+			["skins"] = {
+				["blizzard"] = {
+					["BlizzardOptions"] = false,
+					["calendar"] = false,
+				},
+			},
+			["addOnSkins"] = {
+				["Carbonite"] = false,
+			},
+			["bags"] = {
+				["bagBar"] = true,
+			},
 			["MUI"] = {
 				["install_version"] = "7.04",
-			},
-		},
-		["Karlashami - Icecrown"] = {
-			["install_complete"] = "6.09",
-			["MUI"] = {
-				["install_version"] = "7.04",
-			},
-		},
-		["Warlockstone - Thalassa"] = {
-			["install_complete"] = "6.09",
-			["worldmap"] = {
-				["enable"] = false,
-			},
-			["MUI"] = {
-				["install_version"] = "5.13",
-			},
-			["enhanced"] = {
-				["minimapButtonGrabber"] = true,
 			},
 		},
 		["Papisaurio - Thalassa"] = {
-			["install_complete"] = "6.09",
-			["worldmap"] = {
-				["enable"] = false,
-			},
 			["enhanced"] = {
 				["minimapButtonGrabber"] = true,
 			},
+			["worldmap"] = {
+				["enable"] = false,
+			},
+			["install_complete"] = "6.09",
 		},
 	},
 }

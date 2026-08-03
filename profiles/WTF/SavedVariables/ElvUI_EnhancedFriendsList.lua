@@ -11,17 +11,17 @@ EnhancedFriendsListDB = {
 	["Icecrown"] = {
 	},
 	["Thalassa"] = {
-		["Rrafaell"] = {
+		["Anatheam"] = {
 			80, -- [1]
-			"Caballero de la Muerte", -- [2]
-			"Tanaris", -- [3]
-			"1753210168", -- [4]
+			"Sacerdotisa", -- [2]
+			"Orgrimmar", -- [3]
+			"1722991977", -- [4]
 		},
-		["Macalo"] = {
+		["Ninavel"] = {
 			80, -- [1]
-			"Paladín", -- [2]
-			"Dalaran", -- [3]
-			"1725781977", -- [4]
+			"Druida", -- [2]
+			"Ciudadela de la Corona de Hielo", -- [3]
+			"1742267345", -- [4]
 		},
 		["Melixaa"] = {
 			80, -- [1]
@@ -47,17 +47,17 @@ EnhancedFriendsListDB = {
 			"Dalaran", -- [3]
 			"1754584043", -- [4]
 		},
-		["Ninavel"] = {
+		["Macalo"] = {
 			80, -- [1]
-			"Druida", -- [2]
-			"Ciudadela de la Corona de Hielo", -- [3]
-			"1742267345", -- [4]
+			"Paladín", -- [2]
+			"Dalaran", -- [3]
+			"1725781977", -- [4]
 		},
-		["Anatheam"] = {
+		["Rrafaell"] = {
 			80, -- [1]
-			"Sacerdotisa", -- [2]
-			"Orgrimmar", -- [3]
-			"1722991977", -- [4]
+			"Caballero de la Muerte", -- [2]
+			"Tanaris", -- [3]
+			"1753210168", -- [4]
 		},
 	},
 	["WOTLK_SERVER"] = {

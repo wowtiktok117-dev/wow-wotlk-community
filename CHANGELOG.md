@@ -4,6 +4,40 @@ Todas las modificaciones importantes de este proyecto se documentarán en este a
 
 ---
 
+## [1.1.0] - 2026-08-03
+
+### Added
+
+- Documentación oficial para los siguientes addons:
+  - `DBM`
+  - `Grid2`
+  - `Decursive`
+  - `GTFO`
+  - `Kader's Raid Utilities (KRU)`
+  - `Method Raid Tools (MRT)`
+  - `PallyPower`
+  - `Skada`
+  - `WeakAuras2`
+- Documentación para los siguientes parches visuales:
+  - `Parche de Mecánicas HD`
+  - `Parche de Mecánicas HD + Nuevos hechizos`
+  - `Parche de Mecánicas (Cliente estándar / No HD)`
+  - `ICC Boss Range Visual Patch`
+  - `ICC Mechanics Visual Patch`
+  - `Halion Attack Range Visual Patch`
+  - `Totem Range Visual Patch`
+
+### Changed
+
+- Estandarización de los README de addons y parches visuales siguiendo un formato unificado.
+- Incorporación de enlaces directos `Download / Descargar` en la documentación.
+- Actualización de versiones verificadas, incluida `WeakAuras2` a la versión `5.21.9`.
+- Eliminación de enlaces oficiales obsoletos o no verificables.
+- Incorporación de múltiples variantes de descarga para los parches visuales cuando corresponde.
+- Mejora de la redacción, las instrucciones de instalación y las recomendaciones de uso.
+
+---
+
 ## [1.0.0] - 2026-07-08
 
 ### Added
