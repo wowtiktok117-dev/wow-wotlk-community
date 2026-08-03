@@ -1,4 +1,4 @@
-# Grid2 | 📥 [Download / Descargar](https://github.com/wowtiktok117-dev/wow-wotlk-community/raw/main/addons/Grid2/Grid2.zip)
+# Decursive
 
 > Addon oficial verificado por **Wowtiktok WotLK Community**.
 >
@@ -20,11 +20,11 @@
 
 ## 🎯 ¿Por qué lo recomendamos?
 
-Grid2 es uno de los addons de marcos de banda (*raid frames*) más completos y personalizables para Wrath of the Lich King.
+Decursive es un addon especializado en la detección y eliminación rápida de perjuicios (*debuffs*) mediante un sistema avanzado de filtrado y prioridades.
 
-Permite mostrar de forma clara y configurable toda la información relevante de los miembros de la banda, facilitando el seguimiento de estados, perjuicios, beneficios, alcance y otras mecánicas importantes durante los encuentros PvE.
+Facilita enormemente el trabajo de las clases con habilidades de disipación, permitiendo reaccionar con rapidez durante los encuentros PvE y reduciendo el tiempo necesario para eliminar efectos perjudiciales de la banda.
 
-En **Wowtiktok WotLK Community**, **Grid2 es un requisito para los sanadores y está altamente recomendado para cualquier jugador que desee mejorar la visualización de la banda**.
+En **Wowtiktok WotLK Community** se considera un addon **requerido para todas las clases con habilidades de disipación que participen en las raids oficiales**.
 
 ---
 
@@ -32,23 +32,26 @@ En **Wowtiktok WotLK Community**, **Grid2 es un requisito para los sanadores y e
 
 Principalmente:
 
-- Sanadores
-- Raid Leaders
-- Jugadores de apoyo
+- Paladín Sagrado
+- Sacerdote Sagrado
+- Sacerdote Disciplina
+- Chamán Restauración
+- Druida Restauración
+- Mago
 
-También puede resultar útil para cualquier jugador que prefiera una visualización más clara, organizada y personalizable de la banda.
+También resulta útil para cualquier otra clase o especialización con capacidad para eliminar perjuicios.
 
 ---
 
 ## ⚔️ ¿Cuándo resulta especialmente útil?
 
-Durante cualquier banda organizada donde sea importante controlar rápidamente el estado de los miembros del grupo, los perjuicios, los beneficios, el alcance y otras mecánicas relevantes del combate.
+Durante encuentros PvE donde sea necesario eliminar rápidamente maldiciones, enfermedades, venenos o efectos mágicos para evitar daño innecesario o impedir mecánicas que puedan comprometer el progreso de la banda.
 
 ---
 
 ## 📂 Contenido incluido
 
-Esta carpeta contiene los archivos originales del addon **Grid2** sin modificaciones.
+Esta carpeta contiene los archivos originales del addon **Decursive** sin modificaciones.
 
 > Se respeta la estructura y el contenido originales distribuidos por el autor.
 
@@ -58,7 +61,7 @@ Esta carpeta contiene los archivos originales del addon **Grid2** sin modificaci
 
 1. Cierra **World of Warcraft**.
 
-2. Si ya tienes una versión anterior de **Grid2** instalada, elimina completamente su carpeta de:
+2. Si ya tienes una versión anterior de **Decursive** instalada, elimina completamente su carpeta de:
 
 ```text
 World of Warcraft/
@@ -66,7 +69,7 @@ World of Warcraft/
     └── AddOns/
 ```
 
-3. Copia la carpeta **Grid2** dentro de:
+3. Copia la carpeta **Decursive** dentro de:
 
 ```text
 World of Warcraft/
@@ -79,16 +82,14 @@ World of Warcraft/
 > **Recomendación de Wowtiktok WotLK Community**
 >
 > Para evitar errores, conflictos entre versiones o archivos obsoletos, recomendamos **no sobrescribir una instalación anterior**. Elimina primero la versión antigua e instala siempre el addon desde cero.
->
-> La configuración predeterminada de Grid2 permite comenzar a jugar inmediatamente y puede personalizarse posteriormente según las necesidades de cada jugador.
 
 ---
 
 ## 💡 Recomendación del equipo
 
-Para aprovechar todo el potencial de **Grid2**, recomendamos utilizar junto a este addon el perfil oficial distribuido por **Wowtiktok WotLK Community**, disponible en la carpeta `profiles/`.
+Decursive complementa perfectamente addons como **Grid2**, **HealBot** o **ElvUI**, proporcionando una forma rápida y eficiente de identificar y eliminar perjuicios durante los encuentros PvE.
 
-De esta forma obtendrás la misma configuración utilizada por la comunidad, lista para importar y optimizada para el contenido PvE.
+Su uso es especialmente recomendable para sanadores y clases de apoyo responsables de disipar efectos perjudiciales en la banda.
 
 ---
 
@@ -96,15 +97,15 @@ De esta forma obtendrás la misma configuración utilizada por la comunidad, lis
 
 ### Autor
 
-Kader (`bkader#5341`)
+Archarodim
 
 ### Versión verificada
 
-r736
+2.5.1-6-gd3885c5
 
 ### Repositorio oficial
 
-https://github.com/bkader/Grid2-WotLK
+http://www.2072productions.com/to/decursive.php
 
 ---
 
